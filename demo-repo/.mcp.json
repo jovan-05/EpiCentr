@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "keystone": {
+      "command": "C:/keystone-starter/keystone/.venv/Scripts/python.exe",
+      "args": ["C:/keystone-starter/keystone/mcp_server/server.py"]
+    }
+  }
+}

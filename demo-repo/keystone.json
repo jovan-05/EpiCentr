@@ -1,0 +1,9 @@
+{
+  "api_url": "http://127.0.0.1:8000",
+  "fail_open": true,
+  "services": {
+    "payments-api": ["services/payments_api/*"],
+    "ledger": ["services/ledger/*"],
+    "checkout-api": ["services/checkout_api/*"]
+  }
+}
