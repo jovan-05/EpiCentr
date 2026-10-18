@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --background: #05070d;
+  --foreground: #e6eeff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-mono-jb);
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  overflow: hidden;
+}
+
+/* thin dark scrollbars in the side panel */
+aside::-webkit-scrollbar { width: 8px; }
+aside::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.12); border-radius: 8px; }
+
+/* Top bar: the Keystone brand navy #021449 (builder's choice). The active tab and hover use a lighter shade of the
+   same hue so they still stand out. Unlayered, so it overrides the Tailwind bg/border utilities on the same element. */
+:root { --ks-blue: #021449; --ks-blue-hi: #0a2a8a; }
+.ks-blue {
+  background: var(--ks-blue);
+  border-color: rgba(70, 110, 230, 0.45);
+  box-shadow: 0 0 18px rgba(2, 20, 73, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  color: #eef3ff;
+}
+button.ks-blue:hover:not(:disabled) {
+  background: var(--ks-blue-hi);
+  box-shadow: 0 0 20px rgba(40, 80, 200, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+.ks-blue-on {
+  background: linear-gradient(180deg, #1e48c8, #0f2f9c);
+  box-shadow: 0 0 14px rgba(60, 110, 255, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+.ks-blue::placeholder { color: rgba(214, 226, 255, 0.6); }
+
+/* react-force-graph hover tooltip: we render our own card */
+.scene-tooltip { background: transparent !important; padding: 0 !important; }
