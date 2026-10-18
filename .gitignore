@@ -1,0 +1,24 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.next/
+.DS_Store
+eval/cache/
+.pytest_cache/
+.next-test/
+
+# Working notes, not part of the submission (only the root README.md is published)
+CLAUDE.md
+START-HERE.md
+docs/plan/
+docs/PROGRESS.md
+docs/decisions.md
+docs/video-narration.md
+docs/video-script.md
+docs/prompts.txt
+web/AGENTS.md
+web/README.md
+demo-repo/README.md
+demo-repo/CLAUDE.md

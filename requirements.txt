@@ -1,0 +1,7 @@
+falkordb
+fastapi
+uvicorn
+pyyaml
+mcp>=2.3,<3
+pytest
+httpx
