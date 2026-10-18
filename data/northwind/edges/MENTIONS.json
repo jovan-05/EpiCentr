@@ -1,0 +1,1836 @@
+[
+ {
+  "src_label": "Message",
+  "src": "MSG-PA-001",
+  "dst_label": "Service",
+  "dst": "payments-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-PA-001",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-PA-001",
+  "dst_label": "Service",
+  "dst": "fraud-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-PA-002",
+  "dst_label": "Service",
+  "dst": "fraud-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-PA-003",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-RW-001",
+  "dst_label": "Service",
+  "dst": "fraud-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-RW-001",
+  "dst_label": "Service",
+  "dst": "payments-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-RW-001",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-RW-003",
+  "dst_label": "Service",
+  "dst": "fraud-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-I7-001",
+  "dst_label": "Service",
+  "dst": "ledger",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-I7-002",
+  "dst_label": "Service",
+  "dst": "ledger",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-I7-002",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-I7-003",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-SDK-001",
+  "dst_label": "Service",
+  "dst": "payments-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-SDK-003",
+  "dst_label": "Service",
+  "dst": "payments-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-LB-001",
+  "dst_label": "Service",
+  "dst": "ledger",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00002",
+  "dst_label": "Service",
+  "dst": "checkout-web",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00004",
+  "dst_label": "Service",
+  "dst": "checkout-web",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00007",
+  "dst_label": "Service",
+  "dst": "checkout-web",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00008",
+  "dst_label": "Service",
+  "dst": "checkout-web",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00009",
+  "dst_label": "Service",
+  "dst": "checkout-web",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00010",
+  "dst_label": "Service",
+  "dst": "checkout-web",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00011",
+  "dst_label": "Service",
+  "dst": "checkout-web",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00015",
+  "dst_label": "Service",
+  "dst": "checkout-web",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00019",
+  "dst_label": "Service",
+  "dst": "ml-features",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00020",
+  "dst_label": "Service",
+  "dst": "ml-features",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00026",
+  "dst_label": "Service",
+  "dst": "ml-features",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00027",
+  "dst_label": "Service",
+  "dst": "ml-features",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00036",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00037",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00038",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00043",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00044",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00046",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00047",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00049",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00050",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00051",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00053",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00055",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00056",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00057",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00059",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00063",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00064",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00065",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00066",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00067",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00071",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00073",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00077",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00085",
+  "dst_label": "Service",
+  "dst": "auth-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00088",
+  "dst_label": "Service",
+  "dst": "auth-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00089",
+  "dst_label": "Service",
+  "dst": "auth-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00092",
+  "dst_label": "Service",
+  "dst": "auth-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00098",
+  "dst_label": "Service",
+  "dst": "kyc-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00099",
+  "dst_label": "Service",
+  "dst": "kyc-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00100",
+  "dst_label": "Service",
+  "dst": "kyc-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00101",
+  "dst_label": "Service",
+  "dst": "kyc-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00104",
+  "dst_label": "Service",
+  "dst": "kyc-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00105",
+  "dst_label": "Service",
+  "dst": "kyc-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00106",
+  "dst_label": "Service",
+  "dst": "kyc-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00111",
+  "dst_label": "Service",
+  "dst": "kyc-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00112",
+  "dst_label": "Service",
+  "dst": "kyc-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00113",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00116",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00117",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00118",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00119",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00122",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00126",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00128",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00129",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00132",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00139",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00142",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00143",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00144",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00146",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00147",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00153",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00166",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00167",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00170",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00171",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00173",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00177",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00180",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00181",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00182",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00183",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00185",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00186",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00188",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00189",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00195",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00196",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00197",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00198",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00199",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00204",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00206",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00207",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00209",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00212",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00218",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00219",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00221",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00226",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00227",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00228",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00230",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00231",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00239",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00242",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00243",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00244",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00245",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00249",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00252",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00257",
+  "dst_label": "Service",
+  "dst": "support-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00258",
+  "dst_label": "Service",
+  "dst": "support-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00260",
+  "dst_label": "Service",
+  "dst": "support-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00262",
+  "dst_label": "Service",
+  "dst": "support-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00263",
+  "dst_label": "Service",
+  "dst": "support-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00264",
+  "dst_label": "Service",
+  "dst": "support-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00266",
+  "dst_label": "Service",
+  "dst": "support-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00267",
+  "dst_label": "Service",
+  "dst": "support-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00270",
+  "dst_label": "Service",
+  "dst": "support-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00271",
+  "dst_label": "Service",
+  "dst": "support-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00273",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00275",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00279",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00281",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00283",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00284",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00286",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00291",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00298",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00301",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00309",
+  "dst_label": "Service",
+  "dst": "reporting-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00310",
+  "dst_label": "Service",
+  "dst": "reporting-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00311",
+  "dst_label": "Service",
+  "dst": "reporting-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00317",
+  "dst_label": "Service",
+  "dst": "reporting-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00318",
+  "dst_label": "Service",
+  "dst": "reporting-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00319",
+  "dst_label": "Service",
+  "dst": "reporting-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00322",
+  "dst_label": "Service",
+  "dst": "notifications",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00327",
+  "dst_label": "Service",
+  "dst": "notifications",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00329",
+  "dst_label": "Service",
+  "dst": "notifications",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00330",
+  "dst_label": "Service",
+  "dst": "notifications",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00332",
+  "dst_label": "Service",
+  "dst": "notifications",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00334",
+  "dst_label": "Service",
+  "dst": "notifications",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00335",
+  "dst_label": "Service",
+  "dst": "notifications",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00336",
+  "dst_label": "Service",
+  "dst": "notifications",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00337",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00338",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00340",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00343",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00345",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00346",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00347",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00350",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00352",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00353",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00354",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00355",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00356",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00361",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00362",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00364",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00366",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00367",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00368",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00374",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00376",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00378",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00379",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00380",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00383",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00384",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00392",
+  "dst_label": "Service",
+  "dst": "fraud-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00394",
+  "dst_label": "Service",
+  "dst": "fraud-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00395",
+  "dst_label": "Service",
+  "dst": "fraud-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00397",
+  "dst_label": "Service",
+  "dst": "fraud-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00399",
+  "dst_label": "Service",
+  "dst": "fraud-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00403",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00412",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00415",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00417",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00418",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00419",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00421",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00422",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00426",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00428",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00429",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00432",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00436",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00438",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00439",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00442",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00446",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00448",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00450",
+  "dst_label": "Service",
+  "dst": "ml-features",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00453",
+  "dst_label": "Service",
+  "dst": "ml-features",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00455",
+  "dst_label": "Service",
+  "dst": "ml-features",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00461",
+  "dst_label": "Service",
+  "dst": "ml-features",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00462",
+  "dst_label": "Service",
+  "dst": "ml-features",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00465",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00467",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00469",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00472",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00476",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00479",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00480",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00482",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00483",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00486",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00492",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00495",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00497",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00498",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00502",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00503",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00505",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00507",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00508",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00509",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00511",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00512",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00515",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00518",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00519",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00520",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00523",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00524",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00525",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00528",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00529",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00532",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00533",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00534",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00535",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00536",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00540",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00542",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00543",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00545",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00547",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00549",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00550",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00554",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00557",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00559",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00560",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00561",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00565",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00567",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00569",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00571",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00572",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ },
+ {
+  "src_label": "Message",
+  "src": "MSG-00576",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "confidence": 1.0
+ }
+]

@@ -1,0 +1,160 @@
+# Services, dependencies and datastores for Northwind Labs.
+# deps: this service DEPENDS_ON the listed services (A -> B means A calls B).
+# Every service except config-svc depends on config-svc (Story 5: tier 3, yet top PageRank).
+
+datastores:
+  - {name: pg-main,     engine: postgres}
+  - {name: redis-cache, engine: redis}
+  - {name: kafka,       engine: kafka}
+  - {name: s3-docs,     engine: object-store}
+  - {name: pg-risk,     engine: postgres}
+
+services:
+  # payments
+  - name: payments-api
+    team: payments
+    tier: 1
+    description: Authorises and captures card payments.
+    deps: [{to: fraud-svc, mode: sync}, {to: ledger, mode: sync}, {to: event-bus, mode: async}]
+    uses: [pg-main]
+  - name: ledger
+    team: payments
+    tier: 1
+    description: Double-entry ledger for every money movement and payout.
+    deps: [{to: event-bus, mode: async}]
+    uses: [pg-main]
+  - name: payouts-worker
+    team: payments
+    tier: 2
+    description: Batches and sends merchant payouts.
+    deps: [{to: ledger, mode: sync}, {to: event-bus, mode: async}]
+    uses: []
+
+  # checkout
+  - name: checkout-web
+    team: checkout
+    tier: 1
+    description: Customer-facing checkout pages.
+    deps: [{to: checkout-api, mode: sync}, {to: auth-svc, mode: sync}]
+    uses: []
+  - name: checkout-api
+    team: checkout
+    tier: 1
+    description: Orchestrates an order from cart to payment.
+    deps: [{to: payments-api, mode: sync}, {to: cart, mode: sync}, {to: auth-svc, mode: sync}]
+    uses: [redis-cache]
+  - name: cart
+    team: checkout
+    tier: 2
+    description: Shopping cart state.
+    deps: []
+    uses: [redis-cache]
+
+  # risk
+  - name: fraud-svc
+    team: risk
+    tier: 1
+    description: Scores each payment for fraud before capture.
+    deps: [{to: rules-engine, mode: sync}, {to: ml-features, mode: sync}]
+    uses: [pg-risk]
+  - name: rules-engine
+    team: risk
+    tier: 2
+    description: Evaluates hand-written risk rules.
+    deps: []
+    uses: [pg-risk]
+  - name: kyc-svc
+    team: risk
+    tier: 2
+    description: Know-your-customer document checks.
+    deps: [{to: auth-svc, mode: sync}]
+    uses: [s3-docs]
+
+  # platform
+  - name: api-gateway
+    team: platform
+    tier: 1
+    description: Public edge; routes and rate-limits every request.
+    deps: [{to: auth-svc, mode: sync}, {to: checkout-web, mode: sync}, {to: mobile-bff, mode: sync}]
+    uses: []
+  - name: auth-svc
+    team: platform
+    tier: 1
+    description: Sessions, tokens and service-to-service auth.
+    deps: []
+    uses: [redis-cache]
+  - name: config-svc
+    team: platform
+    tier: 3
+    description: Feature flags and runtime configuration.
+    deps: []
+    uses: []
+  - name: event-bus
+    team: platform
+    tier: 2
+    description: Internal event streaming.
+    deps: []
+    uses: [kafka]
+
+  # data
+  - name: warehouse-sync
+    team: data
+    tier: 3
+    description: Copies events into the warehouse.
+    deps: [{to: event-bus, mode: async}]
+    uses: []
+  - name: reporting-api
+    team: data
+    tier: 3
+    description: Finance and ops reports.
+    deps: [{to: warehouse-sync, mode: sync}]
+    uses: [pg-main]
+  - name: ml-features
+    team: data
+    tier: 3
+    description: Feature store for the fraud models.
+    deps: [{to: warehouse-sync, mode: async}]
+    uses: []
+
+  # growth
+  - name: notifications
+    team: growth
+    tier: 2
+    description: Push and in-app notifications.
+    deps: [{to: event-bus, mode: async}, {to: email-svc, mode: async}]
+    uses: []
+  - name: email-svc
+    team: growth
+    tier: 3
+    description: Transactional email.
+    deps: []
+    uses: []
+  - name: referrals
+    team: growth
+    owner_until: 2026-05-15     # Story 5: OWNS edge ended, nobody picked it up -> orphaned
+    tier: 3
+    description: Referral codes and rewards.
+    deps: [{to: notifications, mode: async}]
+    uses: []
+
+  # mobile
+  - name: mobile-bff
+    team: mobile
+    tier: 2
+    description: Backend-for-frontend for the mobile apps.
+    deps: [{to: checkout-api, mode: sync}, {to: auth-svc, mode: sync}]
+    uses: []
+
+  # support-tools
+  - name: admin-console
+    team: support-tools
+    tier: 3
+    description: Internal admin UI for support agents.
+    deps: [{to: support-api, mode: sync}]
+    uses: []
+  - name: support-api
+    team: support-tools
+    tier: 2
+    description: Refunds, disputes and account lookups.
+    deps: [{to: payments-api, mode: sync}, {to: ledger, mode: sync}]
+    uses: []

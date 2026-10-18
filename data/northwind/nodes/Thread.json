@@ -1,0 +1,207 @@
+[
+ {
+  "id": "TH-001",
+  "channel": "#checkout",
+  "topic": "checkout-web reviews"
+ },
+ {
+  "id": "TH-002",
+  "channel": "#data",
+  "topic": "ml-features questions"
+ },
+ {
+  "id": "TH-003",
+  "channel": "#growth",
+  "topic": "referrals alerts"
+ },
+ {
+  "id": "TH-004",
+  "channel": "#mobile",
+  "topic": "mobile-bff deploys"
+ },
+ {
+  "id": "TH-005",
+  "channel": "#payments",
+  "topic": "payouts-worker questions"
+ },
+ {
+  "id": "TH-006",
+  "channel": "#platform",
+  "topic": "auth-svc questions"
+ },
+ {
+  "id": "TH-007",
+  "channel": "#risk",
+  "topic": "kyc-svc reviews"
+ },
+ {
+  "id": "TH-008",
+  "channel": "#support-tools",
+  "topic": "admin-console alerts"
+ },
+ {
+  "id": "TH-009",
+  "channel": "#sre",
+  "topic": "warehouse-sync planning"
+ },
+ {
+  "id": "TH-010",
+  "channel": "#checkout",
+  "topic": "checkout-api planning"
+ },
+ {
+  "id": "TH-011",
+  "channel": "#data",
+  "topic": "warehouse-sync questions"
+ },
+ {
+  "id": "TH-012",
+  "channel": "#growth",
+  "topic": "email-svc alerts"
+ },
+ {
+  "id": "TH-013",
+  "channel": "#mobile",
+  "topic": "mobile-bff alerts"
+ },
+ {
+  "id": "TH-014",
+  "channel": "#payments",
+  "topic": "payouts-worker alerts"
+ },
+ {
+  "id": "TH-015",
+  "channel": "#platform",
+  "topic": "config-svc deploys"
+ },
+ {
+  "id": "TH-016",
+  "channel": "#risk",
+  "topic": "rules-engine reviews"
+ },
+ {
+  "id": "TH-017",
+  "channel": "#support-tools",
+  "topic": "support-api alerts"
+ },
+ {
+  "id": "TH-018",
+  "channel": "#sre",
+  "topic": "checkout-api planning"
+ },
+ {
+  "id": "TH-019",
+  "channel": "#checkout",
+  "topic": "checkout-api deploys"
+ },
+ {
+  "id": "TH-020",
+  "channel": "#data",
+  "topic": "reporting-api planning"
+ },
+ {
+  "id": "TH-021",
+  "channel": "#growth",
+  "topic": "notifications planning"
+ },
+ {
+  "id": "TH-022",
+  "channel": "#mobile",
+  "topic": "mobile-bff alerts"
+ },
+ {
+  "id": "TH-023",
+  "channel": "#payments",
+  "topic": "payouts-worker reviews"
+ },
+ {
+  "id": "TH-024",
+  "channel": "#platform",
+  "topic": "config-svc questions"
+ },
+ {
+  "id": "TH-025",
+  "channel": "#risk",
+  "topic": "fraud-svc alerts"
+ },
+ {
+  "id": "TH-026",
+  "channel": "#support-tools",
+  "topic": "admin-console alerts"
+ },
+ {
+  "id": "TH-027",
+  "channel": "#sre",
+  "topic": "email-svc reviews"
+ },
+ {
+  "id": "TH-028",
+  "channel": "#checkout",
+  "topic": "checkout-api deploys"
+ },
+ {
+  "id": "TH-029",
+  "channel": "#data",
+  "topic": "ml-features reviews"
+ },
+ {
+  "id": "TH-030",
+  "channel": "#growth",
+  "topic": "referrals reviews"
+ },
+ {
+  "id": "TH-031",
+  "channel": "#mobile",
+  "topic": "mobile-bff reviews"
+ },
+ {
+  "id": "TH-032",
+  "channel": "#payments",
+  "topic": "payouts-worker deploys"
+ },
+ {
+  "id": "TH-033",
+  "channel": "#platform",
+  "topic": "event-bus questions"
+ },
+ {
+  "id": "TH-034",
+  "channel": "#risk",
+  "topic": "rules-engine deploys"
+ },
+ {
+  "id": "TH-035",
+  "channel": "#support-tools",
+  "topic": "admin-console planning"
+ },
+ {
+  "id": "TH-036",
+  "channel": "#sre",
+  "topic": "payouts-worker alerts"
+ },
+ {
+  "id": "TH-INC-007",
+  "channel": "#incidents",
+  "topic": "INC-007 duplicate payouts"
+ },
+ {
+  "id": "TH-LEDGER-BOT",
+  "channel": "#payments",
+  "topic": "ledger reconciliation refactor"
+ },
+ {
+  "id": "TH-PA-ARCH",
+  "channel": "#payments-arch",
+  "topic": "Sync fraud check before capture"
+ },
+ {
+  "id": "TH-PAY-SDK",
+  "channel": "#payments",
+  "topic": "payments-api SDK migration"
+ },
+ {
+  "id": "TH-RISK-WARN",
+  "channel": "#risk-eng",
+  "topic": "fraud-svc latency and payments"
+ }
+]

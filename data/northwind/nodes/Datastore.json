@@ -1,0 +1,22 @@
+[
+ {
+  "name": "kafka",
+  "engine": "kafka"
+ },
+ {
+  "name": "pg-main",
+  "engine": "postgres"
+ },
+ {
+  "name": "pg-risk",
+  "engine": "postgres"
+ },
+ {
+  "name": "redis-cache",
+  "engine": "redis"
+ },
+ {
+  "name": "s3-docs",
+  "engine": "object-store"
+ }
+]

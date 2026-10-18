@@ -1,0 +1,107 @@
+# Northwind Labs: an invented fintech. Every person here is fictional.
+# Dates are ISO (UTC). `left` means the person has departed.
+
+teams:
+  - {slug: payments,      name: Payments,      group: Money}
+  - {slug: checkout,      name: Checkout,      group: Money}
+  - {slug: risk,          name: Risk,          group: Money}
+  - {slug: platform,      name: Platform,      group: Infra}
+  - {slug: data,          name: Data,          group: Infra}
+  - {slug: growth,        name: Growth,        group: Product}
+  - {slug: mobile,        name: Mobile,        group: Product}
+  - {slug: support-tools, name: Support Tools, group: Product}
+  - {slug: sre,           name: SRE,           group: Infra}
+
+# lead: true marks the team lead (members report to them; leads report to helen).
+people:
+  - {handle: helen,  name: Helen Park,       team: null,          role: cto,               joined: 2019-01-07}
+
+  # payments (Stories 1, 6, 7, 8)
+  - {handle: priya,  name: Priya Raman,      team: payments,      role: tech lead,         joined: 2021-03-01, left: 2026-08-29, lead: true}
+  - {handle: dana,   name: Dana Okafor,      team: payments,      role: staff engineer,    joined: 2020-06-15}
+  - {handle: sam,    name: Sam Lindqvist,    team: payments,      role: senior engineer,   joined: 2021-01-11}
+  - {handle: omar,   name: Omar Haddad,      team: payments,      role: senior engineer,   joined: 2019-09-02, left: 2026-07-10}
+  - {handle: noor,   name: Noor Aziz,        team: payments,      role: engineer,          joined: 2024-02-05}
+  - {handle: kenji,  name: Kenji Mori,       team: payments,      role: engineer,          joined: 2023-05-15}
+  - {handle: ivy,    name: Ivy Chen,         team: payments,      role: engineer,          joined: 2026-06-08}
+
+  # checkout (Marco lives here, not on payments)
+  - {handle: aisha,  name: Aisha Bello,      team: checkout,      role: tech lead,         joined: 2021-07-01, lead: true}
+  - {handle: marco,  name: Marco Bianchi,    team: checkout,      role: senior engineer,   joined: 2022-01-10}
+  - {handle: tom,    name: Tom Becker,       team: checkout,      role: engineer,          joined: 2023-03-01}
+  - {handle: yuki,   name: Yuki Tanaka,      team: checkout,      role: engineer,          joined: 2022-09-12}
+  - {handle: felix,  name: Felix Wagner,     team: checkout,      role: engineer,          joined: 2024-01-08}
+  - {handle: rosa,   name: Rosa Medina,      team: checkout,      role: engineer,          joined: 2023-10-02}
+  - {handle: nadia,  name: Nadia Petrova,    team: checkout,      role: engineer,          joined: 2024-06-03}
+
+  # risk (Lena warned us in March)
+  - {handle: victor, name: Victor Silva,     team: risk,          role: tech lead,         joined: 2021-02-01, lead: true}
+  - {handle: lena,   name: Lena Fischer,     team: risk,          role: staff engineer,    joined: 2020-11-02}
+  - {handle: mei,    name: Mei Lin,          team: risk,          role: engineer,          joined: 2022-04-04}
+  - {handle: hugo,   name: Hugo Martin,      team: risk,          role: engineer,          joined: 2023-06-01}
+  - {handle: zara,   name: Zara Khan,        team: risk,          role: engineer,          joined: 2024-09-02}
+  - {handle: oscar,  name: Oscar Nilsson,    team: risk,          role: engineer,          joined: 2022-08-15}
+
+  # platform
+  - {handle: arjun,  name: Arjun Mehta,      team: platform,      role: tech lead,         joined: 2020-01-06, lead: true}
+  - {handle: beth,   name: Beth Collins,     team: platform,      role: senior engineer,   joined: 2021-05-03}
+  - {handle: carlos, name: Carlos Ruiz,      team: platform,      role: engineer,          joined: 2022-02-14}
+  - {handle: deepa,  name: Deepa Nair,       team: platform,      role: engineer,          joined: 2022-11-07}
+  - {handle: emil,   name: Emil Novak,       team: platform,      role: engineer,          joined: 2023-08-21}
+  - {handle: fatima, name: Fatima Zahra,     team: platform,      role: senior engineer,   joined: 2021-09-13}
+  - {handle: gwen,   name: Gwen Hughes,      team: platform,      role: engineer,          joined: 2024-04-01}
+  - {handle: pablo,  name: Pablo Ortega,     team: platform,      role: engineer,          joined: 2025-01-13}
+  - {handle: rhea,   name: Rhea Kapoor,      team: platform,      role: senior engineer,   joined: 2020-03-02, left: 2025-12-01}
+
+  # data
+  - {handle: gus,    name: Gus Andersen,     team: data,          role: tech lead,         joined: 2020-10-05, lead: true}
+  - {handle: hana,   name: Hana Suzuki,      team: data,          role: engineer,          joined: 2021-12-06}
+  - {handle: ines,   name: Ines Costa,       team: data,          role: engineer,          joined: 2022-06-20}
+  - {handle: jonah,  name: Jonah Weiss,      team: data,          role: engineer,          joined: 2023-02-27}
+  - {handle: kai,    name: Kai Mendes,       team: data,          role: engineer,          joined: 2024-03-18}
+  - {handle: lars,   name: Lars Eriksen,     team: data,          role: engineer,          joined: 2023-09-04}
+  - {handle: mira,   name: Mira Shah,        team: data,          role: engineer,          joined: 2025-02-10}
+
+  # growth (referrals lost its owner when dmitri left)
+  - {handle: liam,   name: Liam Byrne,       team: growth,        role: tech lead,         joined: 2021-04-12, lead: true}
+  - {handle: maya,   name: Maya Gupta,       team: growth,        role: engineer,          joined: 2022-03-07}
+  - {handle: nikhil, name: Nikhil Rao,       team: growth,        role: engineer,          joined: 2023-01-16}
+  - {handle: olga,   name: Olga Ivanova,     team: growth,        role: engineer,          joined: 2023-11-06}
+  - {handle: pete,   name: Pete Morgan,      team: growth,        role: engineer,          joined: 2024-05-20}
+  - {handle: sven,   name: Sven Larsen,      team: growth,        role: engineer,          joined: 2024-10-07}
+  - {handle: dmitri, name: Dmitri Volkov,    team: growth,        role: senior engineer,   joined: 2020-08-03, left: 2026-04-30}
+
+  # mobile
+  - {handle: quinn,  name: Quinn Harper,     team: mobile,        role: tech lead,         joined: 2021-06-07, lead: true}
+  - {handle: ravi,   name: Ravi Iyer,        team: mobile,        role: engineer,          joined: 2022-07-11}
+  - {handle: sofia,  name: Sofia Rossi,      team: mobile,        role: engineer,          joined: 2023-04-03}
+  - {handle: tariq,  name: Tariq Hassan,     team: mobile,        role: engineer,          joined: 2022-10-17}
+  - {handle: joel,   name: Joel Svensson,    team: mobile,        role: engineer,          joined: 2024-08-12}
+
+  # support-tools
+  - {handle: uma,    name: Uma Desai,        team: support-tools, role: tech lead,         joined: 2021-08-02, lead: true}
+  - {handle: vlad,   name: Vlad Popescu,     team: support-tools, role: engineer,          joined: 2022-05-09}
+  - {handle: wendy,  name: Wendy Clarke,     team: support-tools, role: engineer,          joined: 2023-07-24}
+  - {handle: xavier, name: Xavier Dubois,    team: support-tools, role: engineer,          joined: 2024-02-26}
+  - {handle: yasmin, name: Yasmin Farah,     team: support-tools, role: engineer,          joined: 2025-03-03}
+
+  # sre (on-call rotation only, owns no services)
+  - {handle: yara,   name: Yara Haddad,      team: sre,           role: tech lead,         joined: 2020-09-14, lead: true}
+  - {handle: zane,   name: Zane Cooper,      team: sre,           role: engineer,          joined: 2022-01-24}
+  - {handle: abel,   name: Abel Mensah,      team: sre,           role: engineer,          joined: 2023-05-08}
+  - {handle: bianca, name: Bianca Moretti,   team: sre,           role: engineer,          joined: 2024-01-15}
+  - {handle: cyrus,  name: Cyrus Tehrani,    team: sre,           role: engineer,          joined: 2024-11-04}
+
+# When priya left, payments reported to dana from that day on.
+lead_changes:
+  - {team: payments, new_lead: dana, at: 2026-08-29}
+
+# Story 5 shadow team: people from data, risk and payments who constantly co-review
+# ml-features / warehouse-sync work, across the org chart (2 data, 1 risk, 2 payments).
+shadow_team: [gus, hana, mei, kenji, noor]
+
+# Coding agents (generic invented names, Story 6).
+agents:
+  - {name: codegen-bot,  vendor: generic}
+  - {name: refactor-bot, vendor: generic}
+  - {name: test-bot,     vendor: generic}

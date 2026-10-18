@@ -1,0 +1,184 @@
+[
+ {
+  "src_label": "Decision",
+  "src": "ADR-009",
+  "dst_label": "Option",
+  "dst": "ADR-009-rejected-1",
+  "reason": "caused INC-007: 312 duplicate payouts on Black Friday 2025"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-009",
+  "dst_label": "Option",
+  "dst": "ADR-009-rejected-2",
+  "reason": "retries from mobile bypass it"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-017",
+  "dst_label": "Option",
+  "dst": "ADR-017-rejected-1",
+  "reason": "money has already moved by the time a bad payment is found"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-003",
+  "dst_label": "Option",
+  "dst": "ADR-003-rejected-1",
+  "reason": "certificate rotation across 20 services is error-prone"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-004",
+  "dst_label": "Option",
+  "dst": "ADR-004-rejected-1",
+  "reason": "leaked tokens stay valid for months"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-005",
+  "dst_label": "Option",
+  "dst": "ADR-005-rejected-1",
+  "reason": "a flag change needed a redeploy"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-005",
+  "dst_label": "Option",
+  "dst": "ADR-005-rejected-2",
+  "reason": "cost and data residency"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-006",
+  "dst_label": "Option",
+  "dst": "ADR-006-rejected-1",
+  "reason": "too much operational work for a two-person team"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-008",
+  "dst_label": "Option",
+  "dst": "ADR-008-rejected-1",
+  "reason": "write load on the shared database"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-010",
+  "dst_label": "Option",
+  "dst": "ADR-010-rejected-1",
+  "reason": "analysts could not change rules without a model release"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-011",
+  "dst_label": "Option",
+  "dst": "ADR-011-rejected-1",
+  "reason": "backups ballooned and access was hard to audit"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-012",
+  "dst_label": "Option",
+  "dst": "ADR-012-rejected-1",
+  "reason": "chatty screens and no control over payload size"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-013",
+  "dst_label": "Option",
+  "dst": "ADR-013-rejected-1",
+  "reason": "deliverability dropped when three domains shared one IP"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-014",
+  "dst_label": "Option",
+  "dst": "ADR-014-rejected-1",
+  "reason": "no replay after a consumer outage"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-015",
+  "dst_label": "Option",
+  "dst": "ADR-015-rejected-1",
+  "reason": "two unbalanced ledger entries in 2024"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-016",
+  "dst_label": "Option",
+  "dst": "ADR-016-rejected-1",
+  "reason": "referral fraud ring in May 2025"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-018",
+  "dst_label": "Option",
+  "dst": "ADR-018-rejected-1",
+  "reason": "large merchants share egress IPs"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-019",
+  "dst_label": "Option",
+  "dst": "ADR-019-rejected-1",
+  "reason": "label leakage inflated model accuracy"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-020",
+  "dst_label": "Option",
+  "dst": "ADR-020-rejected-1",
+  "reason": "bank fees per transfer"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-021",
+  "dst_label": "Option",
+  "dst": "ADR-021-rejected-1",
+  "reason": "no way to revoke a stolen session"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-022",
+  "dst_label": "Option",
+  "dst": "ADR-022-rejected-1",
+  "reason": "finance needs same-day reports"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-023",
+  "dst_label": "Option",
+  "dst": "ADR-023-rejected-1",
+  "reason": "uninstall rate doubled after night pushes"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-024",
+  "dst_label": "Option",
+  "dst": "ADR-024-rejected-1",
+  "reason": "slow first paint on low-end phones"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-025",
+  "dst_label": "Option",
+  "dst": "ADR-025-rejected-1",
+  "reason": "audit could not tell agents apart"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-026",
+  "dst_label": "Option",
+  "dst": "ADR-026-rejected-1",
+  "reason": "month-end reports slowed payments-api writes"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-027",
+  "dst_label": "Option",
+  "dst": "ADR-027-rejected-1",
+  "reason": "lost items reduced conversion"
+ }
+]

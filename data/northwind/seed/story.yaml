@@ -1,0 +1,100 @@
+# Hand-authored story material: chat threads, incidents, the RISK-88 ticket.
+# Times are UTC. `mentions` become Message -[:MENTIONS]-> Service edges.
+# PR histories for payments-api and ledger are scripted in generate_data.py
+# (exact counts matter there), and PR-4471 is defined below.
+
+threads:
+  # Story 2: where ADR-017 was proposed
+  - id: TH-PA-ARCH
+    channel: "#payments-arch"
+    topic: Sync fraud check before capture
+    messages:
+      - {id: MSG-PA-001, by: priya, at: "2026-01-22T10:14", mentions: [payments-api, checkout-api, fraud-svc],
+         text: "Proposal: checkout-api calls payments-api synchronously, and payments-api calls fraud-svc inline before capture. We block fraud before money moves instead of clawing it back."}
+      - {id: MSG-PA-002, by: dana, at: "2026-01-22T10:31", mentions: [fraud-svc],
+         text: "Agree. The latency budget is tight but fraud-svc p99 is about 80ms today. Let's write it up as an ADR."}
+      - {id: MSG-PA-003, by: kenji, at: "2026-01-22T10:45", mentions: [rules-engine],
+         text: "Will the capture path also wait on rules-engine?"}
+      - {id: MSG-PA-004, by: priya, at: "2026-01-22T11:02", mentions: [],
+         text: "Only through fraud-svc. ADR-017 incoming."}
+
+  # Story 3: someone warned us
+  - id: TH-RISK-WARN
+    channel: "#risk-eng"
+    topic: fraud-svc latency and payments
+    messages:
+      - {id: MSG-RW-001, by: lena, at: "2026-03-11T15:42", mentions: [fraud-svc, payments-api, checkout-api],
+         text: "If fraud-svc slows down, payments-api has no timeout on that call — this takes down checkout. Can we add a circuit breaker?"}
+      - {id: MSG-RW-002, by: victor, at: "2026-03-11T16:05", mentions: [],
+         text: "Good catch. Filed RISK-88 to track it."}
+      - {id: MSG-RW-003, by: mei, at: "2026-03-11T16:20", mentions: [fraud-svc],
+         text: "+1, fraud-svc had two slow deploys last month."}
+
+  # Story 7: the Black Friday incident
+  - id: TH-INC-007
+    channel: "#incidents"
+    topic: INC-007 duplicate payouts
+    messages:
+      - {id: MSG-I7-001, by: dana, at: "2025-11-28T09:12", mentions: [ledger],
+         text: "Seeing duplicate payouts from ledger. Looks like the dedupe check was skipped on the batch path."}
+      - {id: MSG-I7-002, by: omar, at: "2025-11-28T09:30", mentions: [ledger, payouts-worker],
+         text: "Confirmed: 312 duplicate payouts. Rolling back the change that removed the dedupe check."}
+      - {id: MSG-I7-003, by: dana, at: "2025-11-28T10:05", mentions: [payouts-worker],
+         text: "Payouts paused, reconciliation running. Postmortem tomorrow."}
+
+  # Story 1: Marco migrates payments-api to the new SDK
+  - id: TH-PAY-SDK
+    channel: "#payments"
+    topic: payments-api SDK migration
+    messages:
+      - {id: MSG-SDK-001, by: marco, at: "2026-07-28T09:20", mentions: [payments-api],
+         text: "Starting the payments-api migration to the new payments SDK. PRs coming this week."}
+      - {id: MSG-SDK-002, by: priya, at: "2026-07-28T09:41", mentions: [],
+         text: "Thanks Marco. I'll review the first ones before I leave."}
+      - {id: MSG-SDK-003, by: marco, at: "2026-10-08T17:03", mentions: [payments-api],
+         text: "SDK migration is done for payments-api. The old client is removed."}
+
+  # Story 6: the agent work on ledger
+  - id: TH-LEDGER-BOT
+    channel: "#payments"
+    topic: ledger reconciliation refactor
+    messages:
+      - {id: MSG-LB-001, by: ivy, at: "2026-09-18T11:10", mentions: [ledger],
+         text: "codegen-bot is batching the ledger reconciliation refactor, a few PRs a week."}
+      - {id: MSG-LB-002, by: sam, at: "2026-09-18T11:12", mentions: [],
+         text: "Approved the latest batch, LGTM."}
+
+# Story 8: the change that broke everything (merged 3 hours before AS_OF).
+pr_4471:
+  id: PR-4471
+  title: simplify fraud check client
+  service: payments-api
+  agent: codegen-bot
+  prompted_by: ivy
+  reviewer: sam
+  review_secs: 38
+  review_comments: 0
+  lines: 64
+  merged_hours_before_as_of: 3
+  body: "Simplifies the fraud-svc client in payments-api: removes the 300 ms timeout and retry wrapper around the fraud check call."
+
+incidents:
+  - {id: INC-003, title: Gateway 502s after certificate rotation, severity: sev2, at: "2025-03-19T08:40", service: api-gateway, resolver: arjun,
+     brief: Expired intermediate certificate on two gateway nodes.}
+  - {id: INC-007, title: Double payouts on Black Friday, severity: sev1, at: "2025-11-28T09:05", service: ledger, downstream: [payouts-worker], resolver: dana,
+     brief: "312 duplicate payouts after a change removed the dedupe check on the payout batch path."}
+  - {id: INC-011, title: Login failures after token change, severity: sev2, at: "2025-06-10T13:15", service: auth-svc, resolver: fatima,
+     brief: Refresh tokens were rejected for 40 minutes after a key rollover.}
+  - {id: INC-019, title: payments-api latency spike, severity: sev2, at: "2026-04-14T19:30", service: payments-api, downstream: [checkout-api], resolver: priya,
+     brief: A slow pg-main query during month-end reporting slowed payment writes.}
+  - {id: INC-024, title: Event bus consumer lag, severity: sev3, at: "2026-05-22T02:10", service: event-bus, resolver: carlos,
+     brief: A stuck consumer group delayed events by 25 minutes.}
+  - {id: INC-031, title: Checkout pages blank on Safari, severity: sev2, at: "2026-07-03T18:45", service: checkout-web, resolver: aisha,
+     brief: A hydration error after a server-side rendering change.}
+  - {id: INC-038, title: Duplicate push notifications, severity: sev3, at: "2026-09-08T07:20", service: notifications, resolver: maya,
+     brief: A retry loop resent pushes for 2 hours.}
+
+# Story 3: the ticket Lena's warning created. Still open.
+tickets:
+  - {key: RISK-88, title: Add timeout and circuit breaker on payments-api -> fraud-svc call, status: open, priority: high,
+     created_at: "2026-03-11T16:04", about: [payments-api, fraud-svc], assignee: lena}

@@ -1,0 +1,157 @@
+[
+ {
+  "src_label": "Team",
+  "src": "payments",
+  "dst_label": "Service",
+  "dst": "payments-api",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "payments",
+  "dst_label": "Service",
+  "dst": "ledger",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "payments",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "checkout",
+  "dst_label": "Service",
+  "dst": "checkout-web",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "checkout",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "checkout",
+  "dst_label": "Service",
+  "dst": "cart",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "risk",
+  "dst_label": "Service",
+  "dst": "fraud-svc",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "risk",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "risk",
+  "dst_label": "Service",
+  "dst": "kyc-svc",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "platform",
+  "dst_label": "Service",
+  "dst": "api-gateway",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "platform",
+  "dst_label": "Service",
+  "dst": "auth-svc",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "platform",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "platform",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "data",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "data",
+  "dst_label": "Service",
+  "dst": "reporting-api",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "data",
+  "dst_label": "Service",
+  "dst": "ml-features",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "growth",
+  "dst_label": "Service",
+  "dst": "notifications",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "growth",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "growth",
+  "dst_label": "Service",
+  "dst": "referrals",
+  "valid_from": 1577836800000,
+  "valid_to": 1778803200000
+ },
+ {
+  "src_label": "Team",
+  "src": "mobile",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "support-tools",
+  "dst_label": "Service",
+  "dst": "admin-console",
+  "valid_from": 1577836800000
+ },
+ {
+  "src_label": "Team",
+  "src": "support-tools",
+  "dst_label": "Service",
+  "dst": "support-api",
+  "valid_from": 1577836800000
+ }
+]

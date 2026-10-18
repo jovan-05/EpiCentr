@@ -1,0 +1,345 @@
+[
+ {
+  "src_label": "Service",
+  "src": "payments-api",
+  "dst_label": "Service",
+  "dst": "fraud-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "payments-api",
+  "dst_label": "Service",
+  "dst": "ledger",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "payments-api",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "mode": "async"
+ },
+ {
+  "src_label": "Service",
+  "src": "payments-api",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "ledger",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "mode": "async"
+ },
+ {
+  "src_label": "Service",
+  "src": "ledger",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "payouts-worker",
+  "dst_label": "Service",
+  "dst": "ledger",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "payouts-worker",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "mode": "async"
+ },
+ {
+  "src_label": "Service",
+  "src": "payouts-worker",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "checkout-web",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "checkout-web",
+  "dst_label": "Service",
+  "dst": "auth-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "checkout-web",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "checkout-api",
+  "dst_label": "Service",
+  "dst": "payments-api",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "checkout-api",
+  "dst_label": "Service",
+  "dst": "cart",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "checkout-api",
+  "dst_label": "Service",
+  "dst": "auth-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "checkout-api",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "cart",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "fraud-svc",
+  "dst_label": "Service",
+  "dst": "rules-engine",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "fraud-svc",
+  "dst_label": "Service",
+  "dst": "ml-features",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "fraud-svc",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "rules-engine",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "kyc-svc",
+  "dst_label": "Service",
+  "dst": "auth-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "kyc-svc",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "api-gateway",
+  "dst_label": "Service",
+  "dst": "auth-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "api-gateway",
+  "dst_label": "Service",
+  "dst": "checkout-web",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "api-gateway",
+  "dst_label": "Service",
+  "dst": "mobile-bff",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "api-gateway",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "auth-svc",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "event-bus",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "warehouse-sync",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "mode": "async"
+ },
+ {
+  "src_label": "Service",
+  "src": "warehouse-sync",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "reporting-api",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "reporting-api",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "ml-features",
+  "dst_label": "Service",
+  "dst": "warehouse-sync",
+  "mode": "async"
+ },
+ {
+  "src_label": "Service",
+  "src": "ml-features",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "notifications",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "mode": "async"
+ },
+ {
+  "src_label": "Service",
+  "src": "notifications",
+  "dst_label": "Service",
+  "dst": "email-svc",
+  "mode": "async"
+ },
+ {
+  "src_label": "Service",
+  "src": "notifications",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "email-svc",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "referrals",
+  "dst_label": "Service",
+  "dst": "notifications",
+  "mode": "async"
+ },
+ {
+  "src_label": "Service",
+  "src": "referrals",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "mobile-bff",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "mobile-bff",
+  "dst_label": "Service",
+  "dst": "auth-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "mobile-bff",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "admin-console",
+  "dst_label": "Service",
+  "dst": "support-api",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "admin-console",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "support-api",
+  "dst_label": "Service",
+  "dst": "payments-api",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "support-api",
+  "dst_label": "Service",
+  "dst": "ledger",
+  "mode": "sync"
+ },
+ {
+  "src_label": "Service",
+  "src": "support-api",
+  "dst_label": "Service",
+  "dst": "config-svc",
+  "mode": "sync"
+ }
+]

@@ -1,0 +1,65 @@
+[
+ {
+  "id": "INC-003",
+  "title": "Gateway 502s after certificate rotation",
+  "severity": "sev2",
+  "opened_at": 1742373600000,
+  "resolved_at": 1742384400000,
+  "status": "resolved",
+  "brief": "Expired intermediate certificate on two gateway nodes."
+ },
+ {
+  "id": "INC-007",
+  "title": "Double payouts on Black Friday",
+  "severity": "sev1",
+  "opened_at": 1764320700000,
+  "resolved_at": 1764331500000,
+  "status": "resolved",
+  "brief": "312 duplicate payouts after a change removed the dedupe check on the payout batch path."
+ },
+ {
+  "id": "INC-011",
+  "title": "Login failures after token change",
+  "severity": "sev2",
+  "opened_at": 1749561300000,
+  "resolved_at": 1749572100000,
+  "status": "resolved",
+  "brief": "Refresh tokens were rejected for 40 minutes after a key rollover."
+ },
+ {
+  "id": "INC-019",
+  "title": "payments-api latency spike",
+  "severity": "sev2",
+  "opened_at": 1776195000000,
+  "resolved_at": 1776205800000,
+  "status": "resolved",
+  "brief": "A slow pg-main query during month-end reporting slowed payment writes."
+ },
+ {
+  "id": "INC-024",
+  "title": "Event bus consumer lag",
+  "severity": "sev3",
+  "opened_at": 1779415800000,
+  "resolved_at": 1779426600000,
+  "status": "resolved",
+  "brief": "A stuck consumer group delayed events by 25 minutes."
+ },
+ {
+  "id": "INC-031",
+  "title": "Checkout pages blank on Safari",
+  "severity": "sev2",
+  "opened_at": 1783104300000,
+  "resolved_at": 1783115100000,
+  "status": "resolved",
+  "brief": "A hydration error after a server-side rendering change."
+ },
+ {
+  "id": "INC-038",
+  "title": "Duplicate push notifications",
+  "severity": "sev3",
+  "opened_at": 1788852000000,
+  "resolved_at": 1788862800000,
+  "status": "resolved",
+  "brief": "A retry loop resent pushes for 2 hours."
+ }
+]

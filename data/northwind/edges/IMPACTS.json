@@ -1,0 +1,65 @@
+[
+ {
+  "src_label": "Incident",
+  "src": "INC-003",
+  "dst_label": "Service",
+  "dst": "api-gateway",
+  "role": "root"
+ },
+ {
+  "src_label": "Incident",
+  "src": "INC-007",
+  "dst_label": "Service",
+  "dst": "ledger",
+  "role": "root"
+ },
+ {
+  "src_label": "Incident",
+  "src": "INC-007",
+  "dst_label": "Service",
+  "dst": "payouts-worker",
+  "role": "downstream"
+ },
+ {
+  "src_label": "Incident",
+  "src": "INC-011",
+  "dst_label": "Service",
+  "dst": "auth-svc",
+  "role": "root"
+ },
+ {
+  "src_label": "Incident",
+  "src": "INC-019",
+  "dst_label": "Service",
+  "dst": "payments-api",
+  "role": "root"
+ },
+ {
+  "src_label": "Incident",
+  "src": "INC-019",
+  "dst_label": "Service",
+  "dst": "checkout-api",
+  "role": "downstream"
+ },
+ {
+  "src_label": "Incident",
+  "src": "INC-024",
+  "dst_label": "Service",
+  "dst": "event-bus",
+  "role": "root"
+ },
+ {
+  "src_label": "Incident",
+  "src": "INC-031",
+  "dst_label": "Service",
+  "dst": "checkout-web",
+  "role": "root"
+ },
+ {
+  "src_label": "Incident",
+  "src": "INC-038",
+  "dst_label": "Service",
+  "dst": "notifications",
+  "role": "root"
+ }
+]

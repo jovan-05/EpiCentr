@@ -1,0 +1,1052 @@
+[
+ {
+  "key": "CHK-20",
+  "title": "Load test checkout-web before peak season",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1782379994091
+ },
+ {
+  "key": "CHK-21",
+  "title": "Alert noise on checkout-api",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1785923723680
+ },
+ {
+  "key": "CHK-22",
+  "title": "Upgrade dependencies in checkout-web",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1763214921992
+ },
+ {
+  "key": "CHK-23",
+  "title": "Upgrade dependencies in checkout-web",
+  "status": "in_progress",
+  "priority": "high",
+  "created_at": 1782920464101
+ },
+ {
+  "key": "CHK-24",
+  "title": "Load test cart before peak season",
+  "status": "open",
+  "priority": "low",
+  "created_at": 1746753874396
+ },
+ {
+  "key": "CHK-25",
+  "title": "checkout-web error budget review",
+  "status": "open",
+  "priority": "high",
+  "created_at": 1758245736083
+ },
+ {
+  "key": "CHK-26",
+  "title": "Add dashboards for cart",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1785028778308
+ },
+ {
+  "key": "CHK-27",
+  "title": "checkout-api: handle partial failures",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1754820280530
+ },
+ {
+  "key": "CHK-28",
+  "title": "checkout-api error budget review",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1747063108035
+ },
+ {
+  "key": "CHK-29",
+  "title": "Reduce checkout-web cold start time",
+  "status": "open",
+  "priority": "high",
+  "created_at": 1772868326227
+ },
+ {
+  "key": "CHK-30",
+  "title": "Document checkout-web runbook",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1780304448067
+ },
+ {
+  "key": "CHK-31",
+  "title": "Add dashboards for checkout-web",
+  "status": "open",
+  "priority": "low",
+  "created_at": 1789478920796
+ },
+ {
+  "key": "CHK-32",
+  "title": "Flaky integration test in checkout-api",
+  "status": "open",
+  "priority": "high",
+  "created_at": 1774810671635
+ },
+ {
+  "key": "CHK-33",
+  "title": "Clean up feature flags in checkout-web",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1792202268979
+ },
+ {
+  "key": "CHK-34",
+  "title": "Alert noise on checkout-web",
+  "status": "open",
+  "priority": "low",
+  "created_at": 1753076413892
+ },
+ {
+  "key": "CHK-35",
+  "title": "Alert noise on cart",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1770132413644
+ },
+ {
+  "key": "CHK-36",
+  "title": "Upgrade dependencies in cart",
+  "status": "in_progress",
+  "priority": "low",
+  "created_at": 1763051328368
+ },
+ {
+  "key": "DATA-20",
+  "title": "Flaky integration test in warehouse-sync",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1787743421972
+ },
+ {
+  "key": "DATA-21",
+  "title": "ml-features: handle partial failures",
+  "status": "in_progress",
+  "priority": "low",
+  "created_at": 1769998829981
+ },
+ {
+  "key": "DATA-22",
+  "title": "Load test reporting-api before peak season",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1754304448101
+ },
+ {
+  "key": "DATA-23",
+  "title": "Document ml-features runbook",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1790116009330
+ },
+ {
+  "key": "DATA-24",
+  "title": "Alert noise on warehouse-sync",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1787266636786
+ },
+ {
+  "key": "DATA-25",
+  "title": "ml-features: handle partial failures",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1789851774760
+ },
+ {
+  "key": "DATA-26",
+  "title": "ml-features error budget review",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1771410203651
+ },
+ {
+  "key": "DATA-27",
+  "title": "Flaky integration test in reporting-api",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1757848720690
+ },
+ {
+  "key": "DATA-28",
+  "title": "Reduce ml-features cold start time",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1767982032897
+ },
+ {
+  "key": "DATA-29",
+  "title": "Clean up feature flags in reporting-api",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1768954313225
+ },
+ {
+  "key": "DATA-30",
+  "title": "Load test reporting-api before peak season",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1771501629879
+ },
+ {
+  "key": "DATA-31",
+  "title": "Alert noise on reporting-api",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1790128843107
+ },
+ {
+  "key": "DATA-32",
+  "title": "reporting-api error budget review",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1760730254352
+ },
+ {
+  "key": "DATA-33",
+  "title": "reporting-api error budget review",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1773250462291
+ },
+ {
+  "key": "DATA-34",
+  "title": "Upgrade dependencies in warehouse-sync",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1749238822735
+ },
+ {
+  "key": "DATA-35",
+  "title": "Document reporting-api runbook",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1786244136201
+ },
+ {
+  "key": "DATA-36",
+  "title": "Upgrade dependencies in ml-features",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1777611234718
+ },
+ {
+  "key": "DATA-37",
+  "title": "warehouse-sync: handle partial failures",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1789624663667
+ },
+ {
+  "key": "DATA-38",
+  "title": "Load test ml-features before peak season",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1770569460552
+ },
+ {
+  "key": "DATA-39",
+  "title": "Reduce ml-features cold start time",
+  "status": "open",
+  "priority": "low",
+  "created_at": 1783631488039
+ },
+ {
+  "key": "GRW-20",
+  "title": "Alert noise on email-svc",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1767822216988
+ },
+ {
+  "key": "GRW-21",
+  "title": "Document notifications runbook",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1756892479437
+ },
+ {
+  "key": "GRW-22",
+  "title": "Reduce notifications cold start time",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1781398597154
+ },
+ {
+  "key": "GRW-23",
+  "title": "Upgrade dependencies in referrals",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1790269473938
+ },
+ {
+  "key": "GRW-24",
+  "title": "referrals: handle partial failures",
+  "status": "open",
+  "priority": "high",
+  "created_at": 1775961034892
+ },
+ {
+  "key": "GRW-25",
+  "title": "Upgrade dependencies in notifications",
+  "status": "open",
+  "priority": "high",
+  "created_at": 1785276668238
+ },
+ {
+  "key": "GRW-26",
+  "title": "Alert noise on email-svc",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1750225796446
+ },
+ {
+  "key": "GRW-27",
+  "title": "Flaky integration test in referrals",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1783841491864
+ },
+ {
+  "key": "GRW-28",
+  "title": "Clean up feature flags in email-svc",
+  "status": "in_progress",
+  "priority": "high",
+  "created_at": 1757136048275
+ },
+ {
+  "key": "GRW-29",
+  "title": "Load test notifications before peak season",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1790277748725
+ },
+ {
+  "key": "GRW-30",
+  "title": "Reduce notifications cold start time",
+  "status": "in_progress",
+  "priority": "medium",
+  "created_at": 1779489898982
+ },
+ {
+  "key": "GRW-31",
+  "title": "Add dashboards for notifications",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1747484837550
+ },
+ {
+  "key": "GRW-32",
+  "title": "notifications: handle partial failures",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1760863294675
+ },
+ {
+  "key": "GRW-33",
+  "title": "Reduce email-svc cold start time",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1781298061375
+ },
+ {
+  "key": "GRW-34",
+  "title": "Load test referrals before peak season",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1783187054886
+ },
+ {
+  "key": "GRW-35",
+  "title": "Upgrade dependencies in email-svc",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1783042115195
+ },
+ {
+  "key": "GRW-36",
+  "title": "Load test email-svc before peak season",
+  "status": "open",
+  "priority": "high",
+  "created_at": 1748205444238
+ },
+ {
+  "key": "GRW-37",
+  "title": "notifications: handle partial failures",
+  "status": "in_progress",
+  "priority": "low",
+  "created_at": 1789671372341
+ },
+ {
+  "key": "GRW-38",
+  "title": "Add dashboards for email-svc",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1785804342233
+ },
+ {
+  "key": "GRW-39",
+  "title": "Document referrals runbook",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1756046074284
+ },
+ {
+  "key": "MOB-20",
+  "title": "Load test mobile-bff before peak season",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1757893949549
+ },
+ {
+  "key": "MOB-21",
+  "title": "mobile-bff: handle partial failures",
+  "status": "in_progress",
+  "priority": "high",
+  "created_at": 1754389847158
+ },
+ {
+  "key": "MOB-22",
+  "title": "Flaky integration test in mobile-bff",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1791256832121
+ },
+ {
+  "key": "MOB-23",
+  "title": "Add dashboards for mobile-bff",
+  "status": "in_progress",
+  "priority": "high",
+  "created_at": 1775401421230
+ },
+ {
+  "key": "MOB-24",
+  "title": "Alert noise on mobile-bff",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1746180241506
+ },
+ {
+  "key": "MOB-25",
+  "title": "Add dashboards for mobile-bff",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1753791835246
+ },
+ {
+  "key": "MOB-26",
+  "title": "Clean up feature flags in mobile-bff",
+  "status": "in_progress",
+  "priority": "high",
+  "created_at": 1779442195221
+ },
+ {
+  "key": "MOB-27",
+  "title": "mobile-bff: handle partial failures",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1767387465871
+ },
+ {
+  "key": "MOB-28",
+  "title": "Reduce mobile-bff cold start time",
+  "status": "in_progress",
+  "priority": "medium",
+  "created_at": 1768287205489
+ },
+ {
+  "key": "PAY-20",
+  "title": "Document payouts-worker runbook",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1762854868174
+ },
+ {
+  "key": "PAY-21",
+  "title": "Upgrade dependencies in payouts-worker",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1787205913410
+ },
+ {
+  "key": "PAY-22",
+  "title": "Clean up feature flags in payouts-worker",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1791468567824
+ },
+ {
+  "key": "PAY-23",
+  "title": "payments-api error budget review",
+  "status": "in_progress",
+  "priority": "medium",
+  "created_at": 1757838474212
+ },
+ {
+  "key": "PAY-24",
+  "title": "Load test payments-api before peak season",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1773580112554
+ },
+ {
+  "key": "PAY-25",
+  "title": "ledger error budget review",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1760644853844
+ },
+ {
+  "key": "PAY-26",
+  "title": "Alert noise on payouts-worker",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1764033869810
+ },
+ {
+  "key": "PAY-27",
+  "title": "Alert noise on payouts-worker",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1755154399648
+ },
+ {
+  "key": "PAY-28",
+  "title": "ledger: handle partial failures",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1750812240029
+ },
+ {
+  "key": "PAY-29",
+  "title": "ledger: handle partial failures",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1771031331728
+ },
+ {
+  "key": "PAY-30",
+  "title": "Reduce payouts-worker cold start time",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1785075024749
+ },
+ {
+  "key": "PAY-31",
+  "title": "Load test payments-api before peak season",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1790922268445
+ },
+ {
+  "key": "PAY-32",
+  "title": "Alert noise on payouts-worker",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1783391146155
+ },
+ {
+  "key": "PAY-33",
+  "title": "Add dashboards for payments-api",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1792027947421
+ },
+ {
+  "key": "PAY-34",
+  "title": "Upgrade dependencies in payments-api",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1756654021693
+ },
+ {
+  "key": "PAY-35",
+  "title": "Flaky integration test in ledger",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1748546020338
+ },
+ {
+  "key": "PAY-36",
+  "title": "Flaky integration test in payments-api",
+  "status": "open",
+  "priority": "low",
+  "created_at": 1750026893876
+ },
+ {
+  "key": "PAY-37",
+  "title": "Flaky integration test in payouts-worker",
+  "status": "open",
+  "priority": "low",
+  "created_at": 1756814682882
+ },
+ {
+  "key": "PAY-38",
+  "title": "Reduce payments-api cold start time",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1772074590093
+ },
+ {
+  "key": "PAY-39",
+  "title": "Add dashboards for ledger",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1746958633498
+ },
+ {
+  "key": "PAY-40",
+  "title": "Alert noise on payouts-worker",
+  "status": "in_progress",
+  "priority": "high",
+  "created_at": 1754007761189
+ },
+ {
+  "key": "PAY-41",
+  "title": "Flaky integration test in payments-api",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1781990999195
+ },
+ {
+  "key": "PAY-42",
+  "title": "Document ledger runbook",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1790827099382
+ },
+ {
+  "key": "PLAT-20",
+  "title": "auth-svc: handle partial failures",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1791270590455
+ },
+ {
+  "key": "PLAT-21",
+  "title": "Flaky integration test in api-gateway",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1768277140880
+ },
+ {
+  "key": "PLAT-22",
+  "title": "Add dashboards for auth-svc",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1749900917034
+ },
+ {
+  "key": "PLAT-23",
+  "title": "Add dashboards for config-svc",
+  "status": "open",
+  "priority": "high",
+  "created_at": 1788210819462
+ },
+ {
+  "key": "PLAT-24",
+  "title": "Reduce api-gateway cold start time",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1767578824210
+ },
+ {
+  "key": "PLAT-25",
+  "title": "Alert noise on event-bus",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1745867267387
+ },
+ {
+  "key": "PLAT-26",
+  "title": "Alert noise on config-svc",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1771740555648
+ },
+ {
+  "key": "PLAT-27",
+  "title": "Load test api-gateway before peak season",
+  "status": "in_progress",
+  "priority": "low",
+  "created_at": 1761426420507
+ },
+ {
+  "key": "PLAT-28",
+  "title": "Add dashboards for auth-svc",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1790502719639
+ },
+ {
+  "key": "PLAT-29",
+  "title": "Reduce auth-svc cold start time",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1768355049512
+ },
+ {
+  "key": "PLAT-30",
+  "title": "Clean up feature flags in auth-svc",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1789325892014
+ },
+ {
+  "key": "PLAT-31",
+  "title": "Load test auth-svc before peak season",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1774997809044
+ },
+ {
+  "key": "PLAT-32",
+  "title": "Add dashboards for config-svc",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1770978947167
+ },
+ {
+  "key": "PLAT-33",
+  "title": "Alert noise on event-bus",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1762091718393
+ },
+ {
+  "key": "PLAT-34",
+  "title": "Add dashboards for auth-svc",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1786878740417
+ },
+ {
+  "key": "PLAT-35",
+  "title": "Add dashboards for api-gateway",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1778322976537
+ },
+ {
+  "key": "PLAT-36",
+  "title": "Upgrade dependencies in event-bus",
+  "status": "open",
+  "priority": "low",
+  "created_at": 1774707658087
+ },
+ {
+  "key": "PLAT-37",
+  "title": "event-bus: handle partial failures",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1789398754439
+ },
+ {
+  "key": "PLAT-38",
+  "title": "Reduce event-bus cold start time",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1753060460861
+ },
+ {
+  "key": "PLAT-39",
+  "title": "Add dashboards for auth-svc",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1773784254533
+ },
+ {
+  "key": "PLAT-40",
+  "title": "Reduce config-svc cold start time",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1763746663642
+ },
+ {
+  "key": "PLAT-41",
+  "title": "event-bus error budget review",
+  "status": "in_progress",
+  "priority": "medium",
+  "created_at": 1783276574190
+ },
+ {
+  "key": "PLAT-42",
+  "title": "Flaky integration test in auth-svc",
+  "status": "open",
+  "priority": "high",
+  "created_at": 1751165726301
+ },
+ {
+  "key": "PLAT-43",
+  "title": "Upgrade dependencies in config-svc",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1787188444543
+ },
+ {
+  "key": "PLAT-44",
+  "title": "Flaky integration test in config-svc",
+  "status": "in_progress",
+  "priority": "low",
+  "created_at": 1746667513417
+ },
+ {
+  "key": "PLAT-45",
+  "title": "Clean up feature flags in config-svc",
+  "status": "in_progress",
+  "priority": "medium",
+  "created_at": 1761067917356
+ },
+ {
+  "key": "PLAT-46",
+  "title": "Document config-svc runbook",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1778972589156
+ },
+ {
+  "key": "RISK-20",
+  "title": "rules-engine: handle partial failures",
+  "status": "in_progress",
+  "priority": "medium",
+  "created_at": 1754290091033
+ },
+ {
+  "key": "RISK-21",
+  "title": "fraud-svc: handle partial failures",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1758495545122
+ },
+ {
+  "key": "RISK-22",
+  "title": "Alert noise on fraud-svc",
+  "status": "in_progress",
+  "priority": "medium",
+  "created_at": 1781276554747
+ },
+ {
+  "key": "RISK-23",
+  "title": "Upgrade dependencies in kyc-svc",
+  "status": "in_progress",
+  "priority": "medium",
+  "created_at": 1772136571700
+ },
+ {
+  "key": "RISK-24",
+  "title": "Document kyc-svc runbook",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1778848604758
+ },
+ {
+  "key": "RISK-25",
+  "title": "kyc-svc: handle partial failures",
+  "status": "open",
+  "priority": "low",
+  "created_at": 1773488177093
+ },
+ {
+  "key": "RISK-26",
+  "title": "fraud-svc error budget review",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1772664492029
+ },
+ {
+  "key": "RISK-27",
+  "title": "Document kyc-svc runbook",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1749806525314
+ },
+ {
+  "key": "RISK-28",
+  "title": "Load test fraud-svc before peak season",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1778952311948
+ },
+ {
+  "key": "RISK-29",
+  "title": "Reduce rules-engine cold start time",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1752461860808
+ },
+ {
+  "key": "RISK-30",
+  "title": "Clean up feature flags in fraud-svc",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1750747746986
+ },
+ {
+  "key": "RISK-31",
+  "title": "fraud-svc: handle partial failures",
+  "status": "open",
+  "priority": "high",
+  "created_at": 1765831315933
+ },
+ {
+  "key": "RISK-32",
+  "title": "Clean up feature flags in rules-engine",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1786031234958
+ },
+ {
+  "key": "RISK-33",
+  "title": "Load test fraud-svc before peak season",
+  "status": "open",
+  "priority": "low",
+  "created_at": 1790105464423
+ },
+ {
+  "key": "RISK-34",
+  "title": "Load test rules-engine before peak season",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1757143997583
+ },
+ {
+  "key": "RISK-35",
+  "title": "Upgrade dependencies in rules-engine",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1778247988478
+ },
+ {
+  "key": "RISK-36",
+  "title": "Reduce rules-engine cold start time",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1782283409790
+ },
+ {
+  "key": "RISK-88",
+  "title": "Add timeout and circuit breaker on payments-api -> fraud-svc call",
+  "status": "open",
+  "priority": "high",
+  "created_at": 1773245040000
+ },
+ {
+  "key": "SUP-20",
+  "title": "Upgrade dependencies in support-api",
+  "status": "in_progress",
+  "priority": "medium",
+  "created_at": 1757116227532
+ },
+ {
+  "key": "SUP-21",
+  "title": "admin-console: handle partial failures",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1784215115455
+ },
+ {
+  "key": "SUP-22",
+  "title": "Flaky integration test in admin-console",
+  "status": "in_progress",
+  "priority": "high",
+  "created_at": 1782465789366
+ },
+ {
+  "key": "SUP-23",
+  "title": "Clean up feature flags in admin-console",
+  "status": "open",
+  "priority": "high",
+  "created_at": 1786794097315
+ },
+ {
+  "key": "SUP-24",
+  "title": "Flaky integration test in admin-console",
+  "status": "in_progress",
+  "priority": "medium",
+  "created_at": 1752112937042
+ },
+ {
+  "key": "SUP-25",
+  "title": "Clean up feature flags in support-api",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1772765634756
+ },
+ {
+  "key": "SUP-26",
+  "title": "Upgrade dependencies in admin-console",
+  "status": "done",
+  "priority": "low",
+  "created_at": 1758746053674
+ },
+ {
+  "key": "SUP-27",
+  "title": "Document admin-console runbook",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1750688860947
+ },
+ {
+  "key": "SUP-28",
+  "title": "Upgrade dependencies in support-api",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1768549709063
+ },
+ {
+  "key": "SUP-29",
+  "title": "Flaky integration test in support-api",
+  "status": "in_progress",
+  "priority": "low",
+  "created_at": 1786452445141
+ },
+ {
+  "key": "SUP-30",
+  "title": "Alert noise on admin-console",
+  "status": "done",
+  "priority": "medium",
+  "created_at": 1773215569746
+ },
+ {
+  "key": "SUP-31",
+  "title": "Load test support-api before peak season",
+  "status": "open",
+  "priority": "high",
+  "created_at": 1773747803208
+ },
+ {
+  "key": "SUP-32",
+  "title": "Alert noise on admin-console",
+  "status": "in_progress",
+  "priority": "medium",
+  "created_at": 1748469386949
+ },
+ {
+  "key": "SUP-33",
+  "title": "Clean up feature flags in support-api",
+  "status": "open",
+  "priority": "medium",
+  "created_at": 1748483641134
+ },
+ {
+  "key": "SUP-34",
+  "title": "Clean up feature flags in support-api",
+  "status": "done",
+  "priority": "high",
+  "created_at": 1768484454595
+ },
+ {
+  "key": "SUP-35",
+  "title": "Alert noise on support-api",
+  "status": "open",
+  "priority": "low",
+  "created_at": 1764901815675
+ }
+]

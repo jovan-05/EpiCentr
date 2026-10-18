@@ -1,0 +1,419 @@
+[
+ {
+  "handle": "abel",
+  "name": "Abel Mensah",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1683504000000
+ },
+ {
+  "handle": "aisha",
+  "name": "Aisha Bello",
+  "role": "tech lead",
+  "status": "active",
+  "joined_at": 1625097600000
+ },
+ {
+  "handle": "arjun",
+  "name": "Arjun Mehta",
+  "role": "tech lead",
+  "status": "active",
+  "joined_at": 1578268800000
+ },
+ {
+  "handle": "beth",
+  "name": "Beth Collins",
+  "role": "senior engineer",
+  "status": "active",
+  "joined_at": 1620000000000
+ },
+ {
+  "handle": "bianca",
+  "name": "Bianca Moretti",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1705276800000
+ },
+ {
+  "handle": "carlos",
+  "name": "Carlos Ruiz",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1644796800000
+ },
+ {
+  "handle": "cyrus",
+  "name": "Cyrus Tehrani",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1730678400000
+ },
+ {
+  "handle": "dana",
+  "name": "Dana Okafor",
+  "role": "staff engineer",
+  "status": "active",
+  "joined_at": 1592179200000
+ },
+ {
+  "handle": "deepa",
+  "name": "Deepa Nair",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1667779200000
+ },
+ {
+  "handle": "dmitri",
+  "name": "Dmitri Volkov",
+  "role": "senior engineer",
+  "status": "departed",
+  "joined_at": 1596412800000,
+  "left_at": 1777507200000
+ },
+ {
+  "handle": "emil",
+  "name": "Emil Novak",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1692576000000
+ },
+ {
+  "handle": "fatima",
+  "name": "Fatima Zahra",
+  "role": "senior engineer",
+  "status": "active",
+  "joined_at": 1631491200000
+ },
+ {
+  "handle": "felix",
+  "name": "Felix Wagner",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1704672000000
+ },
+ {
+  "handle": "gus",
+  "name": "Gus Andersen",
+  "role": "tech lead",
+  "status": "active",
+  "joined_at": 1601856000000
+ },
+ {
+  "handle": "gwen",
+  "name": "Gwen Hughes",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1711929600000
+ },
+ {
+  "handle": "hana",
+  "name": "Hana Suzuki",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1638748800000
+ },
+ {
+  "handle": "helen",
+  "name": "Helen Park",
+  "role": "cto",
+  "status": "active",
+  "joined_at": 1546819200000
+ },
+ {
+  "handle": "hugo",
+  "name": "Hugo Martin",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1685577600000
+ },
+ {
+  "handle": "ines",
+  "name": "Ines Costa",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1655683200000
+ },
+ {
+  "handle": "ivy",
+  "name": "Ivy Chen",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1780876800000
+ },
+ {
+  "handle": "joel",
+  "name": "Joel Svensson",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1723420800000
+ },
+ {
+  "handle": "jonah",
+  "name": "Jonah Weiss",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1677456000000
+ },
+ {
+  "handle": "kai",
+  "name": "Kai Mendes",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1710720000000
+ },
+ {
+  "handle": "kenji",
+  "name": "Kenji Mori",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1684108800000
+ },
+ {
+  "handle": "lars",
+  "name": "Lars Eriksen",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1693785600000
+ },
+ {
+  "handle": "lena",
+  "name": "Lena Fischer",
+  "role": "staff engineer",
+  "status": "active",
+  "joined_at": 1604275200000
+ },
+ {
+  "handle": "liam",
+  "name": "Liam Byrne",
+  "role": "tech lead",
+  "status": "active",
+  "joined_at": 1618185600000
+ },
+ {
+  "handle": "marco",
+  "name": "Marco Bianchi",
+  "role": "senior engineer",
+  "status": "active",
+  "joined_at": 1641772800000
+ },
+ {
+  "handle": "maya",
+  "name": "Maya Gupta",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1646611200000
+ },
+ {
+  "handle": "mei",
+  "name": "Mei Lin",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1649030400000
+ },
+ {
+  "handle": "mira",
+  "name": "Mira Shah",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1739145600000
+ },
+ {
+  "handle": "nadia",
+  "name": "Nadia Petrova",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1717372800000
+ },
+ {
+  "handle": "nikhil",
+  "name": "Nikhil Rao",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1673827200000
+ },
+ {
+  "handle": "noor",
+  "name": "Noor Aziz",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1707091200000
+ },
+ {
+  "handle": "olga",
+  "name": "Olga Ivanova",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1699228800000
+ },
+ {
+  "handle": "omar",
+  "name": "Omar Haddad",
+  "role": "senior engineer",
+  "status": "departed",
+  "joined_at": 1567382400000,
+  "left_at": 1783641600000
+ },
+ {
+  "handle": "oscar",
+  "name": "Oscar Nilsson",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1660521600000
+ },
+ {
+  "handle": "pablo",
+  "name": "Pablo Ortega",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1736726400000
+ },
+ {
+  "handle": "pete",
+  "name": "Pete Morgan",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1716163200000
+ },
+ {
+  "handle": "priya",
+  "name": "Priya Raman",
+  "role": "tech lead",
+  "status": "departed",
+  "joined_at": 1614556800000,
+  "left_at": 1787961600000
+ },
+ {
+  "handle": "quinn",
+  "name": "Quinn Harper",
+  "role": "tech lead",
+  "status": "active",
+  "joined_at": 1623024000000
+ },
+ {
+  "handle": "ravi",
+  "name": "Ravi Iyer",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1657497600000
+ },
+ {
+  "handle": "rhea",
+  "name": "Rhea Kapoor",
+  "role": "senior engineer",
+  "status": "departed",
+  "joined_at": 1583107200000,
+  "left_at": 1764547200000
+ },
+ {
+  "handle": "rosa",
+  "name": "Rosa Medina",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1696204800000
+ },
+ {
+  "handle": "sam",
+  "name": "Sam Lindqvist",
+  "role": "senior engineer",
+  "status": "active",
+  "joined_at": 1610323200000
+ },
+ {
+  "handle": "sofia",
+  "name": "Sofia Rossi",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1680480000000
+ },
+ {
+  "handle": "sven",
+  "name": "Sven Larsen",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1728259200000
+ },
+ {
+  "handle": "tariq",
+  "name": "Tariq Hassan",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1665964800000
+ },
+ {
+  "handle": "tom",
+  "name": "Tom Becker",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1677628800000
+ },
+ {
+  "handle": "uma",
+  "name": "Uma Desai",
+  "role": "tech lead",
+  "status": "active",
+  "joined_at": 1627862400000
+ },
+ {
+  "handle": "victor",
+  "name": "Victor Silva",
+  "role": "tech lead",
+  "status": "active",
+  "joined_at": 1612137600000
+ },
+ {
+  "handle": "vlad",
+  "name": "Vlad Popescu",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1652054400000
+ },
+ {
+  "handle": "wendy",
+  "name": "Wendy Clarke",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1690156800000
+ },
+ {
+  "handle": "xavier",
+  "name": "Xavier Dubois",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1708905600000
+ },
+ {
+  "handle": "yara",
+  "name": "Yara Haddad",
+  "role": "tech lead",
+  "status": "active",
+  "joined_at": 1600041600000
+ },
+ {
+  "handle": "yasmin",
+  "name": "Yasmin Farah",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1740960000000
+ },
+ {
+  "handle": "yuki",
+  "name": "Yuki Tanaka",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1662940800000
+ },
+ {
+  "handle": "zane",
+  "name": "Zane Cooper",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1642982400000
+ },
+ {
+  "handle": "zara",
+  "name": "Zara Khan",
+  "role": "engineer",
+  "status": "active",
+  "joined_at": 1725235200000
+ }
+]

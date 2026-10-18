@@ -1,0 +1,146 @@
+[
+ {
+  "src_label": "Decision",
+  "src": "ADR-009",
+  "dst_label": "Option",
+  "dst": "ADR-009-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-017",
+  "dst_label": "Option",
+  "dst": "ADR-017-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-003",
+  "dst_label": "Option",
+  "dst": "ADR-003-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-004",
+  "dst_label": "Option",
+  "dst": "ADR-004-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-005",
+  "dst_label": "Option",
+  "dst": "ADR-005-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-006",
+  "dst_label": "Option",
+  "dst": "ADR-006-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-008",
+  "dst_label": "Option",
+  "dst": "ADR-008-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-010",
+  "dst_label": "Option",
+  "dst": "ADR-010-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-011",
+  "dst_label": "Option",
+  "dst": "ADR-011-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-012",
+  "dst_label": "Option",
+  "dst": "ADR-012-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-013",
+  "dst_label": "Option",
+  "dst": "ADR-013-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-014",
+  "dst_label": "Option",
+  "dst": "ADR-014-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-015",
+  "dst_label": "Option",
+  "dst": "ADR-015-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-016",
+  "dst_label": "Option",
+  "dst": "ADR-016-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-018",
+  "dst_label": "Option",
+  "dst": "ADR-018-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-019",
+  "dst_label": "Option",
+  "dst": "ADR-019-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-020",
+  "dst_label": "Option",
+  "dst": "ADR-020-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-021",
+  "dst_label": "Option",
+  "dst": "ADR-021-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-022",
+  "dst_label": "Option",
+  "dst": "ADR-022-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-023",
+  "dst_label": "Option",
+  "dst": "ADR-023-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-024",
+  "dst_label": "Option",
+  "dst": "ADR-024-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-025",
+  "dst_label": "Option",
+  "dst": "ADR-025-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-026",
+  "dst_label": "Option",
+  "dst": "ADR-026-chosen"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-027",
+  "dst_label": "Option",
+  "dst": "ADR-027-chosen"
+ }
+]

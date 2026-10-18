@@ -1,0 +1,8 @@
+[
+ {
+  "src_label": "Decision",
+  "src": "ADR-009",
+  "dst_label": "Incident",
+  "dst": "INC-007"
+ }
+]

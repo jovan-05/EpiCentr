@@ -1,0 +1,2957 @@
+[
+ {
+  "id": "MSG-00001",
+  "text": "Looking now.",
+  "sent_at": 1748601886581
+ },
+ {
+  "id": "MSG-00002",
+  "text": "Who owns the checkout-web runbook these days?",
+  "sent_at": 1748604826581
+ },
+ {
+  "id": "MSG-00003",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1748609026581
+ },
+ {
+  "id": "MSG-00004",
+  "text": "Deploying checkout-web to staging now.",
+  "sent_at": 1748618266581
+ },
+ {
+  "id": "MSG-00005",
+  "text": "Good catch.",
+  "sent_at": 1748619586581
+ },
+ {
+  "id": "MSG-00006",
+  "text": "Good catch.",
+  "sent_at": 1748627386581
+ },
+ {
+  "id": "MSG-00007",
+  "text": "Is checkout-web still on the old base image?",
+  "sent_at": 1748637466581
+ },
+ {
+  "id": "MSG-00008",
+  "text": "Can someone review my checkout-web PR today?",
+  "sent_at": 1748644846581
+ },
+ {
+  "id": "MSG-00009",
+  "text": "Deploying checkout-web to staging now.",
+  "sent_at": 1748645446581
+ },
+ {
+  "id": "MSG-00010",
+  "text": "Can someone review my checkout-web PR today?",
+  "sent_at": 1748651866581
+ },
+ {
+  "id": "MSG-00011",
+  "text": "checkout-web dashboards are updated.",
+  "sent_at": 1748655106581
+ },
+ {
+  "id": "MSG-00012",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1748664646581
+ },
+ {
+  "id": "MSG-00013",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1748671786581
+ },
+ {
+  "id": "MSG-00014",
+  "text": "Updated the doc.",
+  "sent_at": 1748672506581
+ },
+ {
+  "id": "MSG-00015",
+  "text": "Who owns the checkout-web runbook these days?",
+  "sent_at": 1748677426581
+ },
+ {
+  "id": "MSG-00016",
+  "text": "Bumping this.",
+  "sent_at": 1748685766581
+ },
+ {
+  "id": "MSG-00017",
+  "text": "Thanks!",
+  "sent_at": 1767856876000
+ },
+ {
+  "id": "MSG-00018",
+  "text": "Added a test for that case.",
+  "sent_at": 1767864916000
+ },
+ {
+  "id": "MSG-00019",
+  "text": "Deploying ml-features to staging now.",
+  "sent_at": 1767873556000
+ },
+ {
+  "id": "MSG-00020",
+  "text": "Heads up: ml-features config change going out at 3pm.",
+  "sent_at": 1767878116000
+ },
+ {
+  "id": "MSG-00021",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1767882616000
+ },
+ {
+  "id": "MSG-00022",
+  "text": "Added a test for that case.",
+  "sent_at": 1767892096000
+ },
+ {
+  "id": "MSG-00023",
+  "text": "On it.",
+  "sent_at": 1767894376000
+ },
+ {
+  "id": "MSG-00024",
+  "text": "Looking now.",
+  "sent_at": 1767895876000
+ },
+ {
+  "id": "MSG-00025",
+  "text": "Added a test for that case.",
+  "sent_at": 1767904936000
+ },
+ {
+  "id": "MSG-00026",
+  "text": "Opened a ticket for the ml-features alert noise.",
+  "sent_at": 1767907096000
+ },
+ {
+  "id": "MSG-00027",
+  "text": "Who owns the ml-features runbook these days?",
+  "sent_at": 1767907576000
+ },
+ {
+  "id": "MSG-00028",
+  "text": "Looking now.",
+  "sent_at": 1767910756000
+ },
+ {
+  "id": "MSG-00029",
+  "text": "Bumping this.",
+  "sent_at": 1767915796000
+ },
+ {
+  "id": "MSG-00030",
+  "text": "Looking now.",
+  "sent_at": 1767918376000
+ },
+ {
+  "id": "MSG-00031",
+  "text": "On it.",
+  "sent_at": 1767920236000
+ },
+ {
+  "id": "MSG-00032",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1767921616000
+ },
+ {
+  "id": "MSG-00033",
+  "text": "Thanks!",
+  "sent_at": 1763590223832
+ },
+ {
+  "id": "MSG-00034",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1763592923832
+ },
+ {
+  "id": "MSG-00035",
+  "text": "LGTM.",
+  "sent_at": 1763603123832
+ },
+ {
+  "id": "MSG-00036",
+  "text": "Deploying referrals to staging now.",
+  "sent_at": 1763605463832
+ },
+ {
+  "id": "MSG-00037",
+  "text": "referrals dashboards are updated.",
+  "sent_at": 1763610263832
+ },
+ {
+  "id": "MSG-00038",
+  "text": "referrals p99 looks better after the last deploy.",
+  "sent_at": 1763619983832
+ },
+ {
+  "id": "MSG-00039",
+  "text": "Merged.",
+  "sent_at": 1763620103832
+ },
+ {
+  "id": "MSG-00040",
+  "text": "Good catch.",
+  "sent_at": 1763627243832
+ },
+ {
+  "id": "MSG-00041",
+  "text": "Good catch.",
+  "sent_at": 1763627423832
+ },
+ {
+  "id": "MSG-00042",
+  "text": "Good catch.",
+  "sent_at": 1763630843832
+ },
+ {
+  "id": "MSG-00043",
+  "text": "Who owns the referrals runbook these days?",
+  "sent_at": 1763637203832
+ },
+ {
+  "id": "MSG-00044",
+  "text": "Rolled back referrals, investigating.",
+  "sent_at": 1763637383832
+ },
+ {
+  "id": "MSG-00045",
+  "text": "Updated the doc.",
+  "sent_at": 1763646983832
+ },
+ {
+  "id": "MSG-00046",
+  "text": "referrals p99 looks better after the last deploy.",
+  "sent_at": 1763650283832
+ },
+ {
+  "id": "MSG-00047",
+  "text": "referrals p99 looks better after the last deploy.",
+  "sent_at": 1763660423832
+ },
+ {
+  "id": "MSG-00048",
+  "text": "Updated the doc.",
+  "sent_at": 1763661023832
+ },
+ {
+  "id": "MSG-00049",
+  "text": "mobile-bff p99 looks better after the last deploy.",
+  "sent_at": 1776693721088
+ },
+ {
+  "id": "MSG-00050",
+  "text": "Who owns the mobile-bff runbook these days?",
+  "sent_at": 1776704161088
+ },
+ {
+  "id": "MSG-00051",
+  "text": "mobile-bff dashboards are updated.",
+  "sent_at": 1776712861088
+ },
+ {
+  "id": "MSG-00052",
+  "text": "Looking now.",
+  "sent_at": 1776718501088
+ },
+ {
+  "id": "MSG-00053",
+  "text": "Is mobile-bff still on the old base image?",
+  "sent_at": 1776723541088
+ },
+ {
+  "id": "MSG-00054",
+  "text": "Looking now.",
+  "sent_at": 1776730201088
+ },
+ {
+  "id": "MSG-00055",
+  "text": "Heads up: mobile-bff config change going out at 3pm.",
+  "sent_at": 1776737521088
+ },
+ {
+  "id": "MSG-00056",
+  "text": "Can someone review my mobile-bff PR today?",
+  "sent_at": 1776745681088
+ },
+ {
+  "id": "MSG-00057",
+  "text": "Who owns the mobile-bff runbook these days?",
+  "sent_at": 1776755161088
+ },
+ {
+  "id": "MSG-00058",
+  "text": "Added a test for that case.",
+  "sent_at": 1776756601088
+ },
+ {
+  "id": "MSG-00059",
+  "text": "Opened a ticket for the mobile-bff alert noise.",
+  "sent_at": 1776761101088
+ },
+ {
+  "id": "MSG-00060",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1776769261088
+ },
+ {
+  "id": "MSG-00061",
+  "text": "Good catch.",
+  "sent_at": 1776771361088
+ },
+ {
+  "id": "MSG-00062",
+  "text": "Ship it.",
+  "sent_at": 1776781141088
+ },
+ {
+  "id": "MSG-00063",
+  "text": "Heads up: mobile-bff config change going out at 3pm.",
+  "sent_at": 1776790621088
+ },
+ {
+  "id": "MSG-00064",
+  "text": "mobile-bff dashboards are updated.",
+  "sent_at": 1776790741088
+ },
+ {
+  "id": "MSG-00065",
+  "text": "Opened a ticket for the payouts-worker alert noise.",
+  "sent_at": 1754843145628
+ },
+ {
+  "id": "MSG-00066",
+  "text": "Can someone review my payouts-worker PR today?",
+  "sent_at": 1754853045628
+ },
+ {
+  "id": "MSG-00067",
+  "text": "Anyone else seeing flaky tests in payouts-worker?",
+  "sent_at": 1754857485628
+ },
+ {
+  "id": "MSG-00068",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1754862165628
+ },
+ {
+  "id": "MSG-00069",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1754864025628
+ },
+ {
+  "id": "MSG-00070",
+  "text": "Thanks!",
+  "sent_at": 1754872845628
+ },
+ {
+  "id": "MSG-00071",
+  "text": "Opened a ticket for the payouts-worker alert noise.",
+  "sent_at": 1754875905628
+ },
+ {
+  "id": "MSG-00072",
+  "text": "Ship it.",
+  "sent_at": 1754883345628
+ },
+ {
+  "id": "MSG-00073",
+  "text": "payouts-worker p99 looks better after the last deploy.",
+  "sent_at": 1754893365628
+ },
+ {
+  "id": "MSG-00074",
+  "text": "Agreed.",
+  "sent_at": 1754900505628
+ },
+ {
+  "id": "MSG-00075",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1754907705628
+ },
+ {
+  "id": "MSG-00076",
+  "text": "Merged.",
+  "sent_at": 1754908665628
+ },
+ {
+  "id": "MSG-00077",
+  "text": "Rolled back payouts-worker, investigating.",
+  "sent_at": 1754919165628
+ },
+ {
+  "id": "MSG-00078",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1754922465628
+ },
+ {
+  "id": "MSG-00079",
+  "text": "Merged.",
+  "sent_at": 1754923545628
+ },
+ {
+  "id": "MSG-00080",
+  "text": "On it.",
+  "sent_at": 1754928825628
+ },
+ {
+  "id": "MSG-00081",
+  "text": "Updated the doc.",
+  "sent_at": 1765504420551
+ },
+ {
+  "id": "MSG-00082",
+  "text": "Merged.",
+  "sent_at": 1765509340551
+ },
+ {
+  "id": "MSG-00083",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1765510780551
+ },
+ {
+  "id": "MSG-00084",
+  "text": "Merged.",
+  "sent_at": 1765517800551
+ },
+ {
+  "id": "MSG-00085",
+  "text": "Anyone else seeing flaky tests in auth-svc?",
+  "sent_at": 1765525960551
+ },
+ {
+  "id": "MSG-00086",
+  "text": "Bumping this.",
+  "sent_at": 1765526620551
+ },
+ {
+  "id": "MSG-00087",
+  "text": "Ship it.",
+  "sent_at": 1765533520551
+ },
+ {
+  "id": "MSG-00088",
+  "text": "Opened a ticket for the auth-svc alert noise.",
+  "sent_at": 1765541320551
+ },
+ {
+  "id": "MSG-00089",
+  "text": "Opened a ticket for the auth-svc alert noise.",
+  "sent_at": 1765549480551
+ },
+ {
+  "id": "MSG-00090",
+  "text": "Agreed.",
+  "sent_at": 1765551100551
+ },
+ {
+  "id": "MSG-00091",
+  "text": "Good catch.",
+  "sent_at": 1765554340551
+ },
+ {
+  "id": "MSG-00092",
+  "text": "Heads up: auth-svc config change going out at 3pm.",
+  "sent_at": 1765562440551
+ },
+ {
+  "id": "MSG-00093",
+  "text": "Updated the doc.",
+  "sent_at": 1765573060551
+ },
+ {
+  "id": "MSG-00094",
+  "text": "Thanks!",
+  "sent_at": 1765578280551
+ },
+ {
+  "id": "MSG-00095",
+  "text": "Added a test for that case.",
+  "sent_at": 1765586380551
+ },
+ {
+  "id": "MSG-00096",
+  "text": "Merged.",
+  "sent_at": 1765586800551
+ },
+ {
+  "id": "MSG-00097",
+  "text": "Ship it.",
+  "sent_at": 1782788402021
+ },
+ {
+  "id": "MSG-00098",
+  "text": "kyc-svc p99 looks better after the last deploy.",
+  "sent_at": 1782798782021
+ },
+ {
+  "id": "MSG-00099",
+  "text": "Who owns the kyc-svc runbook these days?",
+  "sent_at": 1782803102021
+ },
+ {
+  "id": "MSG-00100",
+  "text": "Rolled back kyc-svc, investigating.",
+  "sent_at": 1782811082021
+ },
+ {
+  "id": "MSG-00101",
+  "text": "kyc-svc p99 looks better after the last deploy.",
+  "sent_at": 1782819602021
+ },
+ {
+  "id": "MSG-00102",
+  "text": "LGTM.",
+  "sent_at": 1782824042021
+ },
+ {
+  "id": "MSG-00103",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1782828902021
+ },
+ {
+  "id": "MSG-00104",
+  "text": "Deploying kyc-svc to staging now.",
+  "sent_at": 1782835802021
+ },
+ {
+  "id": "MSG-00105",
+  "text": "Is kyc-svc still on the old base image?",
+  "sent_at": 1782846242021
+ },
+ {
+  "id": "MSG-00106",
+  "text": "kyc-svc p99 looks better after the last deploy.",
+  "sent_at": 1782847682021
+ },
+ {
+  "id": "MSG-00107",
+  "text": "On it.",
+  "sent_at": 1782856922021
+ },
+ {
+  "id": "MSG-00108",
+  "text": "Merged.",
+  "sent_at": 1782863882021
+ },
+ {
+  "id": "MSG-00109",
+  "text": "On it.",
+  "sent_at": 1782867002021
+ },
+ {
+  "id": "MSG-00110",
+  "text": "Ship it.",
+  "sent_at": 1782868322021
+ },
+ {
+  "id": "MSG-00111",
+  "text": "kyc-svc dashboards are updated.",
+  "sent_at": 1782877142021
+ },
+ {
+  "id": "MSG-00112",
+  "text": "kyc-svc dashboards are updated.",
+  "sent_at": 1782884222021
+ },
+ {
+  "id": "MSG-00113",
+  "text": "Opened a ticket for the admin-console alert noise.",
+  "sent_at": 1747946593506
+ },
+ {
+  "id": "MSG-00114",
+  "text": "On it.",
+  "sent_at": 1747949473506
+ },
+ {
+  "id": "MSG-00115",
+  "text": "Thanks!",
+  "sent_at": 1747954573506
+ },
+ {
+  "id": "MSG-00116",
+  "text": "admin-console dashboards are updated.",
+  "sent_at": 1747961953506
+ },
+ {
+  "id": "MSG-00117",
+  "text": "Opened a ticket for the admin-console alert noise.",
+  "sent_at": 1747964653506
+ },
+ {
+  "id": "MSG-00118",
+  "text": "Anyone else seeing flaky tests in admin-console?",
+  "sent_at": 1747973593506
+ },
+ {
+  "id": "MSG-00119",
+  "text": "Anyone else seeing flaky tests in admin-console?",
+  "sent_at": 1747975333506
+ },
+ {
+  "id": "MSG-00120",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1747983613506
+ },
+ {
+  "id": "MSG-00121",
+  "text": "Agreed.",
+  "sent_at": 1747987393506
+ },
+ {
+  "id": "MSG-00122",
+  "text": "Opened a ticket for the admin-console alert noise.",
+  "sent_at": 1747994893506
+ },
+ {
+  "id": "MSG-00123",
+  "text": "Ship it.",
+  "sent_at": 1748005633506
+ },
+ {
+  "id": "MSG-00124",
+  "text": "Agreed.",
+  "sent_at": 1748014453506
+ },
+ {
+  "id": "MSG-00125",
+  "text": "Looking now.",
+  "sent_at": 1748017213506
+ },
+ {
+  "id": "MSG-00126",
+  "text": "Who owns the admin-console runbook these days?",
+  "sent_at": 1748024773506
+ },
+ {
+  "id": "MSG-00127",
+  "text": "Updated the doc.",
+  "sent_at": 1748029873506
+ },
+ {
+  "id": "MSG-00128",
+  "text": "Is admin-console still on the old base image?",
+  "sent_at": 1748032693506
+ },
+ {
+  "id": "MSG-00129",
+  "text": "Deploying warehouse-sync to staging now.",
+  "sent_at": 1787073550364
+ },
+ {
+  "id": "MSG-00130",
+  "text": "Bumping this.",
+  "sent_at": 1787076970364
+ },
+ {
+  "id": "MSG-00131",
+  "text": "Ship it.",
+  "sent_at": 1787086810364
+ },
+ {
+  "id": "MSG-00132",
+  "text": "Rolled back warehouse-sync, investigating.",
+  "sent_at": 1787097070364
+ },
+ {
+  "id": "MSG-00133",
+  "text": "Good catch.",
+  "sent_at": 1787103130364
+ },
+ {
+  "id": "MSG-00134",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1787106370364
+ },
+ {
+  "id": "MSG-00135",
+  "text": "On it.",
+  "sent_at": 1787115190364
+ },
+ {
+  "id": "MSG-00136",
+  "text": "Bumping this.",
+  "sent_at": 1787121970364
+ },
+ {
+  "id": "MSG-00137",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1787123410364
+ },
+ {
+  "id": "MSG-00138",
+  "text": "Updated the doc.",
+  "sent_at": 1787129710364
+ },
+ {
+  "id": "MSG-00139",
+  "text": "Rolled back warehouse-sync, investigating.",
+  "sent_at": 1787130730364
+ },
+ {
+  "id": "MSG-00140",
+  "text": "Updated the doc.",
+  "sent_at": 1787130850364
+ },
+ {
+  "id": "MSG-00141",
+  "text": "Updated the doc.",
+  "sent_at": 1787132650364
+ },
+ {
+  "id": "MSG-00142",
+  "text": "Who owns the warehouse-sync runbook these days?",
+  "sent_at": 1787136370364
+ },
+ {
+  "id": "MSG-00143",
+  "text": "Is warehouse-sync still on the old base image?",
+  "sent_at": 1787146090364
+ },
+ {
+  "id": "MSG-00144",
+  "text": "Can someone review my warehouse-sync PR today?",
+  "sent_at": 1787152030364
+ },
+ {
+  "id": "MSG-00145",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1785658803003
+ },
+ {
+  "id": "MSG-00146",
+  "text": "checkout-api p99 looks better after the last deploy.",
+  "sent_at": 1785665283003
+ },
+ {
+  "id": "MSG-00147",
+  "text": "Deploying checkout-api to staging now.",
+  "sent_at": 1785665523003
+ },
+ {
+  "id": "MSG-00148",
+  "text": "LGTM.",
+  "sent_at": 1785673083003
+ },
+ {
+  "id": "MSG-00149",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1785675303003
+ },
+ {
+  "id": "MSG-00150",
+  "text": "Added a test for that case.",
+  "sent_at": 1785682383003
+ },
+ {
+  "id": "MSG-00151",
+  "text": "Good catch.",
+  "sent_at": 1785688983003
+ },
+ {
+  "id": "MSG-00152",
+  "text": "Good catch.",
+  "sent_at": 1785695583003
+ },
+ {
+  "id": "MSG-00153",
+  "text": "Is checkout-api still on the old base image?",
+  "sent_at": 1785701103003
+ },
+ {
+  "id": "MSG-00154",
+  "text": "Updated the doc.",
+  "sent_at": 1785701283003
+ },
+ {
+  "id": "MSG-00155",
+  "text": "Merged.",
+  "sent_at": 1785705003003
+ },
+ {
+  "id": "MSG-00156",
+  "text": "Thanks!",
+  "sent_at": 1785713463003
+ },
+ {
+  "id": "MSG-00157",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1785722283003
+ },
+ {
+  "id": "MSG-00158",
+  "text": "Added a test for that case.",
+  "sent_at": 1785731283003
+ },
+ {
+  "id": "MSG-00159",
+  "text": "Agreed.",
+  "sent_at": 1785733563003
+ },
+ {
+  "id": "MSG-00160",
+  "text": "Looking now.",
+  "sent_at": 1785737943003
+ },
+ {
+  "id": "MSG-00161",
+  "text": "On it.",
+  "sent_at": 1788024427061
+ },
+ {
+  "id": "MSG-00162",
+  "text": "Ship it.",
+  "sent_at": 1788035047061
+ },
+ {
+  "id": "MSG-00163",
+  "text": "Bumping this.",
+  "sent_at": 1788039907061
+ },
+ {
+  "id": "MSG-00164",
+  "text": "Good catch.",
+  "sent_at": 1788048187061
+ },
+ {
+  "id": "MSG-00165",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1788056167061
+ },
+ {
+  "id": "MSG-00166",
+  "text": "Heads up: warehouse-sync config change going out at 3pm.",
+  "sent_at": 1788061327061
+ },
+ {
+  "id": "MSG-00167",
+  "text": "Who owns the warehouse-sync runbook these days?",
+  "sent_at": 1788063967061
+ },
+ {
+  "id": "MSG-00168",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1788068707061
+ },
+ {
+  "id": "MSG-00169",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1788069727061
+ },
+ {
+  "id": "MSG-00170",
+  "text": "Heads up: warehouse-sync config change going out at 3pm.",
+  "sent_at": 1788078607061
+ },
+ {
+  "id": "MSG-00171",
+  "text": "warehouse-sync dashboards are updated.",
+  "sent_at": 1788088267061
+ },
+ {
+  "id": "MSG-00172",
+  "text": "Updated the doc.",
+  "sent_at": 1788090307061
+ },
+ {
+  "id": "MSG-00173",
+  "text": "Who owns the warehouse-sync runbook these days?",
+  "sent_at": 1788094687061
+ },
+ {
+  "id": "MSG-00174",
+  "text": "Thanks!",
+  "sent_at": 1788099007061
+ },
+ {
+  "id": "MSG-00175",
+  "text": "Bumping this.",
+  "sent_at": 1788100807061
+ },
+ {
+  "id": "MSG-00176",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1788103207061
+ },
+ {
+  "id": "MSG-00177",
+  "text": "Rolled back email-svc, investigating.",
+  "sent_at": 1779959759259
+ },
+ {
+  "id": "MSG-00178",
+  "text": "LGTM.",
+  "sent_at": 1779965099259
+ },
+ {
+  "id": "MSG-00179",
+  "text": "Ship it.",
+  "sent_at": 1779967559259
+ },
+ {
+  "id": "MSG-00180",
+  "text": "email-svc dashboards are updated.",
+  "sent_at": 1779973559259
+ },
+ {
+  "id": "MSG-00181",
+  "text": "Who owns the email-svc runbook these days?",
+  "sent_at": 1779983459259
+ },
+ {
+  "id": "MSG-00182",
+  "text": "Heads up: email-svc config change going out at 3pm.",
+  "sent_at": 1779988859259
+ },
+ {
+  "id": "MSG-00183",
+  "text": "Is email-svc still on the old base image?",
+  "sent_at": 1779989759259
+ },
+ {
+  "id": "MSG-00184",
+  "text": "Ship it.",
+  "sent_at": 1779994499259
+ },
+ {
+  "id": "MSG-00185",
+  "text": "Is email-svc still on the old base image?",
+  "sent_at": 1779998159259
+ },
+ {
+  "id": "MSG-00186",
+  "text": "Is email-svc still on the old base image?",
+  "sent_at": 1780002299259
+ },
+ {
+  "id": "MSG-00187",
+  "text": "Good catch.",
+  "sent_at": 1780006799259
+ },
+ {
+  "id": "MSG-00188",
+  "text": "Rolled back email-svc, investigating.",
+  "sent_at": 1780017299259
+ },
+ {
+  "id": "MSG-00189",
+  "text": "Rolled back email-svc, investigating.",
+  "sent_at": 1780018019259
+ },
+ {
+  "id": "MSG-00190",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1780023539259
+ },
+ {
+  "id": "MSG-00191",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1780033619259
+ },
+ {
+  "id": "MSG-00192",
+  "text": "Merged.",
+  "sent_at": 1780037819259
+ },
+ {
+  "id": "MSG-00193",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1770638157465
+ },
+ {
+  "id": "MSG-00194",
+  "text": "LGTM.",
+  "sent_at": 1770643437465
+ },
+ {
+  "id": "MSG-00195",
+  "text": "Deploying mobile-bff to staging now.",
+  "sent_at": 1770651957465
+ },
+ {
+  "id": "MSG-00196",
+  "text": "Rolled back mobile-bff, investigating.",
+  "sent_at": 1770652257465
+ },
+ {
+  "id": "MSG-00197",
+  "text": "Can someone review my mobile-bff PR today?",
+  "sent_at": 1770662877465
+ },
+ {
+  "id": "MSG-00198",
+  "text": "Deploying mobile-bff to staging now.",
+  "sent_at": 1770666837465
+ },
+ {
+  "id": "MSG-00199",
+  "text": "Who owns the mobile-bff runbook these days?",
+  "sent_at": 1770668337465
+ },
+ {
+  "id": "MSG-00200",
+  "text": "Added a test for that case.",
+  "sent_at": 1770677637465
+ },
+ {
+  "id": "MSG-00201",
+  "text": "LGTM.",
+  "sent_at": 1770679077465
+ },
+ {
+  "id": "MSG-00202",
+  "text": "On it.",
+  "sent_at": 1770689277465
+ },
+ {
+  "id": "MSG-00203",
+  "text": "Added a test for that case.",
+  "sent_at": 1770692217465
+ },
+ {
+  "id": "MSG-00204",
+  "text": "Anyone else seeing flaky tests in mobile-bff?",
+  "sent_at": 1770696177465
+ },
+ {
+  "id": "MSG-00205",
+  "text": "Added a test for that case.",
+  "sent_at": 1770700497465
+ },
+ {
+  "id": "MSG-00206",
+  "text": "Anyone else seeing flaky tests in mobile-bff?",
+  "sent_at": 1770704517465
+ },
+ {
+  "id": "MSG-00207",
+  "text": "Opened a ticket for the mobile-bff alert noise.",
+  "sent_at": 1770705537465
+ },
+ {
+  "id": "MSG-00208",
+  "text": "Merged.",
+  "sent_at": 1770709617465
+ },
+ {
+  "id": "MSG-00209",
+  "text": "payouts-worker dashboards are updated.",
+  "sent_at": 1788912824455
+ },
+ {
+  "id": "MSG-00210",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1788915104455
+ },
+ {
+  "id": "MSG-00211",
+  "text": "Bumping this.",
+  "sent_at": 1788924644455
+ },
+ {
+  "id": "MSG-00212",
+  "text": "Anyone else seeing flaky tests in payouts-worker?",
+  "sent_at": 1788928724455
+ },
+ {
+  "id": "MSG-00213",
+  "text": "Ship it.",
+  "sent_at": 1788937604455
+ },
+ {
+  "id": "MSG-00214",
+  "text": "LGTM.",
+  "sent_at": 1788937964455
+ },
+ {
+  "id": "MSG-00215",
+  "text": "Merged.",
+  "sent_at": 1788938624455
+ },
+ {
+  "id": "MSG-00216",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1788943784455
+ },
+ {
+  "id": "MSG-00217",
+  "text": "Ship it.",
+  "sent_at": 1788951764455
+ },
+ {
+  "id": "MSG-00218",
+  "text": "Anyone else seeing flaky tests in payouts-worker?",
+  "sent_at": 1788959204455
+ },
+ {
+  "id": "MSG-00219",
+  "text": "payouts-worker dashboards are updated.",
+  "sent_at": 1788962744455
+ },
+ {
+  "id": "MSG-00220",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1788971564455
+ },
+ {
+  "id": "MSG-00221",
+  "text": "Deploying payouts-worker to staging now.",
+  "sent_at": 1788982124455
+ },
+ {
+  "id": "MSG-00222",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1788987824455
+ },
+ {
+  "id": "MSG-00223",
+  "text": "Merged.",
+  "sent_at": 1788994964455
+ },
+ {
+  "id": "MSG-00224",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1788997784455
+ },
+ {
+  "id": "MSG-00225",
+  "text": "Good catch.",
+  "sent_at": 1759683896410
+ },
+ {
+  "id": "MSG-00226",
+  "text": "Can someone review my config-svc PR today?",
+  "sent_at": 1759693676410
+ },
+ {
+  "id": "MSG-00227",
+  "text": "Who owns the config-svc runbook these days?",
+  "sent_at": 1759694336410
+ },
+ {
+  "id": "MSG-00228",
+  "text": "Rolled back config-svc, investigating.",
+  "sent_at": 1759701956410
+ },
+ {
+  "id": "MSG-00229",
+  "text": "Updated the doc.",
+  "sent_at": 1759709696410
+ },
+ {
+  "id": "MSG-00230",
+  "text": "Deploying config-svc to staging now.",
+  "sent_at": 1759710056410
+ },
+ {
+  "id": "MSG-00231",
+  "text": "Can someone review my config-svc PR today?",
+  "sent_at": 1759710776410
+ },
+ {
+  "id": "MSG-00232",
+  "text": "Updated the doc.",
+  "sent_at": 1759717916410
+ },
+ {
+  "id": "MSG-00233",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1759720316410
+ },
+ {
+  "id": "MSG-00234",
+  "text": "Good catch.",
+  "sent_at": 1759720976410
+ },
+ {
+  "id": "MSG-00235",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1759728296410
+ },
+ {
+  "id": "MSG-00236",
+  "text": "LGTM.",
+  "sent_at": 1759732136410
+ },
+ {
+  "id": "MSG-00237",
+  "text": "Bumping this.",
+  "sent_at": 1759734896410
+ },
+ {
+  "id": "MSG-00238",
+  "text": "LGTM.",
+  "sent_at": 1759736456410
+ },
+ {
+  "id": "MSG-00239",
+  "text": "Who owns the config-svc runbook these days?",
+  "sent_at": 1759738196410
+ },
+ {
+  "id": "MSG-00240",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1759739276410
+ },
+ {
+  "id": "MSG-00241",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1760491790504
+ },
+ {
+  "id": "MSG-00242",
+  "text": "Can someone review my rules-engine PR today?",
+  "sent_at": 1760494010504
+ },
+ {
+  "id": "MSG-00243",
+  "text": "Anyone else seeing flaky tests in rules-engine?",
+  "sent_at": 1760503190504
+ },
+ {
+  "id": "MSG-00244",
+  "text": "Is rules-engine still on the old base image?",
+  "sent_at": 1760507510504
+ },
+ {
+  "id": "MSG-00245",
+  "text": "rules-engine p99 looks better after the last deploy.",
+  "sent_at": 1760518310504
+ },
+ {
+  "id": "MSG-00246",
+  "text": "Thanks!",
+  "sent_at": 1760522150504
+ },
+ {
+  "id": "MSG-00247",
+  "text": "On it.",
+  "sent_at": 1760523770504
+ },
+ {
+  "id": "MSG-00248",
+  "text": "Thanks!",
+  "sent_at": 1760529650504
+ },
+ {
+  "id": "MSG-00249",
+  "text": "rules-engine p99 looks better after the last deploy.",
+  "sent_at": 1760530970504
+ },
+ {
+  "id": "MSG-00250",
+  "text": "Merged.",
+  "sent_at": 1760541050504
+ },
+ {
+  "id": "MSG-00251",
+  "text": "Ship it.",
+  "sent_at": 1760551790504
+ },
+ {
+  "id": "MSG-00252",
+  "text": "rules-engine p99 looks better after the last deploy.",
+  "sent_at": 1760562530504
+ },
+ {
+  "id": "MSG-00253",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1760566790504
+ },
+ {
+  "id": "MSG-00254",
+  "text": "Thanks!",
+  "sent_at": 1760569550504
+ },
+ {
+  "id": "MSG-00255",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1760572430504
+ },
+ {
+  "id": "MSG-00256",
+  "text": "Merged.",
+  "sent_at": 1760582150504
+ },
+ {
+  "id": "MSG-00257",
+  "text": "Rolled back support-api, investigating.",
+  "sent_at": 1791931040154
+ },
+ {
+  "id": "MSG-00258",
+  "text": "Rolled back support-api, investigating.",
+  "sent_at": 1791940640154
+ },
+ {
+  "id": "MSG-00259",
+  "text": "On it.",
+  "sent_at": 1791944120154
+ },
+ {
+  "id": "MSG-00260",
+  "text": "Anyone else seeing flaky tests in support-api?",
+  "sent_at": 1791948440154
+ },
+ {
+  "id": "MSG-00261",
+  "text": "Bumping this.",
+  "sent_at": 1791959060154
+ },
+ {
+  "id": "MSG-00262",
+  "text": "Deploying support-api to staging now.",
+  "sent_at": 1791966800154
+ },
+ {
+  "id": "MSG-00263",
+  "text": "Can someone review my support-api PR today?",
+  "sent_at": 1791976820154
+ },
+ {
+  "id": "MSG-00264",
+  "text": "support-api dashboards are updated.",
+  "sent_at": 1791980780154
+ },
+ {
+  "id": "MSG-00265",
+  "text": "Bumping this.",
+  "sent_at": 1791982460154
+ },
+ {
+  "id": "MSG-00266",
+  "text": "Deploying support-api to staging now.",
+  "sent_at": 1791985280154
+ },
+ {
+  "id": "MSG-00267",
+  "text": "Can someone review my support-api PR today?",
+  "sent_at": 1791993260154
+ },
+ {
+  "id": "MSG-00268",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1792002440154
+ },
+ {
+  "id": "MSG-00269",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1792012940154
+ },
+ {
+  "id": "MSG-00270",
+  "text": "Can someone review my support-api PR today?",
+  "sent_at": 1792018040154
+ },
+ {
+  "id": "MSG-00271",
+  "text": "Can someone review my support-api PR today?",
+  "sent_at": 1792021220154
+ },
+ {
+  "id": "MSG-00272",
+  "text": "Thanks!",
+  "sent_at": 1792028540154
+ },
+ {
+  "id": "MSG-00273",
+  "text": "Opened a ticket for the checkout-api alert noise.",
+  "sent_at": 1782062878198
+ },
+ {
+  "id": "MSG-00274",
+  "text": "On it.",
+  "sent_at": 1782070018198
+ },
+ {
+  "id": "MSG-00275",
+  "text": "checkout-api p99 looks better after the last deploy.",
+  "sent_at": 1782074278198
+ },
+ {
+  "id": "MSG-00276",
+  "text": "Merged.",
+  "sent_at": 1782085018198
+ },
+ {
+  "id": "MSG-00277",
+  "text": "Good catch.",
+  "sent_at": 1782086818198
+ },
+ {
+  "id": "MSG-00278",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1782089518198
+ },
+ {
+  "id": "MSG-00279",
+  "text": "Who owns the checkout-api runbook these days?",
+  "sent_at": 1782098878198
+ },
+ {
+  "id": "MSG-00280",
+  "text": "Updated the doc.",
+  "sent_at": 1782107818198
+ },
+ {
+  "id": "MSG-00281",
+  "text": "Rolled back checkout-api, investigating.",
+  "sent_at": 1782109258198
+ },
+ {
+  "id": "MSG-00282",
+  "text": "Updated the doc.",
+  "sent_at": 1782112678198
+ },
+ {
+  "id": "MSG-00283",
+  "text": "Is checkout-api still on the old base image?",
+  "sent_at": 1782117058198
+ },
+ {
+  "id": "MSG-00284",
+  "text": "Who owns the checkout-api runbook these days?",
+  "sent_at": 1782120958198
+ },
+ {
+  "id": "MSG-00285",
+  "text": "Bumping this.",
+  "sent_at": 1782130138198
+ },
+ {
+  "id": "MSG-00286",
+  "text": "Deploying checkout-api to staging now.",
+  "sent_at": 1782130318198
+ },
+ {
+  "id": "MSG-00287",
+  "text": "Agreed.",
+  "sent_at": 1782137638198
+ },
+ {
+  "id": "MSG-00288",
+  "text": "Good catch.",
+  "sent_at": 1782144238198
+ },
+ {
+  "id": "MSG-00289",
+  "text": "Added a test for that case.",
+  "sent_at": 1769041821015
+ },
+ {
+  "id": "MSG-00290",
+  "text": "LGTM.",
+  "sent_at": 1769048181015
+ },
+ {
+  "id": "MSG-00291",
+  "text": "Anyone else seeing flaky tests in checkout-api?",
+  "sent_at": 1769052801015
+ },
+ {
+  "id": "MSG-00292",
+  "text": "LGTM.",
+  "sent_at": 1769060241015
+ },
+ {
+  "id": "MSG-00293",
+  "text": "Added a test for that case.",
+  "sent_at": 1769067381015
+ },
+ {
+  "id": "MSG-00294",
+  "text": "Good catch.",
+  "sent_at": 1769067861015
+ },
+ {
+  "id": "MSG-00295",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1769070081015
+ },
+ {
+  "id": "MSG-00296",
+  "text": "Added a test for that case.",
+  "sent_at": 1769075841015
+ },
+ {
+  "id": "MSG-00297",
+  "text": "Looking now.",
+  "sent_at": 1769075961015
+ },
+ {
+  "id": "MSG-00298",
+  "text": "Deploying checkout-api to staging now.",
+  "sent_at": 1769086641015
+ },
+ {
+  "id": "MSG-00299",
+  "text": "Added a test for that case.",
+  "sent_at": 1769093301015
+ },
+ {
+  "id": "MSG-00300",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1769101701015
+ },
+ {
+  "id": "MSG-00301",
+  "text": "Opened a ticket for the checkout-api alert noise.",
+  "sent_at": 1769112321015
+ },
+ {
+  "id": "MSG-00302",
+  "text": "Bumping this.",
+  "sent_at": 1769113281015
+ },
+ {
+  "id": "MSG-00303",
+  "text": "Looking now.",
+  "sent_at": 1769118981015
+ },
+ {
+  "id": "MSG-00304",
+  "text": "Thanks!",
+  "sent_at": 1769124681015
+ },
+ {
+  "id": "MSG-00305",
+  "text": "Ship it.",
+  "sent_at": 1783965064037
+ },
+ {
+  "id": "MSG-00306",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1783967284037
+ },
+ {
+  "id": "MSG-00307",
+  "text": "Added a test for that case.",
+  "sent_at": 1783969144037
+ },
+ {
+  "id": "MSG-00308",
+  "text": "Added a test for that case.",
+  "sent_at": 1783978144037
+ },
+ {
+  "id": "MSG-00309",
+  "text": "Heads up: reporting-api config change going out at 3pm.",
+  "sent_at": 1783981684037
+ },
+ {
+  "id": "MSG-00310",
+  "text": "Deploying reporting-api to staging now.",
+  "sent_at": 1783992244037
+ },
+ {
+  "id": "MSG-00311",
+  "text": "reporting-api dashboards are updated.",
+  "sent_at": 1783998064037
+ },
+ {
+  "id": "MSG-00312",
+  "text": "Good catch.",
+  "sent_at": 1784006224037
+ },
+ {
+  "id": "MSG-00313",
+  "text": "Agreed.",
+  "sent_at": 1784014504037
+ },
+ {
+  "id": "MSG-00314",
+  "text": "Ship it.",
+  "sent_at": 1784021524037
+ },
+ {
+  "id": "MSG-00315",
+  "text": "Bumping this.",
+  "sent_at": 1784032264037
+ },
+ {
+  "id": "MSG-00316",
+  "text": "Good catch.",
+  "sent_at": 1784035264037
+ },
+ {
+  "id": "MSG-00317",
+  "text": "reporting-api p99 looks better after the last deploy.",
+  "sent_at": 1784036584037
+ },
+ {
+  "id": "MSG-00318",
+  "text": "Heads up: reporting-api config change going out at 3pm.",
+  "sent_at": 1784037844037
+ },
+ {
+  "id": "MSG-00319",
+  "text": "reporting-api p99 looks better after the last deploy.",
+  "sent_at": 1784048644037
+ },
+ {
+  "id": "MSG-00320",
+  "text": "On it.",
+  "sent_at": 1784051884037
+ },
+ {
+  "id": "MSG-00321",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1772709365649
+ },
+ {
+  "id": "MSG-00322",
+  "text": "Can someone review my notifications PR today?",
+  "sent_at": 1772719385649
+ },
+ {
+  "id": "MSG-00323",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1772719805649
+ },
+ {
+  "id": "MSG-00324",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1772727905649
+ },
+ {
+  "id": "MSG-00325",
+  "text": "Ship it.",
+  "sent_at": 1772733245649
+ },
+ {
+  "id": "MSG-00326",
+  "text": "Added a test for that case.",
+  "sent_at": 1772740805649
+ },
+ {
+  "id": "MSG-00327",
+  "text": "Heads up: notifications config change going out at 3pm.",
+  "sent_at": 1772749325649
+ },
+ {
+  "id": "MSG-00328",
+  "text": "Merged.",
+  "sent_at": 1772751425649
+ },
+ {
+  "id": "MSG-00329",
+  "text": "Opened a ticket for the notifications alert noise.",
+  "sent_at": 1772755505649
+ },
+ {
+  "id": "MSG-00330",
+  "text": "Heads up: notifications config change going out at 3pm.",
+  "sent_at": 1772756345649
+ },
+ {
+  "id": "MSG-00331",
+  "text": "LGTM.",
+  "sent_at": 1772758985649
+ },
+ {
+  "id": "MSG-00332",
+  "text": "notifications p99 looks better after the last deploy.",
+  "sent_at": 1772767325649
+ },
+ {
+  "id": "MSG-00333",
+  "text": "Ship it.",
+  "sent_at": 1772778065649
+ },
+ {
+  "id": "MSG-00334",
+  "text": "Deploying notifications to staging now.",
+  "sent_at": 1772780645649
+ },
+ {
+  "id": "MSG-00335",
+  "text": "Heads up: notifications config change going out at 3pm.",
+  "sent_at": 1772789585649
+ },
+ {
+  "id": "MSG-00336",
+  "text": "Deploying notifications to staging now.",
+  "sent_at": 1772792525649
+ },
+ {
+  "id": "MSG-00337",
+  "text": "mobile-bff p99 looks better after the last deploy.",
+  "sent_at": 1746516399299
+ },
+ {
+  "id": "MSG-00338",
+  "text": "Deploying mobile-bff to staging now.",
+  "sent_at": 1746521139299
+ },
+ {
+  "id": "MSG-00339",
+  "text": "Good catch.",
+  "sent_at": 1746528879299
+ },
+ {
+  "id": "MSG-00340",
+  "text": "Rolled back mobile-bff, investigating.",
+  "sent_at": 1746531339299
+ },
+ {
+  "id": "MSG-00341",
+  "text": "Merged.",
+  "sent_at": 1746536499299
+ },
+ {
+  "id": "MSG-00342",
+  "text": "Ship it.",
+  "sent_at": 1746541059299
+ },
+ {
+  "id": "MSG-00343",
+  "text": "Who owns the mobile-bff runbook these days?",
+  "sent_at": 1746551379299
+ },
+ {
+  "id": "MSG-00344",
+  "text": "Added a test for that case.",
+  "sent_at": 1746556659299
+ },
+ {
+  "id": "MSG-00345",
+  "text": "Rolled back mobile-bff, investigating.",
+  "sent_at": 1746557379299
+ },
+ {
+  "id": "MSG-00346",
+  "text": "Who owns the mobile-bff runbook these days?",
+  "sent_at": 1746562179299
+ },
+ {
+  "id": "MSG-00347",
+  "text": "Opened a ticket for the mobile-bff alert noise.",
+  "sent_at": 1746569139299
+ },
+ {
+  "id": "MSG-00348",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1746578559299
+ },
+ {
+  "id": "MSG-00349",
+  "text": "Ship it.",
+  "sent_at": 1746582039299
+ },
+ {
+  "id": "MSG-00350",
+  "text": "Rolled back mobile-bff, investigating.",
+  "sent_at": 1746585159299
+ },
+ {
+  "id": "MSG-00351",
+  "text": "Looking now.",
+  "sent_at": 1746595659299
+ },
+ {
+  "id": "MSG-00352",
+  "text": "Opened a ticket for the mobile-bff alert noise.",
+  "sent_at": 1746601779299
+ },
+ {
+  "id": "MSG-00353",
+  "text": "Is payouts-worker still on the old base image?",
+  "sent_at": 1749762879091
+ },
+ {
+  "id": "MSG-00354",
+  "text": "Heads up: payouts-worker config change going out at 3pm.",
+  "sent_at": 1749768879091
+ },
+ {
+  "id": "MSG-00355",
+  "text": "payouts-worker dashboards are updated.",
+  "sent_at": 1749774339091
+ },
+ {
+  "id": "MSG-00356",
+  "text": "payouts-worker dashboards are updated.",
+  "sent_at": 1749775779091
+ },
+ {
+  "id": "MSG-00357",
+  "text": "Merged.",
+  "sent_at": 1749782259091
+ },
+ {
+  "id": "MSG-00358",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1749788859091
+ },
+ {
+  "id": "MSG-00359",
+  "text": "LGTM.",
+  "sent_at": 1749797979091
+ },
+ {
+  "id": "MSG-00360",
+  "text": "Updated the doc.",
+  "sent_at": 1749802719091
+ },
+ {
+  "id": "MSG-00361",
+  "text": "Who owns the payouts-worker runbook these days?",
+  "sent_at": 1749807939091
+ },
+ {
+  "id": "MSG-00362",
+  "text": "Heads up: payouts-worker config change going out at 3pm.",
+  "sent_at": 1749809379091
+ },
+ {
+  "id": "MSG-00363",
+  "text": "Added a test for that case.",
+  "sent_at": 1749812139091
+ },
+ {
+  "id": "MSG-00364",
+  "text": "Is payouts-worker still on the old base image?",
+  "sent_at": 1749814359091
+ },
+ {
+  "id": "MSG-00365",
+  "text": "Updated the doc.",
+  "sent_at": 1749822939091
+ },
+ {
+  "id": "MSG-00366",
+  "text": "Rolled back payouts-worker, investigating.",
+  "sent_at": 1749831999091
+ },
+ {
+  "id": "MSG-00367",
+  "text": "Deploying payouts-worker to staging now.",
+  "sent_at": 1749839199091
+ },
+ {
+  "id": "MSG-00368",
+  "text": "payouts-worker dashboards are updated.",
+  "sent_at": 1749843339091
+ },
+ {
+  "id": "MSG-00369",
+  "text": "Thanks!",
+  "sent_at": 1772689013639
+ },
+ {
+  "id": "MSG-00370",
+  "text": "Looking now.",
+  "sent_at": 1772693333639
+ },
+ {
+  "id": "MSG-00371",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1772702333639
+ },
+ {
+  "id": "MSG-00372",
+  "text": "Added a test for that case.",
+  "sent_at": 1772712053639
+ },
+ {
+  "id": "MSG-00373",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1772717873639
+ },
+ {
+  "id": "MSG-00374",
+  "text": "Deploying config-svc to staging now.",
+  "sent_at": 1772721953639
+ },
+ {
+  "id": "MSG-00375",
+  "text": "Added a test for that case.",
+  "sent_at": 1772726933639
+ },
+ {
+  "id": "MSG-00376",
+  "text": "Heads up: config-svc config change going out at 3pm.",
+  "sent_at": 1772732513639
+ },
+ {
+  "id": "MSG-00377",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1772739053639
+ },
+ {
+  "id": "MSG-00378",
+  "text": "Anyone else seeing flaky tests in config-svc?",
+  "sent_at": 1772743613639
+ },
+ {
+  "id": "MSG-00379",
+  "text": "Anyone else seeing flaky tests in config-svc?",
+  "sent_at": 1772753333639
+ },
+ {
+  "id": "MSG-00380",
+  "text": "Opened a ticket for the config-svc alert noise.",
+  "sent_at": 1772761793639
+ },
+ {
+  "id": "MSG-00381",
+  "text": "Added a test for that case.",
+  "sent_at": 1772766053639
+ },
+ {
+  "id": "MSG-00382",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1772767613639
+ },
+ {
+  "id": "MSG-00383",
+  "text": "Heads up: config-svc config change going out at 3pm.",
+  "sent_at": 1772767913639
+ },
+ {
+  "id": "MSG-00384",
+  "text": "config-svc p99 looks better after the last deploy.",
+  "sent_at": 1772775473639
+ },
+ {
+  "id": "MSG-00385",
+  "text": "Agreed.",
+  "sent_at": 1784933285900
+ },
+ {
+  "id": "MSG-00386",
+  "text": "Agreed.",
+  "sent_at": 1784943965900
+ },
+ {
+  "id": "MSG-00387",
+  "text": "Ship it.",
+  "sent_at": 1784952545900
+ },
+ {
+  "id": "MSG-00388",
+  "text": "Looking now.",
+  "sent_at": 1784959025900
+ },
+ {
+  "id": "MSG-00389",
+  "text": "Good catch.",
+  "sent_at": 1784961125900
+ },
+ {
+  "id": "MSG-00390",
+  "text": "LGTM.",
+  "sent_at": 1784965985900
+ },
+ {
+  "id": "MSG-00391",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1784975225900
+ },
+ {
+  "id": "MSG-00392",
+  "text": "Anyone else seeing flaky tests in fraud-svc?",
+  "sent_at": 1784979965900
+ },
+ {
+  "id": "MSG-00393",
+  "text": "LGTM.",
+  "sent_at": 1784982005900
+ },
+ {
+  "id": "MSG-00394",
+  "text": "Can someone review my fraud-svc PR today?",
+  "sent_at": 1784985605900
+ },
+ {
+  "id": "MSG-00395",
+  "text": "Anyone else seeing flaky tests in fraud-svc?",
+  "sent_at": 1784986925900
+ },
+ {
+  "id": "MSG-00396",
+  "text": "Ship it.",
+  "sent_at": 1784987285900
+ },
+ {
+  "id": "MSG-00397",
+  "text": "Deploying fraud-svc to staging now.",
+  "sent_at": 1784988005900
+ },
+ {
+  "id": "MSG-00398",
+  "text": "Good catch.",
+  "sent_at": 1784995985900
+ },
+ {
+  "id": "MSG-00399",
+  "text": "Heads up: fraud-svc config change going out at 3pm.",
+  "sent_at": 1784999945900
+ },
+ {
+  "id": "MSG-00400",
+  "text": "Ship it.",
+  "sent_at": 1785000185900
+ },
+ {
+  "id": "MSG-00401",
+  "text": "Thanks!",
+  "sent_at": 1764728932251
+ },
+ {
+  "id": "MSG-00402",
+  "text": "Merged.",
+  "sent_at": 1764731272251
+ },
+ {
+  "id": "MSG-00403",
+  "text": "Rolled back admin-console, investigating.",
+  "sent_at": 1764736732251
+ },
+ {
+  "id": "MSG-00404",
+  "text": "Looking now.",
+  "sent_at": 1764740512251
+ },
+ {
+  "id": "MSG-00405",
+  "text": "Agreed.",
+  "sent_at": 1764749512251
+ },
+ {
+  "id": "MSG-00406",
+  "text": "LGTM.",
+  "sent_at": 1764752572251
+ },
+ {
+  "id": "MSG-00407",
+  "text": "Looking now.",
+  "sent_at": 1764752752251
+ },
+ {
+  "id": "MSG-00408",
+  "text": "Good catch.",
+  "sent_at": 1764760612251
+ },
+ {
+  "id": "MSG-00409",
+  "text": "Good catch.",
+  "sent_at": 1764771412251
+ },
+ {
+  "id": "MSG-00410",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1764774292251
+ },
+ {
+  "id": "MSG-00411",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1764777652251
+ },
+ {
+  "id": "MSG-00412",
+  "text": "Anyone else seeing flaky tests in admin-console?",
+  "sent_at": 1764782572251
+ },
+ {
+  "id": "MSG-00413",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1764784732251
+ },
+ {
+  "id": "MSG-00414",
+  "text": "Looking now.",
+  "sent_at": 1764793372251
+ },
+ {
+  "id": "MSG-00415",
+  "text": "Heads up: admin-console config change going out at 3pm.",
+  "sent_at": 1764801052251
+ },
+ {
+  "id": "MSG-00416",
+  "text": "On it.",
+  "sent_at": 1764810352251
+ },
+ {
+  "id": "MSG-00417",
+  "text": "Anyone else seeing flaky tests in email-svc?",
+  "sent_at": 1766304360185
+ },
+ {
+  "id": "MSG-00418",
+  "text": "Deploying email-svc to staging now.",
+  "sent_at": 1766314860185
+ },
+ {
+  "id": "MSG-00419",
+  "text": "email-svc dashboards are updated.",
+  "sent_at": 1766325300185
+ },
+ {
+  "id": "MSG-00420",
+  "text": "Looking now.",
+  "sent_at": 1766335500185
+ },
+ {
+  "id": "MSG-00421",
+  "text": "Who owns the email-svc runbook these days?",
+  "sent_at": 1766341680185
+ },
+ {
+  "id": "MSG-00422",
+  "text": "Can someone review my email-svc PR today?",
+  "sent_at": 1766344380185
+ },
+ {
+  "id": "MSG-00423",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1766347560185
+ },
+ {
+  "id": "MSG-00424",
+  "text": "Added a test for that case.",
+  "sent_at": 1766351220185
+ },
+ {
+  "id": "MSG-00425",
+  "text": "Ship it.",
+  "sent_at": 1766355600185
+ },
+ {
+  "id": "MSG-00426",
+  "text": "Is email-svc still on the old base image?",
+  "sent_at": 1766364780185
+ },
+ {
+  "id": "MSG-00427",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1766372160185
+ },
+ {
+  "id": "MSG-00428",
+  "text": "email-svc dashboards are updated.",
+  "sent_at": 1766380080185
+ },
+ {
+  "id": "MSG-00429",
+  "text": "email-svc dashboards are updated.",
+  "sent_at": 1766382060185
+ },
+ {
+  "id": "MSG-00430",
+  "text": "Thanks!",
+  "sent_at": 1766391780185
+ },
+ {
+  "id": "MSG-00431",
+  "text": "Good catch.",
+  "sent_at": 1766392680185
+ },
+ {
+  "id": "MSG-00432",
+  "text": "Opened a ticket for the email-svc alert noise.",
+  "sent_at": 1766395500185
+ },
+ {
+  "id": "MSG-00433",
+  "text": "Agreed.",
+  "sent_at": 1763123978775
+ },
+ {
+  "id": "MSG-00434",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1763131658775
+ },
+ {
+  "id": "MSG-00435",
+  "text": "Agreed.",
+  "sent_at": 1763141918775
+ },
+ {
+  "id": "MSG-00436",
+  "text": "Rolled back checkout-api, investigating.",
+  "sent_at": 1763150318775
+ },
+ {
+  "id": "MSG-00437",
+  "text": "Thanks!",
+  "sent_at": 1763150678775
+ },
+ {
+  "id": "MSG-00438",
+  "text": "Opened a ticket for the checkout-api alert noise.",
+  "sent_at": 1763152598775
+ },
+ {
+  "id": "MSG-00439",
+  "text": "Deploying checkout-api to staging now.",
+  "sent_at": 1763158478775
+ },
+ {
+  "id": "MSG-00440",
+  "text": "Updated the doc.",
+  "sent_at": 1763161298775
+ },
+ {
+  "id": "MSG-00441",
+  "text": "LGTM.",
+  "sent_at": 1763166038775
+ },
+ {
+  "id": "MSG-00442",
+  "text": "Is checkout-api still on the old base image?",
+  "sent_at": 1763172758775
+ },
+ {
+  "id": "MSG-00443",
+  "text": "Good catch.",
+  "sent_at": 1763174558775
+ },
+ {
+  "id": "MSG-00444",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1763183138775
+ },
+ {
+  "id": "MSG-00445",
+  "text": "LGTM.",
+  "sent_at": 1763190518775
+ },
+ {
+  "id": "MSG-00446",
+  "text": "checkout-api dashboards are updated.",
+  "sent_at": 1763191478775
+ },
+ {
+  "id": "MSG-00447",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1763197358775
+ },
+ {
+  "id": "MSG-00448",
+  "text": "Deploying checkout-api to staging now.",
+  "sent_at": 1763201798775
+ },
+ {
+  "id": "MSG-00449",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1786165451143
+ },
+ {
+  "id": "MSG-00450",
+  "text": "Anyone else seeing flaky tests in ml-features?",
+  "sent_at": 1786175171143
+ },
+ {
+  "id": "MSG-00451",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1786180571143
+ },
+ {
+  "id": "MSG-00452",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1786181531143
+ },
+ {
+  "id": "MSG-00453",
+  "text": "Anyone else seeing flaky tests in ml-features?",
+  "sent_at": 1786191551143
+ },
+ {
+  "id": "MSG-00454",
+  "text": "Looking now.",
+  "sent_at": 1786192631143
+ },
+ {
+  "id": "MSG-00455",
+  "text": "Opened a ticket for the ml-features alert noise.",
+  "sent_at": 1786195331143
+ },
+ {
+  "id": "MSG-00456",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1786202471143
+ },
+ {
+  "id": "MSG-00457",
+  "text": "Merged.",
+  "sent_at": 1786210451143
+ },
+ {
+  "id": "MSG-00458",
+  "text": "Thanks!",
+  "sent_at": 1786221251143
+ },
+ {
+  "id": "MSG-00459",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1786227131143
+ },
+ {
+  "id": "MSG-00460",
+  "text": "Looking now.",
+  "sent_at": 1786228751143
+ },
+ {
+  "id": "MSG-00461",
+  "text": "ml-features dashboards are updated.",
+  "sent_at": 1786239191143
+ },
+ {
+  "id": "MSG-00462",
+  "text": "Who owns the ml-features runbook these days?",
+  "sent_at": 1786249511143
+ },
+ {
+  "id": "MSG-00463",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1786255211143
+ },
+ {
+  "id": "MSG-00464",
+  "text": "Ship it.",
+  "sent_at": 1786265051143
+ },
+ {
+  "id": "MSG-00465",
+  "text": "Who owns the referrals runbook these days?",
+  "sent_at": 1782153918627
+ },
+ {
+  "id": "MSG-00466",
+  "text": "Looking now.",
+  "sent_at": 1782157458627
+ },
+ {
+  "id": "MSG-00467",
+  "text": "Opened a ticket for the referrals alert noise.",
+  "sent_at": 1782166458627
+ },
+ {
+  "id": "MSG-00468",
+  "text": "Agreed.",
+  "sent_at": 1782167598627
+ },
+ {
+  "id": "MSG-00469",
+  "text": "Anyone else seeing flaky tests in referrals?",
+  "sent_at": 1782174258627
+ },
+ {
+  "id": "MSG-00470",
+  "text": "Merged.",
+  "sent_at": 1782178998627
+ },
+ {
+  "id": "MSG-00471",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1782189258627
+ },
+ {
+  "id": "MSG-00472",
+  "text": "Rolled back referrals, investigating.",
+  "sent_at": 1782195498627
+ },
+ {
+  "id": "MSG-00473",
+  "text": "LGTM.",
+  "sent_at": 1782205878627
+ },
+ {
+  "id": "MSG-00474",
+  "text": "Updated the doc.",
+  "sent_at": 1782215598627
+ },
+ {
+  "id": "MSG-00475",
+  "text": "On it.",
+  "sent_at": 1782224538627
+ },
+ {
+  "id": "MSG-00476",
+  "text": "Rolled back referrals, investigating.",
+  "sent_at": 1782231798627
+ },
+ {
+  "id": "MSG-00477",
+  "text": "Added a test for that case.",
+  "sent_at": 1782238578627
+ },
+ {
+  "id": "MSG-00478",
+  "text": "Done, closing the ticket.",
+  "sent_at": 1782239598627
+ },
+ {
+  "id": "MSG-00479",
+  "text": "Heads up: referrals config change going out at 3pm.",
+  "sent_at": 1782241938627
+ },
+ {
+  "id": "MSG-00480",
+  "text": "Anyone else seeing flaky tests in referrals?",
+  "sent_at": 1782248358627
+ },
+ {
+  "id": "MSG-00481",
+  "text": "Merged.",
+  "sent_at": 1752676264445
+ },
+ {
+  "id": "MSG-00482",
+  "text": "Anyone else seeing flaky tests in mobile-bff?",
+  "sent_at": 1752679984445
+ },
+ {
+  "id": "MSG-00483",
+  "text": "Heads up: mobile-bff config change going out at 3pm.",
+  "sent_at": 1752683044445
+ },
+ {
+  "id": "MSG-00484",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1752690604445
+ },
+ {
+  "id": "MSG-00485",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1752700624445
+ },
+ {
+  "id": "MSG-00486",
+  "text": "Heads up: mobile-bff config change going out at 3pm.",
+  "sent_at": 1752704884445
+ },
+ {
+  "id": "MSG-00487",
+  "text": "On it.",
+  "sent_at": 1752715084445
+ },
+ {
+  "id": "MSG-00488",
+  "text": "Thanks!",
+  "sent_at": 1752722644445
+ },
+ {
+  "id": "MSG-00489",
+  "text": "Updated the doc.",
+  "sent_at": 1752727564445
+ },
+ {
+  "id": "MSG-00490",
+  "text": "On it.",
+  "sent_at": 1752733924445
+ },
+ {
+  "id": "MSG-00491",
+  "text": "Added a test for that case.",
+  "sent_at": 1752740104445
+ },
+ {
+  "id": "MSG-00492",
+  "text": "Rolled back mobile-bff, investigating.",
+  "sent_at": 1752743824445
+ },
+ {
+  "id": "MSG-00493",
+  "text": "Let's discuss in planning.",
+  "sent_at": 1752751924445
+ },
+ {
+  "id": "MSG-00494",
+  "text": "Looking now.",
+  "sent_at": 1752755884445
+ },
+ {
+  "id": "MSG-00495",
+  "text": "Opened a ticket for the mobile-bff alert noise.",
+  "sent_at": 1752765184445
+ },
+ {
+  "id": "MSG-00496",
+  "text": "Ship it.",
+  "sent_at": 1752774244445
+ },
+ {
+  "id": "MSG-00497",
+  "text": "Heads up: payouts-worker config change going out at 3pm.",
+  "sent_at": 1781972560781
+ },
+ {
+  "id": "MSG-00498",
+  "text": "Who owns the payouts-worker runbook these days?",
+  "sent_at": 1781978920781
+ },
+ {
+  "id": "MSG-00499",
+  "text": "Added a test for that case.",
+  "sent_at": 1781986540781
+ },
+ {
+  "id": "MSG-00500",
+  "text": "Good catch.",
+  "sent_at": 1781991520781
+ },
+ {
+  "id": "MSG-00501",
+  "text": "Bumping this.",
+  "sent_at": 1781995420781
+ },
+ {
+  "id": "MSG-00502",
+  "text": "Opened a ticket for the payouts-worker alert noise.",
+  "sent_at": 1781997760781
+ },
+ {
+  "id": "MSG-00503",
+  "text": "Who owns the payouts-worker runbook these days?",
+  "sent_at": 1782002560781
+ },
+ {
+  "id": "MSG-00504",
+  "text": "Thanks!",
+  "sent_at": 1782012820781
+ },
+ {
+  "id": "MSG-00505",
+  "text": "Rolled back payouts-worker, investigating.",
+  "sent_at": 1782023200781
+ },
+ {
+  "id": "MSG-00506",
+  "text": "Added a test for that case.",
+  "sent_at": 1782028060781
+ },
+ {
+  "id": "MSG-00507",
+  "text": "Can someone review my payouts-worker PR today?",
+  "sent_at": 1782038680781
+ },
+ {
+  "id": "MSG-00508",
+  "text": "Is payouts-worker still on the old base image?",
+  "sent_at": 1782045580781
+ },
+ {
+  "id": "MSG-00509",
+  "text": "Can someone review my payouts-worker PR today?",
+  "sent_at": 1782050320781
+ },
+ {
+  "id": "MSG-00510",
+  "text": "LGTM.",
+  "sent_at": 1782053620781
+ },
+ {
+  "id": "MSG-00511",
+  "text": "Is payouts-worker still on the old base image?",
+  "sent_at": 1782063400781
+ },
+ {
+  "id": "MSG-00512",
+  "text": "Anyone else seeing flaky tests in payouts-worker?",
+  "sent_at": 1782064000781
+ },
+ {
+  "id": "MSG-00513",
+  "text": "Bumping this.",
+  "sent_at": 1770167185083
+ },
+ {
+  "id": "MSG-00514",
+  "text": "Agreed.",
+  "sent_at": 1770169765083
+ },
+ {
+  "id": "MSG-00515",
+  "text": "Rolled back event-bus, investigating.",
+  "sent_at": 1770175285083
+ },
+ {
+  "id": "MSG-00516",
+  "text": "Ship it.",
+  "sent_at": 1770182365083
+ },
+ {
+  "id": "MSG-00517",
+  "text": "On it.",
+  "sent_at": 1770192325083
+ },
+ {
+  "id": "MSG-00518",
+  "text": "Is event-bus still on the old base image?",
+  "sent_at": 1770202285083
+ },
+ {
+  "id": "MSG-00519",
+  "text": "Who owns the event-bus runbook these days?",
+  "sent_at": 1770212005083
+ },
+ {
+  "id": "MSG-00520",
+  "text": "Rolled back event-bus, investigating.",
+  "sent_at": 1770213805083
+ },
+ {
+  "id": "MSG-00521",
+  "text": "Ship it.",
+  "sent_at": 1770223045083
+ },
+ {
+  "id": "MSG-00522",
+  "text": "Added a test for that case.",
+  "sent_at": 1770230065083
+ },
+ {
+  "id": "MSG-00523",
+  "text": "Who owns the event-bus runbook these days?",
+  "sent_at": 1770234145083
+ },
+ {
+  "id": "MSG-00524",
+  "text": "Is event-bus still on the old base image?",
+  "sent_at": 1770238585083
+ },
+ {
+  "id": "MSG-00525",
+  "text": "Is event-bus still on the old base image?",
+  "sent_at": 1770241465083
+ },
+ {
+  "id": "MSG-00526",
+  "text": "Bumping this.",
+  "sent_at": 1770241885083
+ },
+ {
+  "id": "MSG-00527",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1770243325083
+ },
+ {
+  "id": "MSG-00528",
+  "text": "Who owns the event-bus runbook these days?",
+  "sent_at": 1770246025083
+ },
+ {
+  "id": "MSG-00529",
+  "text": "Who owns the rules-engine runbook these days?",
+  "sent_at": 1780009038618
+ },
+ {
+  "id": "MSG-00530",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1780009338618
+ },
+ {
+  "id": "MSG-00531",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1780019778618
+ },
+ {
+  "id": "MSG-00532",
+  "text": "Heads up: rules-engine config change going out at 3pm.",
+  "sent_at": 1780023018618
+ },
+ {
+  "id": "MSG-00533",
+  "text": "Is rules-engine still on the old base image?",
+  "sent_at": 1780030698618
+ },
+ {
+  "id": "MSG-00534",
+  "text": "Heads up: rules-engine config change going out at 3pm.",
+  "sent_at": 1780039998618
+ },
+ {
+  "id": "MSG-00535",
+  "text": "rules-engine p99 looks better after the last deploy.",
+  "sent_at": 1780050498618
+ },
+ {
+  "id": "MSG-00536",
+  "text": "Heads up: rules-engine config change going out at 3pm.",
+  "sent_at": 1780052838618
+ },
+ {
+  "id": "MSG-00537",
+  "text": "Can we pair on this tomorrow?",
+  "sent_at": 1780062438618
+ },
+ {
+  "id": "MSG-00538",
+  "text": "Good catch.",
+  "sent_at": 1780071498618
+ },
+ {
+  "id": "MSG-00539",
+  "text": "Updated the doc.",
+  "sent_at": 1780071738618
+ },
+ {
+  "id": "MSG-00540",
+  "text": "Can someone review my rules-engine PR today?",
+  "sent_at": 1780082478618
+ },
+ {
+  "id": "MSG-00541",
+  "text": "Added a test for that case.",
+  "sent_at": 1780088478618
+ },
+ {
+  "id": "MSG-00542",
+  "text": "Rolled back rules-engine, investigating.",
+  "sent_at": 1780092498618
+ },
+ {
+  "id": "MSG-00543",
+  "text": "Can someone review my rules-engine PR today?",
+  "sent_at": 1780093398618
+ },
+ {
+  "id": "MSG-00544",
+  "text": "On it.",
+  "sent_at": 1780098918618
+ },
+ {
+  "id": "MSG-00545",
+  "text": "Is admin-console still on the old base image?",
+  "sent_at": 1791900677875
+ },
+ {
+  "id": "MSG-00546",
+  "text": "Agreed.",
+  "sent_at": 1791902777875
+ },
+ {
+  "id": "MSG-00547",
+  "text": "admin-console p99 looks better after the last deploy.",
+  "sent_at": 1791911777875
+ },
+ {
+  "id": "MSG-00548",
+  "text": "Bumping this.",
+  "sent_at": 1791919457875
+ },
+ {
+  "id": "MSG-00549",
+  "text": "Rolled back admin-console, investigating.",
+  "sent_at": 1791921557875
+ },
+ {
+  "id": "MSG-00550",
+  "text": "Opened a ticket for the admin-console alert noise.",
+  "sent_at": 1791923837875
+ },
+ {
+  "id": "MSG-00551",
+  "text": "Updated the doc.",
+  "sent_at": 1791925877875
+ },
+ {
+  "id": "MSG-00552",
+  "text": "Merged.",
+  "sent_at": 1791931517875
+ },
+ {
+  "id": "MSG-00553",
+  "text": "Bumping this.",
+  "sent_at": 1791940997875
+ },
+ {
+  "id": "MSG-00554",
+  "text": "admin-console p99 looks better after the last deploy.",
+  "sent_at": 1791949037875
+ },
+ {
+  "id": "MSG-00555",
+  "text": "LGTM.",
+  "sent_at": 1791956657875
+ },
+ {
+  "id": "MSG-00556",
+  "text": "Good catch.",
+  "sent_at": 1791966857875
+ },
+ {
+  "id": "MSG-00557",
+  "text": "Can someone review my admin-console PR today?",
+  "sent_at": 1791969857875
+ },
+ {
+  "id": "MSG-00558",
+  "text": "LGTM.",
+  "sent_at": 1791970517875
+ },
+ {
+  "id": "MSG-00559",
+  "text": "admin-console dashboards are updated.",
+  "sent_at": 1791977297875
+ },
+ {
+  "id": "MSG-00560",
+  "text": "Rolled back admin-console, investigating.",
+  "sent_at": 1791984197875
+ },
+ {
+  "id": "MSG-00561",
+  "text": "Can someone review my payouts-worker PR today?",
+  "sent_at": 1769142306211
+ },
+ {
+  "id": "MSG-00562",
+  "text": "Added a test for that case.",
+  "sent_at": 1769145186211
+ },
+ {
+  "id": "MSG-00563",
+  "text": "On it.",
+  "sent_at": 1769149446211
+ },
+ {
+  "id": "MSG-00564",
+  "text": "Thanks!",
+  "sent_at": 1769152806211
+ },
+ {
+  "id": "MSG-00565",
+  "text": "Anyone else seeing flaky tests in payouts-worker?",
+  "sent_at": 1769161686211
+ },
+ {
+  "id": "MSG-00566",
+  "text": "Bumping this.",
+  "sent_at": 1769169426211
+ },
+ {
+  "id": "MSG-00567",
+  "text": "Anyone else seeing flaky tests in payouts-worker?",
+  "sent_at": 1769169906211
+ },
+ {
+  "id": "MSG-00568",
+  "text": "Looking now.",
+  "sent_at": 1769175726211
+ },
+ {
+  "id": "MSG-00569",
+  "text": "payouts-worker dashboards are updated.",
+  "sent_at": 1769178186211
+ },
+ {
+  "id": "MSG-00570",
+  "text": "Merged.",
+  "sent_at": 1769185266211
+ },
+ {
+  "id": "MSG-00571",
+  "text": "Deploying payouts-worker to staging now.",
+  "sent_at": 1769195466211
+ },
+ {
+  "id": "MSG-00572",
+  "text": "Who owns the payouts-worker runbook these days?",
+  "sent_at": 1769202486211
+ },
+ {
+  "id": "MSG-00573",
+  "text": "Ship it.",
+  "sent_at": 1769205846211
+ },
+ {
+  "id": "MSG-00574",
+  "text": "Added a test for that case.",
+  "sent_at": 1769210886211
+ },
+ {
+  "id": "MSG-00575",
+  "text": "I'll pick this up after standup.",
+  "sent_at": 1769219406211
+ },
+ {
+  "id": "MSG-00576",
+  "text": "Can someone review my payouts-worker PR today?",
+  "sent_at": 1769225646211
+ },
+ {
+  "id": "MSG-I7-001",
+  "text": "Seeing duplicate payouts from ledger. Looks like the dedupe check was skipped on the batch path.",
+  "sent_at": 1764321120000
+ },
+ {
+  "id": "MSG-I7-002",
+  "text": "Confirmed: 312 duplicate payouts. Rolling back the change that removed the dedupe check.",
+  "sent_at": 1764322200000
+ },
+ {
+  "id": "MSG-I7-003",
+  "text": "Payouts paused, reconciliation running. Postmortem tomorrow.",
+  "sent_at": 1764324300000
+ },
+ {
+  "id": "MSG-LB-001",
+  "text": "codegen-bot is batching the ledger reconciliation refactor, a few PRs a week.",
+  "sent_at": 1789729800000
+ },
+ {
+  "id": "MSG-LB-002",
+  "text": "Approved the latest batch, LGTM.",
+  "sent_at": 1789729920000
+ },
+ {
+  "id": "MSG-PA-001",
+  "text": "Proposal: checkout-api calls payments-api synchronously, and payments-api calls fraud-svc inline before capture. We block fraud before money moves instead of clawing it back.",
+  "sent_at": 1769076840000
+ },
+ {
+  "id": "MSG-PA-002",
+  "text": "Agree. The latency budget is tight but fraud-svc p99 is about 80ms today. Let's write it up as an ADR.",
+  "sent_at": 1769077860000
+ },
+ {
+  "id": "MSG-PA-003",
+  "text": "Will the capture path also wait on rules-engine?",
+  "sent_at": 1769078700000
+ },
+ {
+  "id": "MSG-PA-004",
+  "text": "Only through fraud-svc. ADR-017 incoming.",
+  "sent_at": 1769079720000
+ },
+ {
+  "id": "MSG-RW-001",
+  "text": "If fraud-svc slows down, payments-api has no timeout on that call \u2014 this takes down checkout. Can we add a circuit breaker?",
+  "sent_at": 1773243720000
+ },
+ {
+  "id": "MSG-RW-002",
+  "text": "Good catch. Filed RISK-88 to track it.",
+  "sent_at": 1773245100000
+ },
+ {
+  "id": "MSG-RW-003",
+  "text": "+1, fraud-svc had two slow deploys last month.",
+  "sent_at": 1773246000000
+ },
+ {
+  "id": "MSG-SDK-001",
+  "text": "Starting the payments-api migration to the new payments SDK. PRs coming this week.",
+  "sent_at": 1785230400000
+ },
+ {
+  "id": "MSG-SDK-002",
+  "text": "Thanks Marco. I'll review the first ones before I leave.",
+  "sent_at": 1785231660000
+ },
+ {
+  "id": "MSG-SDK-003",
+  "text": "SDK migration is done for payments-api. The old client is removed.",
+  "sent_at": 1791478980000
+ }
+]

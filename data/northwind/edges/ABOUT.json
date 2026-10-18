@@ -1,0 +1,908 @@
+[
+ {
+  "src_label": "Ticket",
+  "src": "RISK-88",
+  "dst_label": "Service",
+  "dst": "payments-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-88",
+  "dst_label": "Service",
+  "dst": "fraud-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-20",
+  "dst_label": "Service",
+  "dst": "auth-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-20",
+  "dst_label": "Service",
+  "dst": "support-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "MOB-20",
+  "dst_label": "Service",
+  "dst": "mobile-bff"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-20",
+  "dst_label": "Service",
+  "dst": "warehouse-sync"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-21",
+  "dst_label": "Service",
+  "dst": "ml-features"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "MOB-21",
+  "dst_label": "Service",
+  "dst": "mobile-bff"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-21",
+  "dst_label": "Service",
+  "dst": "api-gateway"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-20",
+  "dst_label": "Service",
+  "dst": "payouts-worker"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-22",
+  "dst_label": "Service",
+  "dst": "auth-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-20",
+  "dst_label": "Service",
+  "dst": "email-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-21",
+  "dst_label": "Service",
+  "dst": "payouts-worker"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-22",
+  "dst_label": "Service",
+  "dst": "reporting-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-22",
+  "dst_label": "Service",
+  "dst": "payouts-worker"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-23",
+  "dst_label": "Service",
+  "dst": "ml-features"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-21",
+  "dst_label": "Service",
+  "dst": "notifications"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-20",
+  "dst_label": "Service",
+  "dst": "checkout-web"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-24",
+  "dst_label": "Service",
+  "dst": "warehouse-sync"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-21",
+  "dst_label": "Service",
+  "dst": "admin-console"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-20",
+  "dst_label": "Service",
+  "dst": "rules-engine"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-21",
+  "dst_label": "Service",
+  "dst": "checkout-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-22",
+  "dst_label": "Service",
+  "dst": "admin-console"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-23",
+  "dst_label": "Service",
+  "dst": "config-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-23",
+  "dst_label": "Service",
+  "dst": "admin-console"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-24",
+  "dst_label": "Service",
+  "dst": "admin-console"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-25",
+  "dst_label": "Service",
+  "dst": "ml-features"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-23",
+  "dst_label": "Service",
+  "dst": "payments-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-24",
+  "dst_label": "Service",
+  "dst": "payments-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-24",
+  "dst_label": "Service",
+  "dst": "api-gateway"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-25",
+  "dst_label": "Service",
+  "dst": "support-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "MOB-22",
+  "dst_label": "Service",
+  "dst": "mobile-bff"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-22",
+  "dst_label": "Service",
+  "dst": "notifications"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-21",
+  "dst_label": "Service",
+  "dst": "fraud-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-22",
+  "dst_label": "Service",
+  "dst": "checkout-web"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-23",
+  "dst_label": "Service",
+  "dst": "checkout-web"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-22",
+  "dst_label": "Service",
+  "dst": "fraud-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-25",
+  "dst_label": "Service",
+  "dst": "ledger"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-23",
+  "dst_label": "Service",
+  "dst": "kyc-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-25",
+  "dst_label": "Service",
+  "dst": "event-bus"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-26",
+  "dst_label": "Service",
+  "dst": "payouts-worker"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-24",
+  "dst_label": "Service",
+  "dst": "cart"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-23",
+  "dst_label": "Service",
+  "dst": "referrals"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-25",
+  "dst_label": "Service",
+  "dst": "checkout-web"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-26",
+  "dst_label": "Service",
+  "dst": "cart"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-26",
+  "dst_label": "Service",
+  "dst": "config-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-24",
+  "dst_label": "Service",
+  "dst": "kyc-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "MOB-23",
+  "dst_label": "Service",
+  "dst": "mobile-bff"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-27",
+  "dst_label": "Service",
+  "dst": "checkout-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-27",
+  "dst_label": "Service",
+  "dst": "payouts-worker"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-26",
+  "dst_label": "Service",
+  "dst": "admin-console"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-25",
+  "dst_label": "Service",
+  "dst": "kyc-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-27",
+  "dst_label": "Service",
+  "dst": "api-gateway"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-26",
+  "dst_label": "Service",
+  "dst": "fraud-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-27",
+  "dst_label": "Service",
+  "dst": "kyc-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-26",
+  "dst_label": "Service",
+  "dst": "ml-features"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-28",
+  "dst_label": "Service",
+  "dst": "ledger"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-28",
+  "dst_label": "Service",
+  "dst": "auth-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-29",
+  "dst_label": "Service",
+  "dst": "auth-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-27",
+  "dst_label": "Service",
+  "dst": "admin-console"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "MOB-24",
+  "dst_label": "Service",
+  "dst": "mobile-bff"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-28",
+  "dst_label": "Service",
+  "dst": "support-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-27",
+  "dst_label": "Service",
+  "dst": "reporting-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-28",
+  "dst_label": "Service",
+  "dst": "fraud-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-28",
+  "dst_label": "Service",
+  "dst": "ml-features"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-29",
+  "dst_label": "Service",
+  "dst": "ledger"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-30",
+  "dst_label": "Service",
+  "dst": "auth-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-31",
+  "dst_label": "Service",
+  "dst": "auth-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-29",
+  "dst_label": "Service",
+  "dst": "reporting-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "MOB-25",
+  "dst_label": "Service",
+  "dst": "mobile-bff"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-28",
+  "dst_label": "Service",
+  "dst": "checkout-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-32",
+  "dst_label": "Service",
+  "dst": "config-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-29",
+  "dst_label": "Service",
+  "dst": "rules-engine"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-30",
+  "dst_label": "Service",
+  "dst": "payouts-worker"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-31",
+  "dst_label": "Service",
+  "dst": "payments-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-30",
+  "dst_label": "Service",
+  "dst": "fraud-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-24",
+  "dst_label": "Service",
+  "dst": "referrals"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-31",
+  "dst_label": "Service",
+  "dst": "fraud-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-32",
+  "dst_label": "Service",
+  "dst": "rules-engine"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-25",
+  "dst_label": "Service",
+  "dst": "notifications"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-26",
+  "dst_label": "Service",
+  "dst": "email-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-33",
+  "dst_label": "Service",
+  "dst": "event-bus"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-29",
+  "dst_label": "Service",
+  "dst": "support-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-32",
+  "dst_label": "Service",
+  "dst": "payouts-worker"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-27",
+  "dst_label": "Service",
+  "dst": "referrals"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-30",
+  "dst_label": "Service",
+  "dst": "reporting-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-31",
+  "dst_label": "Service",
+  "dst": "reporting-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-29",
+  "dst_label": "Service",
+  "dst": "checkout-web"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-34",
+  "dst_label": "Service",
+  "dst": "auth-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-30",
+  "dst_label": "Service",
+  "dst": "checkout-web"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-31",
+  "dst_label": "Service",
+  "dst": "checkout-web"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-35",
+  "dst_label": "Service",
+  "dst": "api-gateway"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-36",
+  "dst_label": "Service",
+  "dst": "event-bus"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-28",
+  "dst_label": "Service",
+  "dst": "email-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-37",
+  "dst_label": "Service",
+  "dst": "event-bus"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-30",
+  "dst_label": "Service",
+  "dst": "admin-console"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-32",
+  "dst_label": "Service",
+  "dst": "reporting-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-33",
+  "dst_label": "Service",
+  "dst": "reporting-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-32",
+  "dst_label": "Service",
+  "dst": "checkout-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-29",
+  "dst_label": "Service",
+  "dst": "notifications"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-33",
+  "dst_label": "Service",
+  "dst": "checkout-web"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-38",
+  "dst_label": "Service",
+  "dst": "event-bus"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-33",
+  "dst_label": "Service",
+  "dst": "fraud-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-39",
+  "dst_label": "Service",
+  "dst": "auth-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-40",
+  "dst_label": "Service",
+  "dst": "config-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-30",
+  "dst_label": "Service",
+  "dst": "notifications"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-31",
+  "dst_label": "Service",
+  "dst": "notifications"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-33",
+  "dst_label": "Service",
+  "dst": "payments-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-34",
+  "dst_label": "Service",
+  "dst": "payments-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-32",
+  "dst_label": "Service",
+  "dst": "notifications"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-34",
+  "dst_label": "Service",
+  "dst": "checkout-web"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-35",
+  "dst_label": "Service",
+  "dst": "ledger"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-34",
+  "dst_label": "Service",
+  "dst": "warehouse-sync"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-33",
+  "dst_label": "Service",
+  "dst": "email-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-36",
+  "dst_label": "Service",
+  "dst": "payments-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-31",
+  "dst_label": "Service",
+  "dst": "support-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-34",
+  "dst_label": "Service",
+  "dst": "referrals"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-35",
+  "dst_label": "Service",
+  "dst": "reporting-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-41",
+  "dst_label": "Service",
+  "dst": "event-bus"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-32",
+  "dst_label": "Service",
+  "dst": "admin-console"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "MOB-26",
+  "dst_label": "Service",
+  "dst": "mobile-bff"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-37",
+  "dst_label": "Service",
+  "dst": "payouts-worker"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "MOB-27",
+  "dst_label": "Service",
+  "dst": "mobile-bff"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-42",
+  "dst_label": "Service",
+  "dst": "auth-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-35",
+  "dst_label": "Service",
+  "dst": "email-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-38",
+  "dst_label": "Service",
+  "dst": "payments-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-35",
+  "dst_label": "Service",
+  "dst": "cart"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-36",
+  "dst_label": "Service",
+  "dst": "email-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "CHK-36",
+  "dst_label": "Service",
+  "dst": "cart"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-36",
+  "dst_label": "Service",
+  "dst": "ml-features"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-37",
+  "dst_label": "Service",
+  "dst": "notifications"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-37",
+  "dst_label": "Service",
+  "dst": "warehouse-sync"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-34",
+  "dst_label": "Service",
+  "dst": "rules-engine"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-38",
+  "dst_label": "Service",
+  "dst": "ml-features"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-33",
+  "dst_label": "Service",
+  "dst": "support-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-43",
+  "dst_label": "Service",
+  "dst": "config-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-34",
+  "dst_label": "Service",
+  "dst": "support-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-38",
+  "dst_label": "Service",
+  "dst": "email-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "MOB-28",
+  "dst_label": "Service",
+  "dst": "mobile-bff"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "GRW-39",
+  "dst_label": "Service",
+  "dst": "referrals"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-39",
+  "dst_label": "Service",
+  "dst": "ledger"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-40",
+  "dst_label": "Service",
+  "dst": "payouts-worker"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-44",
+  "dst_label": "Service",
+  "dst": "config-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-45",
+  "dst_label": "Service",
+  "dst": "config-svc"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-35",
+  "dst_label": "Service",
+  "dst": "rules-engine"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-41",
+  "dst_label": "Service",
+  "dst": "payments-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "RISK-36",
+  "dst_label": "Service",
+  "dst": "rules-engine"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "DATA-39",
+  "dst_label": "Service",
+  "dst": "ml-features"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PAY-42",
+  "dst_label": "Service",
+  "dst": "ledger"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "SUP-35",
+  "dst_label": "Service",
+  "dst": "support-api"
+ },
+ {
+  "src_label": "Ticket",
+  "src": "PLAT-46",
+  "dst_label": "Service",
+  "dst": "config-svc"
+ }
+]

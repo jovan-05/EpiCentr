@@ -1,0 +1,134 @@
+[
+ {
+  "name": "admin-console",
+  "tier": 3,
+  "status": "up",
+  "description": "Internal admin UI for support agents."
+ },
+ {
+  "name": "api-gateway",
+  "tier": 1,
+  "status": "up",
+  "description": "Public edge; routes and rate-limits every request."
+ },
+ {
+  "name": "auth-svc",
+  "tier": 1,
+  "status": "up",
+  "description": "Sessions, tokens and service-to-service auth."
+ },
+ {
+  "name": "cart",
+  "tier": 2,
+  "status": "up",
+  "description": "Shopping cart state."
+ },
+ {
+  "name": "checkout-api",
+  "tier": 1,
+  "status": "up",
+  "description": "Orchestrates an order from cart to payment."
+ },
+ {
+  "name": "checkout-web",
+  "tier": 1,
+  "status": "up",
+  "description": "Customer-facing checkout pages."
+ },
+ {
+  "name": "config-svc",
+  "tier": 3,
+  "status": "up",
+  "description": "Feature flags and runtime configuration."
+ },
+ {
+  "name": "email-svc",
+  "tier": 3,
+  "status": "up",
+  "description": "Transactional email."
+ },
+ {
+  "name": "event-bus",
+  "tier": 2,
+  "status": "up",
+  "description": "Internal event streaming."
+ },
+ {
+  "name": "fraud-svc",
+  "tier": 1,
+  "status": "up",
+  "description": "Scores each payment for fraud before capture."
+ },
+ {
+  "name": "kyc-svc",
+  "tier": 2,
+  "status": "up",
+  "description": "Know-your-customer document checks."
+ },
+ {
+  "name": "ledger",
+  "tier": 1,
+  "status": "up",
+  "description": "Double-entry ledger for every money movement and payout."
+ },
+ {
+  "name": "ml-features",
+  "tier": 3,
+  "status": "up",
+  "description": "Feature store for the fraud models."
+ },
+ {
+  "name": "mobile-bff",
+  "tier": 2,
+  "status": "up",
+  "description": "Backend-for-frontend for the mobile apps."
+ },
+ {
+  "name": "notifications",
+  "tier": 2,
+  "status": "up",
+  "description": "Push and in-app notifications."
+ },
+ {
+  "name": "payments-api",
+  "tier": 1,
+  "status": "up",
+  "description": "Authorises and captures card payments."
+ },
+ {
+  "name": "payouts-worker",
+  "tier": 2,
+  "status": "up",
+  "description": "Batches and sends merchant payouts."
+ },
+ {
+  "name": "referrals",
+  "tier": 3,
+  "status": "up",
+  "description": "Referral codes and rewards."
+ },
+ {
+  "name": "reporting-api",
+  "tier": 3,
+  "status": "up",
+  "description": "Finance and ops reports."
+ },
+ {
+  "name": "rules-engine",
+  "tier": 2,
+  "status": "up",
+  "description": "Evaluates hand-written risk rules."
+ },
+ {
+  "name": "support-api",
+  "tier": 2,
+  "status": "up",
+  "description": "Refunds, disputes and account lookups."
+ },
+ {
+  "name": "warehouse-sync",
+  "tier": 3,
+  "status": "up",
+  "description": "Copies events into the warehouse."
+ }
+]

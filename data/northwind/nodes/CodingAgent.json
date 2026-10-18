@@ -1,0 +1,14 @@
+[
+ {
+  "name": "codegen-bot",
+  "vendor": "generic"
+ },
+ {
+  "name": "refactor-bot",
+  "vendor": "generic"
+ },
+ {
+  "name": "test-bot",
+  "vendor": "generic"
+ }
+]

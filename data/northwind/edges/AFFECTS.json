@@ -1,0 +1,194 @@
+[
+ {
+  "src_label": "Decision",
+  "src": "ADR-009",
+  "dst_label": "Service",
+  "dst": "ledger"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-009",
+  "dst_label": "Service",
+  "dst": "payouts-worker"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-017",
+  "dst_label": "Service",
+  "dst": "payments-api"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-017",
+  "dst_label": "Service",
+  "dst": "checkout-api"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-017",
+  "dst_label": "Service",
+  "dst": "fraud-svc"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-003",
+  "dst_label": "Service",
+  "dst": "api-gateway"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-004",
+  "dst_label": "Service",
+  "dst": "auth-svc"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-005",
+  "dst_label": "Service",
+  "dst": "config-svc"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-006",
+  "dst_label": "Service",
+  "dst": "warehouse-sync"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-008",
+  "dst_label": "Service",
+  "dst": "cart"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-010",
+  "dst_label": "Service",
+  "dst": "rules-engine"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-010",
+  "dst_label": "Service",
+  "dst": "fraud-svc"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-011",
+  "dst_label": "Service",
+  "dst": "kyc-svc"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-012",
+  "dst_label": "Service",
+  "dst": "mobile-bff"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-013",
+  "dst_label": "Service",
+  "dst": "email-svc"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-013",
+  "dst_label": "Service",
+  "dst": "notifications"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-014",
+  "dst_label": "Service",
+  "dst": "event-bus"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-015",
+  "dst_label": "Service",
+  "dst": "support-api"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-015",
+  "dst_label": "Service",
+  "dst": "admin-console"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-016",
+  "dst_label": "Service",
+  "dst": "referrals"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-018",
+  "dst_label": "Service",
+  "dst": "api-gateway"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-019",
+  "dst_label": "Service",
+  "dst": "ml-features"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-020",
+  "dst_label": "Service",
+  "dst": "payouts-worker"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-021",
+  "dst_label": "Service",
+  "dst": "auth-svc"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-022",
+  "dst_label": "Service",
+  "dst": "warehouse-sync"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-022",
+  "dst_label": "Service",
+  "dst": "reporting-api"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-023",
+  "dst_label": "Service",
+  "dst": "notifications"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-024",
+  "dst_label": "Service",
+  "dst": "checkout-web"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-025",
+  "dst_label": "Service",
+  "dst": "admin-console"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-026",
+  "dst_label": "Service",
+  "dst": "reporting-api"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-027",
+  "dst_label": "Service",
+  "dst": "cart"
+ },
+ {
+  "src_label": "Decision",
+  "src": "ADR-027",
+  "dst_label": "Service",
+  "dst": "checkout-api"
+ }
+]

@@ -1,0 +1,2978 @@
+[
+ {
+  "id": "PR-4047",
+  "title": "Add capture retries",
+  "merged_at": 1715353200000,
+  "lines": 88,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4048",
+  "title": "Double-entry posting",
+  "merged_at": 1722517200000,
+  "lines": 215,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4049",
+  "title": "Balance snapshot job",
+  "merged_at": 1725048000000,
+  "lines": 356,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4050",
+  "title": "Payout journal",
+  "merged_at": 1727578800000,
+  "lines": 412,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4051",
+  "title": "Speed up template rendering",
+  "merged_at": 1729184385452,
+  "lines": 218,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4052",
+  "title": "Refactor decision logging",
+  "merged_at": 1729372870103,
+  "lines": 185,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4053",
+  "title": "Handle errors in point-in-time joins",
+  "merged_at": 1729416550683,
+  "lines": 387,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4054",
+  "title": "Rework dispute lookup",
+  "merged_at": 1729691755566,
+  "lines": 355,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4055",
+  "title": "Reconciliation report",
+  "merged_at": 1730109600000,
+  "lines": 141,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4056",
+  "title": "Add tests for analyst UI hooks",
+  "merged_at": 1730708625654,
+  "lines": 473,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4057",
+  "title": "Add tests for analyst UI hooks",
+  "merged_at": 1731209847876,
+  "lines": 120,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4058",
+  "title": "Add dedupe of pushes",
+  "merged_at": 1731357037950,
+  "lines": 236,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4059",
+  "title": "Speed up rule metrics",
+  "merged_at": 1731495219429,
+  "lines": 143,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4060",
+  "title": "Improve document upload",
+  "merged_at": 1731689339811,
+  "lines": 341,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4061",
+  "title": "Clean up cart merge",
+  "merged_at": 1731690153426,
+  "lines": 29,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4062",
+  "title": "Handle errors in consumer lag alerts",
+  "merged_at": 1731712337832,
+  "lines": 446,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4063",
+  "title": "Tidy refund path",
+  "merged_at": 1732114800000,
+  "lines": 95,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4064",
+  "title": "Handle errors in token refresh",
+  "merged_at": 1732145579868,
+  "lines": 334,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4065",
+  "title": "Idempotency key table",
+  "merged_at": 1732640400000,
+  "lines": 90,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4066",
+  "title": "Clean up point-in-time joins",
+  "merged_at": 1732672048805,
+  "lines": 76,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4067",
+  "title": "Add tests for SSO login",
+  "merged_at": 1732879346181,
+  "lines": 486,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4068",
+  "title": "Speed up rate limiter",
+  "merged_at": 1733118394616,
+  "lines": 150,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4069",
+  "title": "Add metrics for bank file export",
+  "merged_at": 1733261111955,
+  "lines": 408,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4070",
+  "title": "Add promo codes",
+  "merged_at": 1733303962538,
+  "lines": 89,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4071",
+  "title": "Clean up document upload",
+  "merged_at": 1733674393102,
+  "lines": 101,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4072",
+  "title": "Refactor feature snapshots",
+  "merged_at": 1733948023858,
+  "lines": 135,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4073",
+  "title": "Simplify promo codes",
+  "merged_at": 1733984263724,
+  "lines": 363,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4074",
+  "title": "Fix payout status sync",
+  "merged_at": 1734080590120,
+  "lines": 73,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4075",
+  "title": "Simplify replay tooling",
+  "merged_at": 1734675114888,
+  "lines": 69,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4076",
+  "title": "Account freeze flag",
+  "merged_at": 1735171200000,
+  "lines": 116,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4077",
+  "title": "Handle errors in feature fetch",
+  "merged_at": 1735442082719,
+  "lines": 312,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4078",
+  "title": "Clean up SDK client",
+  "merged_at": 1735568532150,
+  "lines": 179,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4079",
+  "title": "Refactor velocity features",
+  "merged_at": 1736482546337,
+  "lines": 442,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4080",
+  "title": "Refactor late event handling",
+  "merged_at": 1736613547787,
+  "lines": 95,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4081",
+  "title": "Fix rule metrics",
+  "merged_at": 1737000472078,
+  "lines": 449,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4082",
+  "title": "Fix header filtering",
+  "merged_at": 1737062525464,
+  "lines": 57,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4083",
+  "title": "Improve feature fetch",
+  "merged_at": 1737136676659,
+  "lines": 142,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4084",
+  "title": "Improve config schema",
+  "merged_at": 1737389509986,
+  "lines": 505,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4085",
+  "title": "Refactor session revoke",
+  "merged_at": 1737642392889,
+  "lines": 117,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4086",
+  "title": "FX journal entries",
+  "merged_at": 1737702000000,
+  "lines": 249,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4087",
+  "title": "Rework replay tooling",
+  "merged_at": 1738805146710,
+  "lines": 73,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4088",
+  "title": "Add metrics for SSO login",
+  "merged_at": 1738921352413,
+  "lines": 371,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4089",
+  "title": "Refactor late event handling",
+  "merged_at": 1739193128640,
+  "lines": 196,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4090",
+  "title": "Refactor item limits",
+  "merged_at": 1740127619884,
+  "lines": 198,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4091",
+  "title": "Ledger audit log",
+  "merged_at": 1740232800000,
+  "lines": 328,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4092",
+  "title": "Add metrics for payout status sync",
+  "merged_at": 1740277740747,
+  "lines": 146,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4093",
+  "title": "Clean up referral codes",
+  "merged_at": 1740617522884,
+  "lines": 231,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4094",
+  "title": "Speed up delivery receipts",
+  "merged_at": 1740677753900,
+  "lines": 155,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4095",
+  "title": "Speed up stream checkpoints",
+  "merged_at": 1740827176243,
+  "lines": 397,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4096",
+  "title": "Add delivery receipts",
+  "merged_at": 1741043369840,
+  "lines": 27,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4097",
+  "title": "Log decline reasons",
+  "merged_at": 1741100400000,
+  "lines": 168,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4098",
+  "title": "Fix auth refresh",
+  "merged_at": 1741130403344,
+  "lines": 319,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4099",
+  "title": "Refactor checkout screen",
+  "merged_at": 1741135005161,
+  "lines": 227,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4100",
+  "title": "Add score caching",
+  "merged_at": 1741292019578,
+  "lines": 239,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4101",
+  "title": "Add tests for auth refresh",
+  "merged_at": 1741354348398,
+  "lines": 86,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4102",
+  "title": "Add metrics for checkout screen",
+  "merged_at": 1741660391131,
+  "lines": 186,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4103",
+  "title": "Refactor promo codes",
+  "merged_at": 1741690548703,
+  "lines": 156,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4104",
+  "title": "Rework MFA flow",
+  "merged_at": 1741797937685,
+  "lines": 200,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4105",
+  "title": "Simplify training export",
+  "merged_at": 1742027243142,
+  "lines": 168,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4106",
+  "title": "Double-entry posting",
+  "merged_at": 1742763600000,
+  "lines": 372,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4107",
+  "title": "Clean up item limits",
+  "merged_at": 1742811135747,
+  "lines": 423,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4108",
+  "title": "Clean up rule versioning",
+  "merged_at": 1743196784897,
+  "lines": 395,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4109",
+  "title": "Refactor rate limiter",
+  "merged_at": 1743425990886,
+  "lines": 428,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4110",
+  "title": "Capture flow cleanup",
+  "merged_at": 1743516000000,
+  "lines": 348,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4111",
+  "title": "Refactor rule parser",
+  "merged_at": 1743683490883,
+  "lines": 338,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4112",
+  "title": "Improve feature snapshots",
+  "merged_at": 1744236072801,
+  "lines": 168,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4113",
+  "title": "Simplify push templates",
+  "merged_at": 1744582925106,
+  "lines": 116,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4114",
+  "title": "Improve delivery receipts",
+  "merged_at": 1744602625323,
+  "lines": 369,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4115",
+  "title": "Clean up customer search",
+  "merged_at": 1744985383752,
+  "lines": 201,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4116",
+  "title": "Refactor checkout screen",
+  "merged_at": 1745265402508,
+  "lines": 548,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4117",
+  "title": "Simplify session expiry",
+  "merged_at": 1745279292552,
+  "lines": 37,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4118",
+  "title": "Balance snapshot job",
+  "merged_at": 1745294400000,
+  "lines": 288,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4119",
+  "title": "Add home screen payload",
+  "merged_at": 1745341814701,
+  "lines": 159,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4120",
+  "title": "Handle errors in price refresh",
+  "merged_at": 1745633404839,
+  "lines": 233,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4121",
+  "title": "Refund idempotency",
+  "merged_at": 1745653263157,
+  "lines": 372,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4122",
+  "title": "Refactor token refresh",
+  "merged_at": 1745704367507,
+  "lines": 351,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4123",
+  "title": "Add tests for payment form",
+  "merged_at": 1745829873474,
+  "lines": 466,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4124",
+  "title": "Speed up payout batching",
+  "merged_at": 1746109588429,
+  "lines": 84,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4125",
+  "title": "Clean up replica routing",
+  "merged_at": 1746259266978,
+  "lines": 100,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4126",
+  "title": "Add metrics for backfill job",
+  "merged_at": 1746351951881,
+  "lines": 390,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4127",
+  "title": "Handle errors in schema registry",
+  "merged_at": 1746727849814,
+  "lines": 222,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4128",
+  "title": "Speed up header filtering",
+  "merged_at": 1747715125455,
+  "lines": 449,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4129",
+  "title": "Clean up error banner",
+  "merged_at": 1747754796816,
+  "lines": 530,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4130",
+  "title": "3DS challenge handling",
+  "merged_at": 1747790526315,
+  "lines": 43,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4131",
+  "title": "Clean up analyst UI hooks",
+  "merged_at": 1747818462419,
+  "lines": 370,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4132",
+  "title": "Payout journal",
+  "merged_at": 1747825200000,
+  "lines": 300,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4133",
+  "title": "Refactor checkout screen",
+  "merged_at": 1748002098120,
+  "lines": 510,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4134",
+  "title": "Simplify payment intent call",
+  "merged_at": 1748136489734,
+  "lines": 212,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4135",
+  "title": "Refactor decision logging",
+  "merged_at": 1748459347446,
+  "lines": 330,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4136",
+  "title": "Add feature fetch",
+  "merged_at": 1748894664427,
+  "lines": 70,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4137",
+  "title": "Add tests for report cache",
+  "merged_at": 1748996764972,
+  "lines": 300,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4138",
+  "title": "Add token refresh",
+  "merged_at": 1749079503634,
+  "lines": 166,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4139",
+  "title": "Speed up refund screen",
+  "merged_at": 1749187617019,
+  "lines": 511,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4140",
+  "title": "Refactor feature snapshots",
+  "merged_at": 1749218607385,
+  "lines": 427,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4141",
+  "title": "Clean up retention job",
+  "merged_at": 1749570570690,
+  "lines": 70,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4142",
+  "title": "Add TLS config",
+  "merged_at": 1749601217926,
+  "lines": 274,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4143",
+  "title": "Partial captures",
+  "merged_at": 1749927789473,
+  "lines": 214,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4144",
+  "title": "Speed up session revoke",
+  "merged_at": 1750200230634,
+  "lines": 340,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4145",
+  "title": "Reconciliation report",
+  "merged_at": 1750356000000,
+  "lines": 107,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4146",
+  "title": "Add decision logging",
+  "merged_at": 1750476603259,
+  "lines": 152,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4147",
+  "title": "Handle errors in promo codes",
+  "merged_at": 1750621115302,
+  "lines": 407,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4148",
+  "title": "Improve payment intent call",
+  "merged_at": 1750745026162,
+  "lines": 433,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4149",
+  "title": "Simplify tax lookup",
+  "merged_at": 1750925017047,
+  "lines": 172,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4150",
+  "title": "Rework header filtering",
+  "merged_at": 1751174917148,
+  "lines": 209,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4151",
+  "title": "Simplify replay tooling",
+  "merged_at": 1751267885538,
+  "lines": 101,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4152",
+  "title": "Fix token refresh",
+  "merged_at": 1751524269009,
+  "lines": 38,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4153",
+  "title": "Simplify request logging",
+  "merged_at": 1751712898546,
+  "lines": 420,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4154",
+  "title": "Speed up checkout screen",
+  "merged_at": 1751825396907,
+  "lines": 359,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4155",
+  "title": "Currency rounding",
+  "merged_at": 1752065052631,
+  "lines": 212,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4156",
+  "title": "Add metrics for customer search",
+  "merged_at": 1752452825642,
+  "lines": 27,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4157",
+  "title": "Speed up decision logging",
+  "merged_at": 1752555378305,
+  "lines": 59,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4158",
+  "title": "Simplify header filtering",
+  "merged_at": 1752619226925,
+  "lines": 127,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4159",
+  "title": "Idempotency key table",
+  "merged_at": 1752886800000,
+  "lines": 253,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4160",
+  "title": "Rework order summary",
+  "merged_at": 1753311558313,
+  "lines": 287,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4161",
+  "title": "Add metrics for flag cache",
+  "merged_at": 1753364822714,
+  "lines": 443,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4162",
+  "title": "Speed up rule versioning",
+  "merged_at": 1753497206643,
+  "lines": 132,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4163",
+  "title": "Fix login throttling",
+  "merged_at": 1753713656937,
+  "lines": 315,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4164",
+  "title": "Simplify backfill job",
+  "merged_at": 1753736126849,
+  "lines": 437,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4165",
+  "title": "Settlement report hook",
+  "merged_at": 1754202315789,
+  "lines": 89,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4166",
+  "title": "Improve promo codes",
+  "merged_at": 1754615382768,
+  "lines": 185,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4167",
+  "title": "Add tests for TLS config",
+  "merged_at": 1754818762968,
+  "lines": 535,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4168",
+  "title": "Speed up referral codes",
+  "merged_at": 1754904055637,
+  "lines": 317,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4169",
+  "title": "Add push templates",
+  "merged_at": 1755191046142,
+  "lines": 410,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4170",
+  "title": "Account freeze flag",
+  "merged_at": 1755417600000,
+  "lines": 354,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4171",
+  "title": "Speed up address step",
+  "merged_at": 1755601637509,
+  "lines": 77,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4172",
+  "title": "Improve month-end report",
+  "merged_at": 1755618364418,
+  "lines": 342,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4173",
+  "title": "Speed up refund screen",
+  "merged_at": 1755850166196,
+  "lines": 201,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4174",
+  "title": "Card token refresh",
+  "merged_at": 1756339578947,
+  "lines": 103,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4175",
+  "title": "Speed up replica routing",
+  "merged_at": 1756694844375,
+  "lines": 350,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4176",
+  "title": "Add tests for velocity features",
+  "merged_at": 1756761797844,
+  "lines": 232,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4177",
+  "title": "Refactor template rendering",
+  "merged_at": 1756868913015,
+  "lines": 270,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4178",
+  "title": "Improve push templates",
+  "merged_at": 1756880163399,
+  "lines": 68,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4179",
+  "title": "Improve late event handling",
+  "merged_at": 1757498349475,
+  "lines": 177,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4180",
+  "title": "Simplify replica routing",
+  "merged_at": 1757833669442,
+  "lines": 329,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4181",
+  "title": "Improve abuse checks",
+  "merged_at": 1757850239565,
+  "lines": 407,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4182",
+  "title": "FX journal entries",
+  "merged_at": 1757948400000,
+  "lines": 222,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4183",
+  "title": "Speed up consumer lag alerts",
+  "merged_at": 1758046837051,
+  "lines": 239,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4184",
+  "title": "Add rule parser",
+  "merged_at": 1758056295701,
+  "lines": 210,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4185",
+  "title": "Handle errors in payment form",
+  "merged_at": 1758152144521,
+  "lines": 414,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4186",
+  "title": "Add tests for replay tooling",
+  "merged_at": 1758208497647,
+  "lines": 314,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4187",
+  "title": "Fix payment intent call",
+  "merged_at": 1758305191079,
+  "lines": 127,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4188",
+  "title": "Payment state machine",
+  "merged_at": 1758476842105,
+  "lines": 190,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4189",
+  "title": "Fix SSR hydration",
+  "merged_at": 1758678625086,
+  "lines": 320,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4190",
+  "title": "Speed up dedupe of pushes",
+  "merged_at": 1758864131479,
+  "lines": 524,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4191",
+  "title": "Add bank file export",
+  "merged_at": 1758954615123,
+  "lines": 120,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4192",
+  "title": "Add flag audit log",
+  "merged_at": 1758994390274,
+  "lines": 226,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4193",
+  "title": "Add checkout screen",
+  "merged_at": 1759058800275,
+  "lines": 385,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4194",
+  "title": "Add metrics for abuse checks",
+  "merged_at": 1759093390339,
+  "lines": 255,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4195",
+  "title": "Clean up backfill job",
+  "merged_at": 1759741927193,
+  "lines": 347,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4196",
+  "title": "Add metrics for month-end report",
+  "merged_at": 1759819010028,
+  "lines": 282,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4197",
+  "title": "Simplify decision logging",
+  "merged_at": 1759876343602,
+  "lines": 321,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4198",
+  "title": "Rework item limits",
+  "merged_at": 1760027553228,
+  "lines": 203,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4199",
+  "title": "Add tests for template rendering",
+  "merged_at": 1760278281967,
+  "lines": 268,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4200",
+  "title": "Ledger audit log",
+  "merged_at": 1760479200000,
+  "lines": 361,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4201",
+  "title": "Decline code mapping",
+  "merged_at": 1760614105263,
+  "lines": 335,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4202",
+  "title": "Add metrics for order validation",
+  "merged_at": 1760968760787,
+  "lines": 251,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4203",
+  "title": "Handle errors in SSR hydration",
+  "merged_at": 1761149082202,
+  "lines": 80,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4204",
+  "title": "Add metrics for order summary",
+  "merged_at": 1761182448424,
+  "lines": 167,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4205",
+  "title": "Refactor cart merge",
+  "merged_at": 1761368980432,
+  "lines": 110,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4206",
+  "title": "Clean up feature snapshots",
+  "merged_at": 1761469416587,
+  "lines": 416,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4207",
+  "title": "Improve order summary",
+  "merged_at": 1761521667717,
+  "lines": 30,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4208",
+  "title": "Improve request logging",
+  "merged_at": 1761669999628,
+  "lines": 390,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4209",
+  "title": "Refactor SSO login",
+  "merged_at": 1761769943787,
+  "lines": 492,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4210",
+  "title": "Fix payout status sync",
+  "merged_at": 1761973801748,
+  "lines": 297,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4211",
+  "title": "Rework tax lookup",
+  "merged_at": 1761992289081,
+  "lines": 52,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4212",
+  "title": "Simplify checkout screen",
+  "merged_at": 1762019268462,
+  "lines": 212,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4213",
+  "title": "Handle errors in velocity features",
+  "merged_at": 1762040577981,
+  "lines": 260,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4214",
+  "title": "Add MFA flow",
+  "merged_at": 1762342728844,
+  "lines": 135,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4215",
+  "title": "Add backfill job",
+  "merged_at": 1762558121567,
+  "lines": 253,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4216",
+  "title": "Webhook signatures",
+  "merged_at": 1762751368421,
+  "lines": 378,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4217",
+  "title": "Double-entry posting",
+  "merged_at": 1763010000000,
+  "lines": 127,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4218",
+  "title": "Improve order validation",
+  "merged_at": 1763211052136,
+  "lines": 580,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4219",
+  "title": "Add session expiry",
+  "merged_at": 1763987033260,
+  "lines": 126,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4220",
+  "title": "Refactor payment intent call",
+  "merged_at": 1764164796577,
+  "lines": 401,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4221",
+  "title": "Handle errors in dedupe of pushes",
+  "merged_at": 1764172033111,
+  "lines": 379,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4222",
+  "title": "Add tests for velocity features",
+  "merged_at": 1764182143200,
+  "lines": 119,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4223",
+  "title": "Refactor order validation",
+  "merged_at": 1764727177706,
+  "lines": 579,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4224",
+  "title": "Capture flow cleanup",
+  "merged_at": 1764888631578,
+  "lines": 91,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4225",
+  "title": "Clean up decision logging",
+  "merged_at": 1764936630248,
+  "lines": 144,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4226",
+  "title": "Add metrics for cart merge",
+  "merged_at": 1765183107135,
+  "lines": 105,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4227",
+  "title": "Balance snapshot job",
+  "merged_at": 1765540800000,
+  "lines": 326,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4228",
+  "title": "Add metrics for request logging",
+  "merged_at": 1765717062287,
+  "lines": 396,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4229",
+  "title": "Add tests for velocity checks",
+  "merged_at": 1766549043352,
+  "lines": 336,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4230",
+  "title": "Clean up audit view",
+  "merged_at": 1766618811626,
+  "lines": 161,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4231",
+  "title": "Refund idempotency",
+  "merged_at": 1767025894736,
+  "lines": 365,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4232",
+  "title": "Add order validation",
+  "merged_at": 1767658753909,
+  "lines": 160,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4233",
+  "title": "Fix velocity checks",
+  "merged_at": 1767739759848,
+  "lines": 449,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4234",
+  "title": "Clean up unsubscribe links",
+  "merged_at": 1767745778870,
+  "lines": 93,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4235",
+  "title": "Speed up feature fetch",
+  "merged_at": 1767844846373,
+  "lines": 423,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4236",
+  "title": "Add tests for MFA flow",
+  "merged_at": 1767890411059,
+  "lines": 464,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4237",
+  "title": "Add key rotation",
+  "merged_at": 1768034647572,
+  "lines": 29,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4238",
+  "title": "Payout journal",
+  "merged_at": 1768071600000,
+  "lines": 274,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4239",
+  "title": "Refactor request logging",
+  "merged_at": 1768498450998,
+  "lines": 429,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4240",
+  "title": "Handle errors in dedupe of pushes",
+  "merged_at": 1768506818149,
+  "lines": 302,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4241",
+  "title": "Refactor bounce handling",
+  "merged_at": 1768697523773,
+  "lines": 368,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4242",
+  "title": "Handle errors in analyst UI hooks",
+  "merged_at": 1768983219152,
+  "lines": 222,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4243",
+  "title": "3DS challenge handling",
+  "merged_at": 1769163157894,
+  "lines": 221,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4244",
+  "title": "Improve login throttling",
+  "merged_at": 1769293683717,
+  "lines": 104,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4245",
+  "title": "Add price refresh",
+  "merged_at": 1769335747209,
+  "lines": 421,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4246",
+  "title": "Add template rendering",
+  "merged_at": 1769374716580,
+  "lines": 134,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4247",
+  "title": "Improve liveness check",
+  "merged_at": 1769386941452,
+  "lines": 379,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4248",
+  "title": "Refactor cart handoff",
+  "merged_at": 1769872104896,
+  "lines": 93,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4249",
+  "title": "Add metrics for bank file export",
+  "merged_at": 1770018378500,
+  "lines": 62,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4250",
+  "title": "Refactor consumer lag alerts",
+  "merged_at": 1770572734969,
+  "lines": 338,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4251",
+  "title": "Reconciliation report",
+  "merged_at": 1770602400000,
+  "lines": 226,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4252",
+  "title": "Rework cart merge",
+  "merged_at": 1771151034312,
+  "lines": 169,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4253",
+  "title": "Improve address step",
+  "merged_at": 1771235617025,
+  "lines": 102,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4254",
+  "title": "Add tests for document upload",
+  "merged_at": 1771271148627,
+  "lines": 516,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4255",
+  "title": "Rework late event handling",
+  "merged_at": 1771285684969,
+  "lines": 116,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4256",
+  "title": "Partial captures",
+  "merged_at": 1771300421052,
+  "lines": 313,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4257",
+  "title": "Add metrics for late event handling",
+  "merged_at": 1771570134158,
+  "lines": 343,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4258",
+  "title": "Simplify MFA flow",
+  "merged_at": 1771708047126,
+  "lines": 60,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4259",
+  "title": "Refactor training export",
+  "merged_at": 1772148731203,
+  "lines": 207,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4260",
+  "title": "Add tests for payout batching",
+  "merged_at": 1772267829565,
+  "lines": 591,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4261",
+  "title": "Clean up dispute lookup",
+  "merged_at": 1772615300168,
+  "lines": 202,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4262",
+  "title": "Add tests for config schema",
+  "merged_at": 1772735487550,
+  "lines": 337,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4263",
+  "title": "Rework flag audit log",
+  "merged_at": 1772782502124,
+  "lines": 371,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4264",
+  "title": "Improve feature freshness",
+  "merged_at": 1772853205526,
+  "lines": 189,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4265",
+  "title": "Idempotency key table",
+  "merged_at": 1773133200000,
+  "lines": 177,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4266",
+  "title": "Add tests for MFA flow",
+  "merged_at": 1773177031656,
+  "lines": 554,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4267",
+  "title": "Refactor analyst UI hooks",
+  "merged_at": 1773281945782,
+  "lines": 421,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4268",
+  "title": "Simplify refund flow",
+  "merged_at": 1773419755755,
+  "lines": 168,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4269",
+  "title": "Currency rounding",
+  "merged_at": 1773437684210,
+  "lines": 276,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4270",
+  "title": "Rework account notes",
+  "merged_at": 1773548052130,
+  "lines": 105,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4271",
+  "title": "Add metrics for order summary",
+  "merged_at": 1773572231952,
+  "lines": 273,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4272",
+  "title": "Refactor bank file export",
+  "merged_at": 1773603131772,
+  "lines": 348,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4273",
+  "title": "Fix point-in-time joins",
+  "merged_at": 1773684372915,
+  "lines": 92,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4274",
+  "title": "Handle errors in order summary",
+  "merged_at": 1773723612716,
+  "lines": 390,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4275",
+  "title": "Simplify token refresh",
+  "merged_at": 1773913967627,
+  "lines": 381,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4276",
+  "title": "Improve retry schedule",
+  "merged_at": 1774054790951,
+  "lines": 112,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4277",
+  "title": "Handle errors in config schema",
+  "merged_at": 1774074447844,
+  "lines": 419,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4278",
+  "title": "Rework feature snapshots",
+  "merged_at": 1774122315560,
+  "lines": 415,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4279",
+  "title": "Add tests for retention job",
+  "merged_at": 1774308921874,
+  "lines": 145,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4280",
+  "title": "Add tests for config schema",
+  "merged_at": 1774837722248,
+  "lines": 247,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4281",
+  "title": "Add tests for MFA flow",
+  "merged_at": 1774850202775,
+  "lines": 284,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4282",
+  "title": "Add tests for payout batching",
+  "merged_at": 1774911782881,
+  "lines": 138,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4283",
+  "title": "Handle errors in item limits",
+  "merged_at": 1775046643092,
+  "lines": 293,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4284",
+  "title": "Add metrics for key rotation",
+  "merged_at": 1775148946483,
+  "lines": 368,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4285",
+  "title": "Handle errors in training export",
+  "merged_at": 1775149761459,
+  "lines": 435,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4286",
+  "title": "Simplify route table",
+  "merged_at": 1775226819760,
+  "lines": 73,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4287",
+  "title": "Clean up replay tooling",
+  "merged_at": 1775241988525,
+  "lines": 179,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4288",
+  "title": "Refactor TLS config",
+  "merged_at": 1775263592397,
+  "lines": 194,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4289",
+  "title": "Simplify refund flow",
+  "merged_at": 1775353267083,
+  "lines": 470,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4290",
+  "title": "Settlement report hook",
+  "merged_at": 1775574947368,
+  "lines": 152,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4291",
+  "title": "Add metrics for image sizes",
+  "merged_at": 1775641847114,
+  "lines": 17,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4292",
+  "title": "Account freeze flag",
+  "merged_at": 1775664000000,
+  "lines": 357,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4293",
+  "title": "Add tests for session expiry",
+  "merged_at": 1775914419591,
+  "lines": 576,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4294",
+  "title": "Speed up session expiry",
+  "merged_at": 1776230645885,
+  "lines": 401,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4295",
+  "title": "Clean up dispute lookup",
+  "merged_at": 1776337584082,
+  "lines": 160,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4296",
+  "title": "Rework SSR hydration",
+  "merged_at": 1776545162965,
+  "lines": 411,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4297",
+  "title": "Improve model rollout",
+  "merged_at": 1776577547020,
+  "lines": 264,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4298",
+  "title": "Speed up stream checkpoints",
+  "merged_at": 1776928711968,
+  "lines": 303,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4299",
+  "title": "Handle errors in flag audit log",
+  "merged_at": 1777134364998,
+  "lines": 210,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4300",
+  "title": "Speed up header filtering",
+  "merged_at": 1777154974692,
+  "lines": 162,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4301",
+  "title": "Add tests for tax lookup",
+  "merged_at": 1777359998671,
+  "lines": 148,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4302",
+  "title": "Add tests for retry schedule",
+  "merged_at": 1777394266620,
+  "lines": 104,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4303",
+  "title": "Add push templates",
+  "merged_at": 1777453336421,
+  "lines": 420,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4304",
+  "title": "Card token refresh",
+  "merged_at": 1777712210526,
+  "lines": 56,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4305",
+  "title": "Speed up session expiry",
+  "merged_at": 1777757451349,
+  "lines": 161,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4306",
+  "title": "Improve order summary",
+  "merged_at": 1777768485699,
+  "lines": 436,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4307",
+  "title": "Add promo codes",
+  "merged_at": 1777824353522,
+  "lines": 479,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4308",
+  "title": "Add replica routing",
+  "merged_at": 1777935979173,
+  "lines": 61,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4309",
+  "title": "Refactor score caching",
+  "merged_at": 1778085939206,
+  "lines": 344,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4310",
+  "title": "FX journal entries",
+  "merged_at": 1778194800000,
+  "lines": 379,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4311",
+  "title": "Improve month-end report",
+  "merged_at": 1778283519837,
+  "lines": 256,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4312",
+  "title": "Add liveness check",
+  "merged_at": 1778467392014,
+  "lines": 285,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4313",
+  "title": "Fix training export",
+  "merged_at": 1778629017466,
+  "lines": 103,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4314",
+  "title": "Improve model rollout",
+  "merged_at": 1778647307804,
+  "lines": 50,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4315",
+  "title": "Fix key rotation",
+  "merged_at": 1778724172020,
+  "lines": 439,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4316",
+  "title": "Improve dedupe of pushes",
+  "merged_at": 1778815369464,
+  "lines": 262,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4317",
+  "title": "Add replay tooling",
+  "merged_at": 1778842835806,
+  "lines": 484,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4318",
+  "title": "Add tests for referral codes",
+  "merged_at": 1778989438380,
+  "lines": 268,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4319",
+  "title": "Handle errors in order validation",
+  "merged_at": 1779087429792,
+  "lines": 79,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4320",
+  "title": "Add metrics for ledger lookup",
+  "merged_at": 1779158430946,
+  "lines": 142,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4321",
+  "title": "Simplify auth refresh",
+  "merged_at": 1779267907940,
+  "lines": 42,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4322",
+  "title": "Refactor report cache",
+  "merged_at": 1779349698307,
+  "lines": 181,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4323",
+  "title": "Rework vendor callbacks",
+  "merged_at": 1779457344397,
+  "lines": 404,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4324",
+  "title": "Refactor SSR hydration",
+  "merged_at": 1779595388132,
+  "lines": 335,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4325",
+  "title": "Simplify cart handoff",
+  "merged_at": 1779770443131,
+  "lines": 113,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4326",
+  "title": "Clean up replica routing",
+  "merged_at": 1779788440442,
+  "lines": 148,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4327",
+  "title": "Payment state machine",
+  "merged_at": 1779849473684,
+  "lines": 73,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4328",
+  "title": "Add refund flow",
+  "merged_at": 1779889428232,
+  "lines": 135,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4329",
+  "title": "Add delivery receipts",
+  "merged_at": 1780047655831,
+  "lines": 205,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4330",
+  "title": "Add tests for bank file export",
+  "merged_at": 1780068829711,
+  "lines": 501,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4331",
+  "title": "Speed up order summary",
+  "merged_at": 1780223593567,
+  "lines": 157,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4332",
+  "title": "Fix price refresh",
+  "merged_at": 1780260873755,
+  "lines": 162,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4333",
+  "title": "Ledger audit log",
+  "merged_at": 1780725600000,
+  "lines": 109,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4334",
+  "title": "Rework header filtering",
+  "merged_at": 1780969868079,
+  "lines": 20,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4335",
+  "title": "Add tests for analyst UI hooks",
+  "merged_at": 1781268710573,
+  "lines": 164,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4336",
+  "title": "Rework SSR hydration",
+  "merged_at": 1781353137844,
+  "lines": 86,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4337",
+  "title": "Decline code mapping",
+  "merged_at": 1781986736842,
+  "lines": 242,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4338",
+  "title": "Rework request logging",
+  "merged_at": 1782162779216,
+  "lines": 243,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4339",
+  "title": "Add tests for rule metrics",
+  "merged_at": 1782242264580,
+  "lines": 207,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4340",
+  "title": "Refactor late event handling",
+  "merged_at": 1783008625557,
+  "lines": 198,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4341",
+  "title": "Refactor point-in-time joins",
+  "merged_at": 1783081740019,
+  "lines": 136,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4342",
+  "title": "Double-entry posting",
+  "merged_at": 1783256400000,
+  "lines": 384,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4343",
+  "title": "Handle errors in ledger lookup",
+  "merged_at": 1783282628828,
+  "lines": 519,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4344",
+  "title": "Handle errors in replay tooling",
+  "merged_at": 1783440471458,
+  "lines": 207,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4345",
+  "title": "Rework promo codes",
+  "merged_at": 1783752376302,
+  "lines": 137,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4346",
+  "title": "Simplify error banner",
+  "merged_at": 1783921428454,
+  "lines": 161,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4347",
+  "title": "Handle errors in refund screen",
+  "merged_at": 1784050872493,
+  "lines": 343,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4348",
+  "title": "Webhook signatures",
+  "merged_at": 1784124000000,
+  "lines": 175,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4349",
+  "title": "Add metrics for unsubscribe links",
+  "merged_at": 1784188871283,
+  "lines": 329,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4350",
+  "title": "Improve unsubscribe links",
+  "merged_at": 1784211952014,
+  "lines": 335,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4351",
+  "title": "Add document upload",
+  "merged_at": 1784360226954,
+  "lines": 94,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4352",
+  "title": "Add metrics for address step",
+  "merged_at": 1784566376309,
+  "lines": 294,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4353",
+  "title": "Add metrics for order validation",
+  "merged_at": 1784600699270,
+  "lines": 323,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4354",
+  "title": "Refactor reconciliation step 1",
+  "merged_at": 1784714400000,
+  "lines": 212,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4355",
+  "title": "Refactor dispute lookup",
+  "merged_at": 1784794682580,
+  "lines": 330,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4356",
+  "title": "Add config schema",
+  "merged_at": 1784835303943,
+  "lines": 253,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4357",
+  "title": "Add tests for auth refresh",
+  "merged_at": 1784853630289,
+  "lines": 453,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4358",
+  "title": "Speed up image sizes",
+  "merged_at": 1784931061540,
+  "lines": 190,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4359",
+  "title": "Speed up velocity checks",
+  "merged_at": 1784961932206,
+  "lines": 243,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4360",
+  "title": "Prepare SDK v3 adapter",
+  "merged_at": 1784977200000,
+  "lines": 277,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4361",
+  "title": "Fix month-end report",
+  "merged_at": 1785003740999,
+  "lines": 310,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4362",
+  "title": "Add tests for TLS config",
+  "merged_at": 1785073471327,
+  "lines": 66,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4363",
+  "title": "Refactor reconciliation step 2",
+  "merged_at": 1785204000000,
+  "lines": 150,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4364",
+  "title": "Add tests for checkout screen",
+  "merged_at": 1785229102728,
+  "lines": 143,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4365",
+  "title": "Handle errors in payout status sync",
+  "merged_at": 1785290774360,
+  "lines": 401,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4366",
+  "title": "Speed up push templates",
+  "merged_at": 1785325120022,
+  "lines": 400,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4367",
+  "title": "Refactor backfill job",
+  "merged_at": 1785463972962,
+  "lines": 400,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4368",
+  "title": "Add tests for vendor callbacks",
+  "merged_at": 1785590650065,
+  "lines": 219,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4369",
+  "title": "Refactor reconciliation step 3",
+  "merged_at": 1785693600000,
+  "lines": 180,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4370",
+  "title": "Fix rounding in payout journal",
+  "merged_at": 1785769200000,
+  "lines": 333,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4371",
+  "title": "Add promo codes",
+  "merged_at": 1785850495755,
+  "lines": 71,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4372",
+  "title": "Add metrics for retry schedule",
+  "merged_at": 1785886493906,
+  "lines": 213,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4373",
+  "title": "Handover notes in code comments",
+  "merged_at": 1785927600000,
+  "lines": 138,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4374",
+  "title": "Refactor reconciliation step 4",
+  "merged_at": 1786183200000,
+  "lines": 225,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4375",
+  "title": "Rework rule parser",
+  "merged_at": 1786266753910,
+  "lines": 236,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4376",
+  "title": "Fix replica routing",
+  "merged_at": 1786361014133,
+  "lines": 148,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4377",
+  "title": "Improve abuse checks",
+  "merged_at": 1786484194418,
+  "lines": 252,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4378",
+  "title": "Migrate auth calls to payments SDK v3",
+  "merged_at": 1786550400000,
+  "lines": 276,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4379",
+  "title": "Refactor reconciliation step 5",
+  "merged_at": 1786672800000,
+  "lines": 173,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4380",
+  "title": "Refactor point-in-time joins",
+  "merged_at": 1786832732676,
+  "lines": 291,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4381",
+  "title": "Add audit view",
+  "merged_at": 1786873358165,
+  "lines": 160,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4382",
+  "title": "Refactor TLS config",
+  "merged_at": 1786954727555,
+  "lines": 123,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4383",
+  "title": "Rework order summary",
+  "merged_at": 1787125338657,
+  "lines": 207,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4384",
+  "title": "Refactor reconciliation step 6",
+  "merged_at": 1787162400000,
+  "lines": 222,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4385",
+  "title": "Add tests for SDK client",
+  "merged_at": 1787201300764,
+  "lines": 565,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4386",
+  "title": "Move fraud call behind interface",
+  "merged_at": 1787223600000,
+  "lines": 302,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4387",
+  "title": "Improve backfill job",
+  "merged_at": 1787263625076,
+  "lines": 370,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4388",
+  "title": "Refactor reconciliation step 7",
+  "merged_at": 1787652000000,
+  "lines": 149,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4389",
+  "title": "Index on journal date",
+  "merged_at": 1787670000000,
+  "lines": 330,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4390",
+  "title": "Clean up backfill job",
+  "merged_at": 1787770662006,
+  "lines": 101,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4391",
+  "title": "Generate SDK v3 request models",
+  "merged_at": 1787828400000,
+  "lines": 336,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4392",
+  "title": "Speed up unsubscribe links",
+  "merged_at": 1787857154034,
+  "lines": 260,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4393",
+  "title": "Add login throttling",
+  "merged_at": 1788101724956,
+  "lines": 255,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4394",
+  "title": "Refactor reconciliation step 8",
+  "merged_at": 1788141600000,
+  "lines": 212,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4395",
+  "title": "Clean up rate limiter",
+  "merged_at": 1788175691987,
+  "lines": 38,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4396",
+  "title": "Add metrics for document upload",
+  "merged_at": 1788192980350,
+  "lines": 129,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4397",
+  "title": "Add payout batching",
+  "merged_at": 1788248011631,
+  "lines": 478,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4398",
+  "title": "Migrate capture to payments SDK v3",
+  "merged_at": 1788364800000,
+  "lines": 369,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4399",
+  "title": "Refactor replay tooling",
+  "merged_at": 1788524715262,
+  "lines": 104,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4400",
+  "title": "Refactor reconciliation step 9",
+  "merged_at": 1788631200000,
+  "lines": 167,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4401",
+  "title": "Speed up image sizes",
+  "merged_at": 1788686892699,
+  "lines": 556,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4402",
+  "title": "Handle errors in order summary",
+  "merged_at": 1788694637602,
+  "lines": 280,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4403",
+  "title": "Speed up velocity features",
+  "merged_at": 1788754268780,
+  "lines": 346,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4404",
+  "title": "Rework topic config",
+  "merged_at": 1788769786165,
+  "lines": 184,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4405",
+  "title": "Improve abuse checks",
+  "merged_at": 1788814481882,
+  "lines": 43,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4406",
+  "title": "Add tax lookup",
+  "merged_at": 1788939151443,
+  "lines": 41,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4407",
+  "title": "Fix currency for JPY captures",
+  "merged_at": 1788951600000,
+  "lines": 158,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4408",
+  "title": "Add tests for document upload",
+  "merged_at": 1789095099819,
+  "lines": 440,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4409",
+  "title": "Refactor reconciliation step 10",
+  "merged_at": 1789120800000,
+  "lines": 184,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4410",
+  "title": "Ledger config flags cleanup",
+  "merged_at": 1789225200000,
+  "lines": 330,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4411",
+  "title": "Refactor rate limiter",
+  "merged_at": 1789267316882,
+  "lines": 239,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4412",
+  "title": "Clean up MFA flow",
+  "merged_at": 1789401648407,
+  "lines": 356,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4413",
+  "title": "Simplify feature fetch",
+  "merged_at": 1789431326831,
+  "lines": 53,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4414",
+  "title": "Fix feature fetch",
+  "merged_at": 1789489798231,
+  "lines": 198,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4415",
+  "title": "Generate SDK v3 response mappers",
+  "merged_at": 1789556400000,
+  "lines": 80,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4416",
+  "title": "Speed up topic config",
+  "merged_at": 1789576394374,
+  "lines": 422,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4417",
+  "title": "Simplify refund flow",
+  "merged_at": 1789602962865,
+  "lines": 154,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4418",
+  "title": "Refactor reconciliation step 11",
+  "merged_at": 1789610400000,
+  "lines": 187,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4419",
+  "title": "Simplify payment form",
+  "merged_at": 1789630286510,
+  "lines": 59,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4420",
+  "title": "Add tests for dispute lookup",
+  "merged_at": 1789925088007,
+  "lines": 426,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4421",
+  "title": "Refactor reconciliation step 12",
+  "merged_at": 1790100000000,
+  "lines": 209,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4422",
+  "title": "Migrate refunds to payments SDK v3",
+  "merged_at": 1790179200000,
+  "lines": 262,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4423",
+  "title": "Simplify payout batching",
+  "merged_at": 1790242281526,
+  "lines": 345,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4424",
+  "title": "Improve price refresh",
+  "merged_at": 1790422309716,
+  "lines": 321,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4425",
+  "title": "Handle errors in consumer lag alerts",
+  "merged_at": 1790459609783,
+  "lines": 404,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4426",
+  "title": "Add metrics for quiet hours",
+  "merged_at": 1790465627827,
+  "lines": 69,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4427",
+  "title": "Add backfill job",
+  "merged_at": 1790486829763,
+  "lines": 100,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4428",
+  "title": "Clean up auth refresh",
+  "merged_at": 1790569888779,
+  "lines": 167,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4429",
+  "title": "Refactor reconciliation step 13",
+  "merged_at": 1790589600000,
+  "lines": 223,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4430",
+  "title": "Simplify feature freshness",
+  "merged_at": 1790602657858,
+  "lines": 405,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4431",
+  "title": "Simplify decision logging",
+  "merged_at": 1790639668992,
+  "lines": 478,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4432",
+  "title": "Speed up unsubscribe links",
+  "merged_at": 1790664035006,
+  "lines": 204,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4433",
+  "title": "Add SDK v3 metrics",
+  "merged_at": 1790679600000,
+  "lines": 237,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4434",
+  "title": "Refactor decision logging",
+  "merged_at": 1790688725152,
+  "lines": 391,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4435",
+  "title": "Expose balance for risk checks",
+  "merged_at": 1790780400000,
+  "lines": 330,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4436",
+  "title": "Refactor feature fetch",
+  "merged_at": 1790794322305,
+  "lines": 352,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4437",
+  "title": "Fix cart handoff",
+  "merged_at": 1790833672513,
+  "lines": 227,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4438",
+  "title": "Handle errors in cart merge",
+  "merged_at": 1790845417050,
+  "lines": 101,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4439",
+  "title": "Port webhook handlers to SDK v3",
+  "merged_at": 1790852400000,
+  "lines": 120,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4440",
+  "title": "Handle errors in flag cache",
+  "merged_at": 1790951460193,
+  "lines": 307,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4441",
+  "title": "Clean up score caching",
+  "merged_at": 1791044781129,
+  "lines": 31,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4442",
+  "title": "Refactor reconciliation step 14",
+  "merged_at": 1791079200000,
+  "lines": 210,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4443",
+  "title": "Refactor dispute lookup",
+  "merged_at": 1791099634717,
+  "lines": 236,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4444",
+  "title": "Add delivery receipts",
+  "merged_at": 1791130399877,
+  "lines": 270,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4445",
+  "title": "Add late event handling",
+  "merged_at": 1791150007246,
+  "lines": 386,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4446",
+  "title": "Add tests for order summary",
+  "merged_at": 1791373793478,
+  "lines": 420,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4447",
+  "title": "Remove legacy payments client",
+  "merged_at": 1791388800000,
+  "lines": 196,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4448",
+  "title": "Refactor home screen payload",
+  "merged_at": 1791412334506,
+  "lines": 385,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4449",
+  "title": "Add metrics for MFA flow",
+  "merged_at": 1791452573825,
+  "lines": 74,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4450",
+  "title": "Speed up training export",
+  "merged_at": 1791539651629,
+  "lines": 96,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4451",
+  "title": "Refactor reconciliation step 15",
+  "merged_at": 1791568800000,
+  "lines": 173,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4452",
+  "title": "Expose capture status for mobile",
+  "merged_at": 1791630000000,
+  "lines": 144,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4453",
+  "title": "Add tests for SSR hydration",
+  "merged_at": 1791667729573,
+  "lines": 288,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4454",
+  "title": "Rework stream checkpoints",
+  "merged_at": 1791681856475,
+  "lines": 61,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4455",
+  "title": "Add tests for session expiry",
+  "merged_at": 1791782036359,
+  "lines": 226,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4456",
+  "title": "Fix payment intent call",
+  "merged_at": 1791794436226,
+  "lines": 197,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4457",
+  "title": "Fix rate limiter",
+  "merged_at": 1791843710170,
+  "lines": 333,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4458",
+  "title": "Bump payments SDK patch version",
+  "merged_at": 1791885600000,
+  "lines": 12,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4459",
+  "title": "Clean up feature snapshots",
+  "merged_at": 1791943455089,
+  "lines": 203,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4460",
+  "title": "Refactor reconciliation step 16",
+  "merged_at": 1792058400000,
+  "lines": 210,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4461",
+  "title": "Add tests for feature snapshots",
+  "merged_at": 1792074724540,
+  "lines": 379,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4462",
+  "title": "Add config schema",
+  "merged_at": 1792075026518,
+  "lines": 38,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4463",
+  "title": "Add abuse checks",
+  "merged_at": 1792105601699,
+  "lines": 125,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4464",
+  "title": "Refactor login throttling",
+  "merged_at": 1792145655151,
+  "lines": 150,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4465",
+  "title": "Clean up flag cache",
+  "merged_at": 1792177966816,
+  "lines": 247,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4466",
+  "title": "Improve refund flow",
+  "merged_at": 1792179996206,
+  "lines": 205,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4467",
+  "title": "Improve feature fetch",
+  "merged_at": 1792185003571,
+  "lines": 259,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4468",
+  "title": "Add tests for replay tooling",
+  "merged_at": 1792192669163,
+  "lines": 554,
+  "ai_generated": true
+ },
+ {
+  "id": "PR-4469",
+  "title": "Add item limits",
+  "merged_at": 1792195127281,
+  "lines": 87,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4470",
+  "title": "Clean up payout status sync",
+  "merged_at": 1792199946727,
+  "lines": 122,
+  "ai_generated": false
+ },
+ {
+  "id": "PR-4471",
+  "title": "simplify fraud check client",
+  "merged_at": 1792216800000,
+  "lines": 64,
+  "ai_generated": true,
+  "body": "Simplifies the fraud-svc client in payments-api: removes the 300 ms timeout and retry wrapper around the fraud check call."
+ }
+]

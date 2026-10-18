@@ -1,0 +1,278 @@
+[
+ {
+  "src_label": "Person",
+  "src": "dana",
+  "dst_label": "Decision",
+  "dst": "ADR-009"
+ },
+ {
+  "src_label": "Person",
+  "src": "omar",
+  "dst_label": "Decision",
+  "dst": "ADR-009"
+ },
+ {
+  "src_label": "Person",
+  "src": "priya",
+  "dst_label": "Decision",
+  "dst": "ADR-017"
+ },
+ {
+  "src_label": "Person",
+  "src": "dana",
+  "dst_label": "Decision",
+  "dst": "ADR-017"
+ },
+ {
+  "src_label": "Person",
+  "src": "arjun",
+  "dst_label": "Decision",
+  "dst": "ADR-003"
+ },
+ {
+  "src_label": "Person",
+  "src": "beth",
+  "dst_label": "Decision",
+  "dst": "ADR-003"
+ },
+ {
+  "src_label": "Person",
+  "src": "arjun",
+  "dst_label": "Decision",
+  "dst": "ADR-004"
+ },
+ {
+  "src_label": "Person",
+  "src": "fatima",
+  "dst_label": "Decision",
+  "dst": "ADR-004"
+ },
+ {
+  "src_label": "Person",
+  "src": "beth",
+  "dst_label": "Decision",
+  "dst": "ADR-005"
+ },
+ {
+  "src_label": "Person",
+  "src": "gus",
+  "dst_label": "Decision",
+  "dst": "ADR-006"
+ },
+ {
+  "src_label": "Person",
+  "src": "aisha",
+  "dst_label": "Decision",
+  "dst": "ADR-008"
+ },
+ {
+  "src_label": "Person",
+  "src": "yuki",
+  "dst_label": "Decision",
+  "dst": "ADR-008"
+ },
+ {
+  "src_label": "Person",
+  "src": "victor",
+  "dst_label": "Decision",
+  "dst": "ADR-010"
+ },
+ {
+  "src_label": "Person",
+  "src": "lena",
+  "dst_label": "Decision",
+  "dst": "ADR-010"
+ },
+ {
+  "src_label": "Person",
+  "src": "mei",
+  "dst_label": "Decision",
+  "dst": "ADR-011"
+ },
+ {
+  "src_label": "Person",
+  "src": "victor",
+  "dst_label": "Decision",
+  "dst": "ADR-011"
+ },
+ {
+  "src_label": "Person",
+  "src": "quinn",
+  "dst_label": "Decision",
+  "dst": "ADR-012"
+ },
+ {
+  "src_label": "Person",
+  "src": "ravi",
+  "dst_label": "Decision",
+  "dst": "ADR-012"
+ },
+ {
+  "src_label": "Person",
+  "src": "liam",
+  "dst_label": "Decision",
+  "dst": "ADR-013"
+ },
+ {
+  "src_label": "Person",
+  "src": "maya",
+  "dst_label": "Decision",
+  "dst": "ADR-013"
+ },
+ {
+  "src_label": "Person",
+  "src": "arjun",
+  "dst_label": "Decision",
+  "dst": "ADR-014"
+ },
+ {
+  "src_label": "Person",
+  "src": "carlos",
+  "dst_label": "Decision",
+  "dst": "ADR-014"
+ },
+ {
+  "src_label": "Person",
+  "src": "uma",
+  "dst_label": "Decision",
+  "dst": "ADR-015"
+ },
+ {
+  "src_label": "Person",
+  "src": "vlad",
+  "dst_label": "Decision",
+  "dst": "ADR-015"
+ },
+ {
+  "src_label": "Person",
+  "src": "dmitri",
+  "dst_label": "Decision",
+  "dst": "ADR-016"
+ },
+ {
+  "src_label": "Person",
+  "src": "liam",
+  "dst_label": "Decision",
+  "dst": "ADR-016"
+ },
+ {
+  "src_label": "Person",
+  "src": "beth",
+  "dst_label": "Decision",
+  "dst": "ADR-018"
+ },
+ {
+  "src_label": "Person",
+  "src": "deepa",
+  "dst_label": "Decision",
+  "dst": "ADR-018"
+ },
+ {
+  "src_label": "Person",
+  "src": "gus",
+  "dst_label": "Decision",
+  "dst": "ADR-019"
+ },
+ {
+  "src_label": "Person",
+  "src": "mei",
+  "dst_label": "Decision",
+  "dst": "ADR-019"
+ },
+ {
+  "src_label": "Person",
+  "src": "dana",
+  "dst_label": "Decision",
+  "dst": "ADR-020"
+ },
+ {
+  "src_label": "Person",
+  "src": "priya",
+  "dst_label": "Decision",
+  "dst": "ADR-020"
+ },
+ {
+  "src_label": "Person",
+  "src": "fatima",
+  "dst_label": "Decision",
+  "dst": "ADR-021"
+ },
+ {
+  "src_label": "Person",
+  "src": "emil",
+  "dst_label": "Decision",
+  "dst": "ADR-021"
+ },
+ {
+  "src_label": "Person",
+  "src": "gus",
+  "dst_label": "Decision",
+  "dst": "ADR-022"
+ },
+ {
+  "src_label": "Person",
+  "src": "hana",
+  "dst_label": "Decision",
+  "dst": "ADR-022"
+ },
+ {
+  "src_label": "Person",
+  "src": "liam",
+  "dst_label": "Decision",
+  "dst": "ADR-023"
+ },
+ {
+  "src_label": "Person",
+  "src": "olga",
+  "dst_label": "Decision",
+  "dst": "ADR-023"
+ },
+ {
+  "src_label": "Person",
+  "src": "aisha",
+  "dst_label": "Decision",
+  "dst": "ADR-024"
+ },
+ {
+  "src_label": "Person",
+  "src": "marco",
+  "dst_label": "Decision",
+  "dst": "ADR-024"
+ },
+ {
+  "src_label": "Person",
+  "src": "uma",
+  "dst_label": "Decision",
+  "dst": "ADR-025"
+ },
+ {
+  "src_label": "Person",
+  "src": "wendy",
+  "dst_label": "Decision",
+  "dst": "ADR-025"
+ },
+ {
+  "src_label": "Person",
+  "src": "gus",
+  "dst_label": "Decision",
+  "dst": "ADR-026"
+ },
+ {
+  "src_label": "Person",
+  "src": "ines",
+  "dst_label": "Decision",
+  "dst": "ADR-026"
+ },
+ {
+  "src_label": "Person",
+  "src": "aisha",
+  "dst_label": "Decision",
+  "dst": "ADR-027"
+ },
+ {
+  "src_label": "Person",
+  "src": "tom",
+  "dst_label": "Decision",
+  "dst": "ADR-027"
+ }
+]

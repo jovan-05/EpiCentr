@@ -1,0 +1,37 @@
+{
+  "decision": {
+    "id": "ADR-031",
+    "title": "ADR-031: Async fraud check with timeout and fallback",
+    "summary": "Payments calls fraud-svc async with a 300ms timeout and fallback; supersedes ADR-017.",
+    "status": "active"
+  },
+  "doc": {
+    "id": "DOC-ADR-031",
+    "title": "ADR-031: Async fraud check with timeout and fallback",
+    "kind": "ADR",
+    "body": "Supersedes ADR-017. payments-api calls fraud-svc with a 300 ms timeout. On timeout it falls back to a rules-only verdict and queues the payment for asynchronous re-scoring."
+  },
+  "options": {
+    "chosen": {
+      "text": "Call fraud-svc with a 300 ms timeout and a rules-only fallback",
+      "keywords": "timeout fallback async"
+    },
+    "rejected": [
+      {
+        "text": "Keep the unbounded synchronous call",
+        "keywords": "synchronous unbounded",
+        "reason": "one slow dependency took checkout down"
+      }
+    ]
+  },
+  "affects": [
+    "payments-api",
+    "fraud-svc"
+  ],
+  "deciders": [
+    "dana",
+    "lena"
+  ],
+  "supersedes": "ADR-017",
+  "note": "Ingested live on camera (Story 4) with the A3 statements; decided_at = time of ingest."
+}

@@ -1,0 +1,47 @@
+[
+ {
+  "slug": "checkout",
+  "name": "Checkout",
+  "group": "Money"
+ },
+ {
+  "slug": "data",
+  "name": "Data",
+  "group": "Infra"
+ },
+ {
+  "slug": "growth",
+  "name": "Growth",
+  "group": "Product"
+ },
+ {
+  "slug": "mobile",
+  "name": "Mobile",
+  "group": "Product"
+ },
+ {
+  "slug": "payments",
+  "name": "Payments",
+  "group": "Money"
+ },
+ {
+  "slug": "platform",
+  "name": "Platform",
+  "group": "Infra"
+ },
+ {
+  "slug": "risk",
+  "name": "Risk",
+  "group": "Money"
+ },
+ {
+  "slug": "sre",
+  "name": "SRE",
+  "group": "Infra"
+ },
+ {
+  "slug": "support-tools",
+  "name": "Support Tools",
+  "group": "Product"
+ }
+]

@@ -1,0 +1,412 @@
+[
+ {
+  "src_label": "Person",
+  "src": "priya",
+  "dst_label": "Team",
+  "dst": "payments",
+  "valid_from": 1614556800000,
+  "valid_to": 1787961600000
+ },
+ {
+  "src_label": "Person",
+  "src": "dana",
+  "dst_label": "Team",
+  "dst": "payments",
+  "valid_from": 1592179200000
+ },
+ {
+  "src_label": "Person",
+  "src": "sam",
+  "dst_label": "Team",
+  "dst": "payments",
+  "valid_from": 1610323200000
+ },
+ {
+  "src_label": "Person",
+  "src": "omar",
+  "dst_label": "Team",
+  "dst": "payments",
+  "valid_from": 1567382400000,
+  "valid_to": 1783641600000
+ },
+ {
+  "src_label": "Person",
+  "src": "noor",
+  "dst_label": "Team",
+  "dst": "payments",
+  "valid_from": 1707091200000
+ },
+ {
+  "src_label": "Person",
+  "src": "kenji",
+  "dst_label": "Team",
+  "dst": "payments",
+  "valid_from": 1684108800000
+ },
+ {
+  "src_label": "Person",
+  "src": "ivy",
+  "dst_label": "Team",
+  "dst": "payments",
+  "valid_from": 1780876800000
+ },
+ {
+  "src_label": "Person",
+  "src": "aisha",
+  "dst_label": "Team",
+  "dst": "checkout",
+  "valid_from": 1625097600000
+ },
+ {
+  "src_label": "Person",
+  "src": "marco",
+  "dst_label": "Team",
+  "dst": "checkout",
+  "valid_from": 1641772800000
+ },
+ {
+  "src_label": "Person",
+  "src": "tom",
+  "dst_label": "Team",
+  "dst": "checkout",
+  "valid_from": 1677628800000
+ },
+ {
+  "src_label": "Person",
+  "src": "yuki",
+  "dst_label": "Team",
+  "dst": "checkout",
+  "valid_from": 1662940800000
+ },
+ {
+  "src_label": "Person",
+  "src": "felix",
+  "dst_label": "Team",
+  "dst": "checkout",
+  "valid_from": 1704672000000
+ },
+ {
+  "src_label": "Person",
+  "src": "rosa",
+  "dst_label": "Team",
+  "dst": "checkout",
+  "valid_from": 1696204800000
+ },
+ {
+  "src_label": "Person",
+  "src": "nadia",
+  "dst_label": "Team",
+  "dst": "checkout",
+  "valid_from": 1717372800000
+ },
+ {
+  "src_label": "Person",
+  "src": "victor",
+  "dst_label": "Team",
+  "dst": "risk",
+  "valid_from": 1612137600000
+ },
+ {
+  "src_label": "Person",
+  "src": "lena",
+  "dst_label": "Team",
+  "dst": "risk",
+  "valid_from": 1604275200000
+ },
+ {
+  "src_label": "Person",
+  "src": "mei",
+  "dst_label": "Team",
+  "dst": "risk",
+  "valid_from": 1649030400000
+ },
+ {
+  "src_label": "Person",
+  "src": "hugo",
+  "dst_label": "Team",
+  "dst": "risk",
+  "valid_from": 1685577600000
+ },
+ {
+  "src_label": "Person",
+  "src": "zara",
+  "dst_label": "Team",
+  "dst": "risk",
+  "valid_from": 1725235200000
+ },
+ {
+  "src_label": "Person",
+  "src": "oscar",
+  "dst_label": "Team",
+  "dst": "risk",
+  "valid_from": 1660521600000
+ },
+ {
+  "src_label": "Person",
+  "src": "arjun",
+  "dst_label": "Team",
+  "dst": "platform",
+  "valid_from": 1578268800000
+ },
+ {
+  "src_label": "Person",
+  "src": "beth",
+  "dst_label": "Team",
+  "dst": "platform",
+  "valid_from": 1620000000000
+ },
+ {
+  "src_label": "Person",
+  "src": "carlos",
+  "dst_label": "Team",
+  "dst": "platform",
+  "valid_from": 1644796800000
+ },
+ {
+  "src_label": "Person",
+  "src": "deepa",
+  "dst_label": "Team",
+  "dst": "platform",
+  "valid_from": 1667779200000
+ },
+ {
+  "src_label": "Person",
+  "src": "emil",
+  "dst_label": "Team",
+  "dst": "platform",
+  "valid_from": 1692576000000
+ },
+ {
+  "src_label": "Person",
+  "src": "fatima",
+  "dst_label": "Team",
+  "dst": "platform",
+  "valid_from": 1631491200000
+ },
+ {
+  "src_label": "Person",
+  "src": "gwen",
+  "dst_label": "Team",
+  "dst": "platform",
+  "valid_from": 1711929600000
+ },
+ {
+  "src_label": "Person",
+  "src": "pablo",
+  "dst_label": "Team",
+  "dst": "platform",
+  "valid_from": 1736726400000
+ },
+ {
+  "src_label": "Person",
+  "src": "rhea",
+  "dst_label": "Team",
+  "dst": "platform",
+  "valid_from": 1583107200000,
+  "valid_to": 1764547200000
+ },
+ {
+  "src_label": "Person",
+  "src": "gus",
+  "dst_label": "Team",
+  "dst": "data",
+  "valid_from": 1601856000000
+ },
+ {
+  "src_label": "Person",
+  "src": "hana",
+  "dst_label": "Team",
+  "dst": "data",
+  "valid_from": 1638748800000
+ },
+ {
+  "src_label": "Person",
+  "src": "ines",
+  "dst_label": "Team",
+  "dst": "data",
+  "valid_from": 1655683200000
+ },
+ {
+  "src_label": "Person",
+  "src": "jonah",
+  "dst_label": "Team",
+  "dst": "data",
+  "valid_from": 1677456000000
+ },
+ {
+  "src_label": "Person",
+  "src": "kai",
+  "dst_label": "Team",
+  "dst": "data",
+  "valid_from": 1710720000000
+ },
+ {
+  "src_label": "Person",
+  "src": "lars",
+  "dst_label": "Team",
+  "dst": "data",
+  "valid_from": 1693785600000
+ },
+ {
+  "src_label": "Person",
+  "src": "mira",
+  "dst_label": "Team",
+  "dst": "data",
+  "valid_from": 1739145600000
+ },
+ {
+  "src_label": "Person",
+  "src": "liam",
+  "dst_label": "Team",
+  "dst": "growth",
+  "valid_from": 1618185600000
+ },
+ {
+  "src_label": "Person",
+  "src": "maya",
+  "dst_label": "Team",
+  "dst": "growth",
+  "valid_from": 1646611200000
+ },
+ {
+  "src_label": "Person",
+  "src": "nikhil",
+  "dst_label": "Team",
+  "dst": "growth",
+  "valid_from": 1673827200000
+ },
+ {
+  "src_label": "Person",
+  "src": "olga",
+  "dst_label": "Team",
+  "dst": "growth",
+  "valid_from": 1699228800000
+ },
+ {
+  "src_label": "Person",
+  "src": "pete",
+  "dst_label": "Team",
+  "dst": "growth",
+  "valid_from": 1716163200000
+ },
+ {
+  "src_label": "Person",
+  "src": "sven",
+  "dst_label": "Team",
+  "dst": "growth",
+  "valid_from": 1728259200000
+ },
+ {
+  "src_label": "Person",
+  "src": "dmitri",
+  "dst_label": "Team",
+  "dst": "growth",
+  "valid_from": 1596412800000,
+  "valid_to": 1777507200000
+ },
+ {
+  "src_label": "Person",
+  "src": "quinn",
+  "dst_label": "Team",
+  "dst": "mobile",
+  "valid_from": 1623024000000
+ },
+ {
+  "src_label": "Person",
+  "src": "ravi",
+  "dst_label": "Team",
+  "dst": "mobile",
+  "valid_from": 1657497600000
+ },
+ {
+  "src_label": "Person",
+  "src": "sofia",
+  "dst_label": "Team",
+  "dst": "mobile",
+  "valid_from": 1680480000000
+ },
+ {
+  "src_label": "Person",
+  "src": "tariq",
+  "dst_label": "Team",
+  "dst": "mobile",
+  "valid_from": 1665964800000
+ },
+ {
+  "src_label": "Person",
+  "src": "joel",
+  "dst_label": "Team",
+  "dst": "mobile",
+  "valid_from": 1723420800000
+ },
+ {
+  "src_label": "Person",
+  "src": "uma",
+  "dst_label": "Team",
+  "dst": "support-tools",
+  "valid_from": 1627862400000
+ },
+ {
+  "src_label": "Person",
+  "src": "vlad",
+  "dst_label": "Team",
+  "dst": "support-tools",
+  "valid_from": 1652054400000
+ },
+ {
+  "src_label": "Person",
+  "src": "wendy",
+  "dst_label": "Team",
+  "dst": "support-tools",
+  "valid_from": 1690156800000
+ },
+ {
+  "src_label": "Person",
+  "src": "xavier",
+  "dst_label": "Team",
+  "dst": "support-tools",
+  "valid_from": 1708905600000
+ },
+ {
+  "src_label": "Person",
+  "src": "yasmin",
+  "dst_label": "Team",
+  "dst": "support-tools",
+  "valid_from": 1740960000000
+ },
+ {
+  "src_label": "Person",
+  "src": "yara",
+  "dst_label": "Team",
+  "dst": "sre",
+  "valid_from": 1600041600000
+ },
+ {
+  "src_label": "Person",
+  "src": "zane",
+  "dst_label": "Team",
+  "dst": "sre",
+  "valid_from": 1642982400000
+ },
+ {
+  "src_label": "Person",
+  "src": "abel",
+  "dst_label": "Team",
+  "dst": "sre",
+  "valid_from": 1683504000000
+ },
+ {
+  "src_label": "Person",
+  "src": "bianca",
+  "dst_label": "Team",
+  "dst": "sre",
+  "valid_from": 1705276800000
+ },
+ {
+  "src_label": "Person",
+  "src": "cyrus",
+  "dst_label": "Team",
+  "dst": "sre",
+  "valid_from": 1730678400000
+ }
+]

@@ -1,0 +1,194 @@
+[
+ {
+  "id": "ADR-003",
+  "title": "ADR-003: Terminate TLS at the gateway",
+  "summary": "TLS terminates at the api-gateway; internal traffic uses mTLS.",
+  "status": "active",
+  "decided_at": 1710252000000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-004",
+  "title": "ADR-004: Short-lived access tokens",
+  "summary": "Access tokens live 15 minutes, refresh tokens 30 days.",
+  "status": "active",
+  "decided_at": 1712066400000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-005",
+  "title": "ADR-005: Feature flags in config-svc",
+  "summary": "All feature flags are served by config-svc with a local cache in each service.",
+  "status": "active",
+  "decided_at": 1716300000000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-006",
+  "title": "ADR-006: Nightly warehouse batch",
+  "summary": "Copy events to the warehouse in a nightly batch.",
+  "status": "superseded",
+  "decided_at": 1718719200000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-008",
+  "title": "ADR-008: Cart state in redis",
+  "summary": "Cart state is stored in redis-cache with a 7-day TTL.",
+  "status": "active",
+  "decided_at": 1725976800000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-009",
+  "title": "ADR-009: Idempotency keys on every payout write",
+  "summary": "Keep idempotency keys on every payout write.",
+  "status": "active",
+  "decided_at": 1764511200000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-010",
+  "title": "ADR-010: Rules engine owns hand-written rules",
+  "summary": "Hand-written risk rules run in rules-engine, separate from the ML score.",
+  "status": "active",
+  "decided_at": 1733234400000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-011",
+  "title": "ADR-011: KYC documents in object storage",
+  "summary": "KYC documents are stored encrypted in s3-docs, never in a database.",
+  "status": "active",
+  "decided_at": 1736863200000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-012",
+  "title": "ADR-012: Mobile backend-for-frontend",
+  "summary": "Mobile apps talk to a dedicated mobile-bff, not to services directly.",
+  "status": "active",
+  "decided_at": 1739282400000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-013",
+  "title": "ADR-013: Email through a single sender",
+  "summary": "All transactional email goes through email-svc with one sending domain.",
+  "status": "active",
+  "decided_at": 1741096800000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-014",
+  "title": "ADR-014: Event bus on kafka",
+  "summary": "Internal events go through event-bus backed by kafka with 7-day retention.",
+  "status": "active",
+  "decided_at": 1744120800000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-015",
+  "title": "ADR-015: Support refunds go through support-api",
+  "summary": "Support refunds are executed by support-api, never by direct database edits.",
+  "status": "active",
+  "decided_at": 1747749600000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-016",
+  "title": "ADR-016: Referral rewards capped per user",
+  "summary": "Referral rewards are capped at 10 per user per month.",
+  "status": "active",
+  "decided_at": 1750773600000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-017",
+  "title": "ADR-017: Synchronous payment chain with inline risk check",
+  "summary": "Checkout calls payments synchronously; payments calls fraud-svc inline before capture.",
+  "status": "active",
+  "decided_at": 1770213600000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-018",
+  "title": "ADR-018: Gateway rate limits per merchant",
+  "summary": "Rate limits are applied per merchant key, not per IP.",
+  "status": "active",
+  "decided_at": 1771336800000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-019",
+  "title": "ADR-019: Feature store snapshots for training",
+  "summary": "ml-features keeps daily snapshots so fraud models train on point-in-time data.",
+  "status": "active",
+  "decided_at": 1772546400000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-020",
+  "title": "ADR-020: Payout batches every 15 minutes",
+  "summary": "payouts-worker sends payout batches every 15 minutes instead of hourly.",
+  "status": "active",
+  "decided_at": 1774360800000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-021",
+  "title": "ADR-021: Session storage in redis",
+  "summary": "auth-svc stores sessions in redis-cache with write-through to disk.",
+  "status": "active",
+  "decided_at": 1776175200000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-022",
+  "title": "ADR-022: Streaming warehouse ingestion",
+  "summary": "warehouse-sync streams events from event-bus instead of a nightly batch.",
+  "status": "active",
+  "decided_at": 1777989600000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-023",
+  "title": "ADR-023: Push notification quiet hours",
+  "summary": "Marketing pushes are not sent between 22:00 and 08:00 local time.",
+  "status": "active",
+  "decided_at": 1779804000000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-024",
+  "title": "ADR-024: Checkout web server-side rendering",
+  "summary": "checkout-web renders on the server for faster first paint.",
+  "status": "active",
+  "decided_at": 1781013600000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-025",
+  "title": "ADR-025: Admin console single sign-on",
+  "summary": "admin-console requires company SSO with hardware keys.",
+  "status": "active",
+  "decided_at": 1783432800000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-026",
+  "title": "ADR-026: Reporting API read replica",
+  "summary": "reporting-api reads from a pg-main replica, never the primary.",
+  "status": "active",
+  "decided_at": 1787061600000,
+  "origin": "seed"
+ },
+ {
+  "id": "ADR-027",
+  "title": "ADR-027: Cart merges on login",
+  "summary": "An anonymous cart merges into the user's cart on login.",
+  "status": "active",
+  "decided_at": 1789480800000,
+  "origin": "seed"
+ }
+]

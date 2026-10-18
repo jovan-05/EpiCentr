@@ -1,0 +1,252 @@
+[
+ {
+  "id": "ADR-003-chosen",
+  "text": "Terminate TLS at the gateway with mTLS inside",
+  "keywords": "tls mtls gateway"
+ },
+ {
+  "id": "ADR-003-rejected-1",
+  "text": "TLS termination in every service",
+  "keywords": "tls per service"
+ },
+ {
+  "id": "ADR-004-chosen",
+  "text": "15 minute access tokens with refresh",
+  "keywords": "token expiry refresh"
+ },
+ {
+  "id": "ADR-004-rejected-1",
+  "text": "Long-lived API tokens",
+  "keywords": "long lived token"
+ },
+ {
+  "id": "ADR-005-chosen",
+  "text": "Central flag service with local cache",
+  "keywords": "feature flag config cache"
+ },
+ {
+  "id": "ADR-005-rejected-1",
+  "text": "Flags in environment variables",
+  "keywords": "env vars flags"
+ },
+ {
+  "id": "ADR-005-rejected-2",
+  "text": "Third-party flag vendor",
+  "keywords": "vendor flags saas"
+ },
+ {
+  "id": "ADR-006-chosen",
+  "text": "Nightly batch export",
+  "keywords": "batch nightly export"
+ },
+ {
+  "id": "ADR-006-rejected-1",
+  "text": "Streaming ingestion",
+  "keywords": "streaming realtime"
+ },
+ {
+  "id": "ADR-008-chosen",
+  "text": "Redis with 7 day expiry",
+  "keywords": "redis cart ttl"
+ },
+ {
+  "id": "ADR-008-rejected-1",
+  "text": "Cart rows in pg-main",
+  "keywords": "postgres cart table"
+ },
+ {
+  "id": "ADR-009-chosen",
+  "text": "Idempotency key per payout request",
+  "keywords": "idempotency idempotent key payout"
+ },
+ {
+  "id": "ADR-009-rejected-1",
+  "text": "Remove dedupe check for speed",
+  "keywords": "remove dedupe deduplication idempotency idempotent duplicate check latency speed"
+ },
+ {
+  "id": "ADR-009-rejected-2",
+  "text": "Dedupe in the client only",
+  "keywords": "client dedupe deduplication duplicate"
+ },
+ {
+  "id": "ADR-010-chosen",
+  "text": "Separate rules engine called by fraud-svc",
+  "keywords": "rules engine separate"
+ },
+ {
+  "id": "ADR-010-rejected-1",
+  "text": "Rules embedded in the fraud model",
+  "keywords": "rules model embedded"
+ },
+ {
+  "id": "ADR-011-chosen",
+  "text": "Encrypted object storage for documents",
+  "keywords": "kyc documents storage encryption"
+ },
+ {
+  "id": "ADR-011-rejected-1",
+  "text": "Documents as blobs in pg-risk",
+  "keywords": "blob database documents"
+ },
+ {
+  "id": "ADR-012-chosen",
+  "text": "Dedicated mobile BFF",
+  "keywords": "bff mobile backend"
+ },
+ {
+  "id": "ADR-012-rejected-1",
+  "text": "Mobile calls the gateway routes directly",
+  "keywords": "direct gateway mobile"
+ },
+ {
+  "id": "ADR-013-chosen",
+  "text": "One email service and sending domain",
+  "keywords": "email sender domain"
+ },
+ {
+  "id": "ADR-013-rejected-1",
+  "text": "Each team sends its own email",
+  "keywords": "per team email"
+ },
+ {
+  "id": "ADR-014-chosen",
+  "text": "Kafka-backed event bus",
+  "keywords": "kafka events bus"
+ },
+ {
+  "id": "ADR-014-rejected-1",
+  "text": "Point-to-point webhooks",
+  "keywords": "webhooks point to point"
+ },
+ {
+  "id": "ADR-015-chosen",
+  "text": "Refunds through support-api with audit log",
+  "keywords": "refunds support audit"
+ },
+ {
+  "id": "ADR-015-rejected-1",
+  "text": "Support edits the ledger tables by hand",
+  "keywords": "manual sql ledger"
+ },
+ {
+  "id": "ADR-016-chosen",
+  "text": "Cap of 10 rewards per month",
+  "keywords": "referral cap rewards"
+ },
+ {
+  "id": "ADR-016-rejected-1",
+  "text": "Unlimited referral rewards",
+  "keywords": "unlimited rewards"
+ },
+ {
+  "id": "ADR-017-chosen",
+  "text": "Checkout calls payments synchronously and payments calls the risk check inline before capture",
+  "keywords": "synchronous sync inline capture"
+ },
+ {
+  "id": "ADR-017-rejected-1",
+  "text": "Score payments asynchronously after capture and claw back bad ones",
+  "keywords": "async asynchronous after capture clawback"
+ },
+ {
+  "id": "ADR-018-chosen",
+  "text": "Per-merchant rate limits",
+  "keywords": "rate limit merchant"
+ },
+ {
+  "id": "ADR-018-rejected-1",
+  "text": "Per-IP rate limits",
+  "keywords": "ip rate limit"
+ },
+ {
+  "id": "ADR-019-chosen",
+  "text": "Daily point-in-time snapshots",
+  "keywords": "snapshot point in time features"
+ },
+ {
+  "id": "ADR-019-rejected-1",
+  "text": "Train on live feature values",
+  "keywords": "live features training"
+ },
+ {
+  "id": "ADR-020-chosen",
+  "text": "15 minute payout batches",
+  "keywords": "payout batch schedule"
+ },
+ {
+  "id": "ADR-020-rejected-1",
+  "text": "Real-time single payouts",
+  "keywords": "realtime payouts single"
+ },
+ {
+  "id": "ADR-021-chosen",
+  "text": "Redis sessions with persistence",
+  "keywords": "sessions redis"
+ },
+ {
+  "id": "ADR-021-rejected-1",
+  "text": "Stateless sessions only",
+  "keywords": "stateless jwt sessions"
+ },
+ {
+  "id": "ADR-022-chosen",
+  "text": "Stream events into the warehouse",
+  "keywords": "streaming ingestion"
+ },
+ {
+  "id": "ADR-022-rejected-1",
+  "text": "Keep the nightly batch",
+  "keywords": "nightly batch"
+ },
+ {
+  "id": "ADR-023-chosen",
+  "text": "Quiet hours for marketing pushes",
+  "keywords": "quiet hours push"
+ },
+ {
+  "id": "ADR-023-rejected-1",
+  "text": "Send immediately at any hour",
+  "keywords": "send immediately"
+ },
+ {
+  "id": "ADR-024-chosen",
+  "text": "Server-side rendering for checkout pages",
+  "keywords": "ssr rendering"
+ },
+ {
+  "id": "ADR-024-rejected-1",
+  "text": "Client-only single page app",
+  "keywords": "spa client rendering"
+ },
+ {
+  "id": "ADR-025-chosen",
+  "text": "SSO with hardware keys",
+  "keywords": "sso hardware keys"
+ },
+ {
+  "id": "ADR-025-rejected-1",
+  "text": "Shared support passwords",
+  "keywords": "shared passwords"
+ },
+ {
+  "id": "ADR-026-chosen",
+  "text": "Read replica for reporting",
+  "keywords": "replica reporting reads"
+ },
+ {
+  "id": "ADR-026-rejected-1",
+  "text": "Query the primary directly",
+  "keywords": "primary queries"
+ },
+ {
+  "id": "ADR-027-chosen",
+  "text": "Merge carts on login",
+  "keywords": "cart merge login"
+ },
+ {
+  "id": "ADR-027-rejected-1",
+  "text": "Discard the anonymous cart",
+  "keywords": "discard cart"
+ }
+]

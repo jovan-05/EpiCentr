@@ -1,0 +1,347 @@
+# Decisions, their options (chosen AND rejected), and the docs that record them.
+# Each decision gets an ADR doc generated from `doc_body`.
+# Note for the guard (Q11): rejected option text is full-text indexed. Keep the word "fraud"
+# out of ADR-017's rejected option so Story 8's "remove the timeout in the fraud client" matches
+# only the learned lesson, not this unrelated 2026 decision.
+
+decisions:
+  # ---------------- Story 7: the decision guard ----------------
+  - id: ADR-009
+    title: "ADR-009: Idempotency keys on every payout write"
+    decided_at: 2025-11-30
+    status: active
+    affects: [ledger, payouts-worker]
+    deciders: [dana, omar]
+    caused_by: INC-007
+    summary: Keep idempotency keys on every payout write.
+    chosen: {text: Idempotency key per payout request, keywords: idempotency idempotent key payout}
+    rejected:
+      - text: Remove dedupe check for speed
+        keywords: remove dedupe deduplication idempotency idempotent duplicate check latency speed
+        reason: "caused INC-007: 312 duplicate payouts on Black Friday 2025"
+      - text: Dedupe in the client only
+        keywords: client dedupe deduplication duplicate
+        reason: retries from mobile bypass it
+    doc_body: >
+      Context: on Black Friday 2025 (INC-007) a change that skipped the dedupe check on the payout
+      batch path produced 312 duplicate payouts. Decision: every write to the ledger payout table
+      carries an idempotency key per payout request, enforced in the ledger, not the caller.
+      Rejected: removing the dedupe check to cut write latency; deduping only in the client,
+      because retries from mobile bypass it. Owners: Dana Okafor, Omar Haddad.
+
+  # ---------------- Story 2: the decision behind the blast radius ----------------
+  - id: ADR-017
+    title: "ADR-017: Synchronous payment chain with inline risk check"
+    decided_at: 2026-02-04
+    status: active
+    affects: [payments-api, checkout-api, fraud-svc]
+    deciders: [priya, dana]
+    proposed_in: MSG-PA-001
+    summary: Checkout calls payments synchronously; payments calls fraud-svc inline before capture.
+    chosen: {text: Checkout calls payments synchronously and payments calls the risk check inline before capture, keywords: synchronous sync inline capture}
+    rejected:
+      - text: Score payments asynchronously after capture and claw back bad ones
+        keywords: async asynchronous after capture clawback
+        reason: money has already moved by the time a bad payment is found
+    doc_body: >
+      Context: chargebacks rose 40% in Q4 2025. Decision: checkout-api calls payments-api
+      synchronously, and payments-api calls fraud-svc inline before capture, so fraudulent payments
+      are blocked before money moves. Consequence: payments-api latency now includes fraud-svc
+      latency; checkout availability depends on fraud-svc. Proposed by Priya Raman in
+      #payments-arch on 2026-01-22. Deciders: Priya Raman, Dana Okafor.
+
+  # ---------------- noise: realistic decisions across the company ----------------
+  - id: ADR-003
+    title: "ADR-003: Terminate TLS at the gateway"
+    decided_at: 2024-03-12
+    status: active
+    affects: [api-gateway]
+    deciders: [arjun, beth]
+    summary: TLS terminates at the api-gateway; internal traffic uses mTLS.
+    chosen: {text: Terminate TLS at the gateway with mTLS inside, keywords: tls mtls gateway}
+    rejected:
+      - {text: TLS termination in every service, keywords: tls per service, reason: certificate rotation across 20 services is error-prone}
+    doc_body: Every public request terminates TLS at the gateway. Service-to-service calls use mTLS certificates issued by the platform team.
+  - id: ADR-004
+    title: "ADR-004: Short-lived access tokens"
+    decided_at: 2024-04-02
+    status: active
+    affects: [auth-svc]
+    deciders: [arjun, fatima]
+    summary: Access tokens live 15 minutes, refresh tokens 30 days.
+    chosen: {text: 15 minute access tokens with refresh, keywords: token expiry refresh}
+    rejected:
+      - {text: Long-lived API tokens, keywords: long lived token, reason: leaked tokens stay valid for months}
+    doc_body: Access tokens expire after 15 minutes. Clients refresh with a 30-day refresh token bound to the device.
+  - id: ADR-005
+    title: "ADR-005: Feature flags in config-svc"
+    decided_at: 2024-05-21
+    status: active
+    affects: [config-svc]
+    deciders: [beth]
+    summary: All feature flags are served by config-svc with a local cache in each service.
+    chosen: {text: Central flag service with local cache, keywords: feature flag config cache}
+    rejected:
+      - {text: Flags in environment variables, keywords: env vars flags, reason: a flag change needed a redeploy}
+      - {text: Third-party flag vendor, keywords: vendor flags saas, reason: cost and data residency}
+    doc_body: Feature flags live in config-svc. Every service caches flags locally for 30 seconds, so config-svc is on the startup path of almost every service.
+  - id: ADR-006
+    title: "ADR-006: Nightly warehouse batch"
+    decided_at: 2024-06-18
+    status: superseded
+    affects: [warehouse-sync]
+    deciders: [gus]
+    summary: Copy events to the warehouse in a nightly batch.
+    chosen: {text: Nightly batch export, keywords: batch nightly export}
+    rejected:
+      - {text: Streaming ingestion, keywords: streaming realtime, reason: too much operational work for a two-person team}
+    doc_body: Events are exported to the warehouse once a night. Reports are a day stale.
+  - id: ADR-008
+    title: "ADR-008: Cart state in redis"
+    decided_at: 2024-09-10
+    status: active
+    affects: [cart]
+    deciders: [aisha, yuki]
+    summary: Cart state is stored in redis-cache with a 7-day TTL.
+    chosen: {text: Redis with 7 day expiry, keywords: redis cart ttl}
+    rejected:
+      - {text: Cart rows in pg-main, keywords: postgres cart table, reason: write load on the shared database}
+    doc_body: Carts live in redis-cache and expire after 7 days of inactivity.
+  - id: ADR-010
+    title: "ADR-010: Rules engine owns hand-written rules"
+    decided_at: 2024-12-03
+    status: active
+    affects: [rules-engine, fraud-svc]
+    deciders: [victor, lena]
+    summary: Hand-written risk rules run in rules-engine, separate from the ML score.
+    chosen: {text: Separate rules engine called by fraud-svc, keywords: rules engine separate}
+    rejected:
+      - {text: Rules embedded in the fraud model, keywords: rules model embedded, reason: analysts could not change rules without a model release}
+    doc_body: Risk analysts edit rules in rules-engine. fraud-svc combines the rule verdict with the model score.
+  - id: ADR-011
+    title: "ADR-011: KYC documents in object storage"
+    decided_at: 2025-01-14
+    status: active
+    affects: [kyc-svc]
+    deciders: [mei, victor]
+    summary: KYC documents are stored encrypted in s3-docs, never in a database.
+    chosen: {text: Encrypted object storage for documents, keywords: kyc documents storage encryption}
+    rejected:
+      - {text: Documents as blobs in pg-risk, keywords: blob database documents, reason: backups ballooned and access was hard to audit}
+    doc_body: Identity documents are written to s3-docs with per-customer keys. Access is logged.
+  - id: ADR-012
+    title: "ADR-012: Mobile backend-for-frontend"
+    decided_at: 2025-02-11
+    status: active
+    affects: [mobile-bff]
+    deciders: [quinn, ravi]
+    summary: Mobile apps talk to a dedicated mobile-bff, not to services directly.
+    chosen: {text: Dedicated mobile BFF, keywords: bff mobile backend}
+    rejected:
+      - {text: Mobile calls the gateway routes directly, keywords: direct gateway mobile, reason: chatty screens and no control over payload size}
+    doc_body: The apps call mobile-bff, which aggregates checkout-api and auth-svc responses into screen-sized payloads.
+  - id: ADR-013
+    title: "ADR-013: Email through a single sender"
+    decided_at: 2025-03-04
+    status: active
+    affects: [email-svc, notifications]
+    deciders: [liam, maya]
+    summary: All transactional email goes through email-svc with one sending domain.
+    chosen: {text: One email service and sending domain, keywords: email sender domain}
+    rejected:
+      - {text: Each team sends its own email, keywords: per team email, reason: deliverability dropped when three domains shared one IP}
+    doc_body: email-svc is the only sender. Notifications hands it templated jobs over the event bus.
+  - id: ADR-014
+    title: "ADR-014: Event bus on kafka"
+    decided_at: 2025-04-08
+    status: active
+    affects: [event-bus]
+    deciders: [arjun, carlos]
+    summary: Internal events go through event-bus backed by kafka with 7-day retention.
+    chosen: {text: Kafka-backed event bus, keywords: kafka events bus}
+    rejected:
+      - {text: Point-to-point webhooks, keywords: webhooks point to point, reason: no replay after a consumer outage}
+    doc_body: Producers publish to event-bus topics. Consumers can replay up to 7 days.
+  - id: ADR-015
+    title: "ADR-015: Support refunds go through support-api"
+    decided_at: 2025-05-20
+    status: active
+    affects: [support-api, admin-console]
+    deciders: [uma, vlad]
+    summary: Support refunds are executed by support-api, never by direct database edits.
+    chosen: {text: Refunds through support-api with audit log, keywords: refunds support audit}
+    rejected:
+      - {text: Support edits the ledger tables by hand, keywords: manual sql ledger, reason: two unbalanced ledger entries in 2024}
+    doc_body: admin-console calls support-api, which calls payments-api and ledger. Every refund is audited.
+  - id: ADR-016
+    title: "ADR-016: Referral rewards capped per user"
+    decided_at: 2025-06-24
+    status: active
+    affects: [referrals]
+    deciders: [dmitri, liam]
+    summary: Referral rewards are capped at 10 per user per month.
+    chosen: {text: Cap of 10 rewards per month, keywords: referral cap rewards}
+    rejected:
+      - {text: Unlimited referral rewards, keywords: unlimited rewards, reason: referral fraud ring in May 2025}
+    doc_body: Each user can earn at most 10 referral rewards a month.
+  - id: ADR-018
+    title: "ADR-018: Gateway rate limits per merchant"
+    decided_at: 2026-02-17
+    status: active
+    affects: [api-gateway]
+    deciders: [beth, deepa]
+    summary: Rate limits are applied per merchant key, not per IP.
+    chosen: {text: Per-merchant rate limits, keywords: rate limit merchant}
+    rejected:
+      - {text: Per-IP rate limits, keywords: ip rate limit, reason: large merchants share egress IPs}
+    doc_body: The gateway enforces request budgets per merchant API key.
+  - id: ADR-019
+    title: "ADR-019: Feature store snapshots for training"
+    decided_at: 2026-03-03
+    status: active
+    affects: [ml-features]
+    deciders: [gus, mei]
+    summary: ml-features keeps daily snapshots so fraud models train on point-in-time data.
+    chosen: {text: Daily point-in-time snapshots, keywords: snapshot point in time features}
+    rejected:
+      - {text: Train on live feature values, keywords: live features training, reason: label leakage inflated model accuracy}
+    doc_body: Daily snapshots of ml-features are kept for 18 months for training and audits.
+  - id: ADR-020
+    title: "ADR-020: Payout batches every 15 minutes"
+    decided_at: 2026-03-24
+    status: active
+    affects: [payouts-worker]
+    deciders: [dana, priya]
+    summary: payouts-worker sends payout batches every 15 minutes instead of hourly.
+    chosen: {text: 15 minute payout batches, keywords: payout batch schedule}
+    rejected:
+      - {text: Real-time single payouts, keywords: realtime payouts single, reason: bank fees per transfer}
+    doc_body: Payouts are batched every 15 minutes. Each batch writes to the ledger with idempotency keys (see ADR-009).
+  - id: ADR-021
+    title: "ADR-021: Session storage in redis"
+    decided_at: 2026-04-14
+    status: active
+    affects: [auth-svc]
+    deciders: [fatima, emil]
+    summary: auth-svc stores sessions in redis-cache with write-through to disk.
+    chosen: {text: Redis sessions with persistence, keywords: sessions redis}
+    rejected:
+      - {text: Stateless sessions only, keywords: stateless jwt sessions, reason: no way to revoke a stolen session}
+    doc_body: Sessions are stored in redis-cache so they can be revoked instantly.
+  - id: ADR-022
+    title: "ADR-022: Streaming warehouse ingestion"
+    decided_at: 2026-05-05
+    status: active
+    affects: [warehouse-sync, reporting-api]
+    deciders: [gus, hana]
+    supersedes: ADR-006
+    summary: warehouse-sync streams events from event-bus instead of a nightly batch.
+    chosen: {text: Stream events into the warehouse, keywords: streaming ingestion}
+    rejected:
+      - {text: Keep the nightly batch, keywords: nightly batch, reason: finance needs same-day reports}
+    doc_body: Supersedes ADR-006. warehouse-sync consumes event-bus and lands events within 5 minutes.
+  - id: ADR-023
+    title: "ADR-023: Push notification quiet hours"
+    decided_at: 2026-05-26
+    status: active
+    affects: [notifications]
+    deciders: [liam, olga]
+    summary: Marketing pushes are not sent between 22:00 and 08:00 local time.
+    chosen: {text: Quiet hours for marketing pushes, keywords: quiet hours push}
+    rejected:
+      - {text: Send immediately at any hour, keywords: send immediately, reason: uninstall rate doubled after night pushes}
+    doc_body: Transactional pushes are always sent; marketing pushes respect quiet hours.
+  - id: ADR-024
+    title: "ADR-024: Checkout web server-side rendering"
+    decided_at: 2026-06-09
+    status: active
+    affects: [checkout-web]
+    deciders: [aisha, marco]
+    summary: checkout-web renders on the server for faster first paint.
+    chosen: {text: Server-side rendering for checkout pages, keywords: ssr rendering}
+    rejected:
+      - {text: Client-only single page app, keywords: spa client rendering, reason: slow first paint on low-end phones}
+    doc_body: Checkout pages are server-rendered; the payment form hydrates on the client.
+  - id: ADR-025
+    title: "ADR-025: Admin console single sign-on"
+    decided_at: 2026-07-07
+    status: active
+    affects: [admin-console]
+    deciders: [uma, wendy]
+    summary: admin-console requires company SSO with hardware keys.
+    chosen: {text: SSO with hardware keys, keywords: sso hardware keys}
+    rejected:
+      - {text: Shared support passwords, keywords: shared passwords, reason: audit could not tell agents apart}
+    doc_body: Support agents sign in with SSO and a hardware key.
+  - id: ADR-026
+    title: "ADR-026: Reporting API read replica"
+    decided_at: 2026-08-18
+    status: active
+    affects: [reporting-api]
+    deciders: [gus, ines]
+    summary: reporting-api reads from a pg-main replica, never the primary.
+    chosen: {text: Read replica for reporting, keywords: replica reporting reads}
+    rejected:
+      - {text: Query the primary directly, keywords: primary queries, reason: month-end reports slowed payments-api writes}
+    doc_body: Reports query a pg-main read replica, because heavy reports once slowed writes on the shared primary.
+  - id: ADR-027
+    title: "ADR-027: Cart merges on login"
+    decided_at: 2026-09-15
+    status: active
+    affects: [cart, checkout-api]
+    deciders: [aisha, tom]
+    summary: An anonymous cart merges into the user's cart on login.
+    chosen: {text: Merge carts on login, keywords: cart merge login}
+    rejected:
+      - {text: Discard the anonymous cart, keywords: discard cart, reason: lost items reduced conversion}
+    doc_body: When a guest logs in, their guest cart is merged into their saved cart.
+
+# Story 4: ingested LIVE on camera. Not part of the base graph. Written to data/northwind/live/.
+live:
+  - id: ADR-031
+    title: "ADR-031: Async fraud check with timeout and fallback"
+    status: active
+    affects: [payments-api, fraud-svc]
+    deciders: [dana, lena]
+    supersedes: ADR-017
+    summary: Payments calls fraud-svc async with a 300ms timeout and fallback; supersedes ADR-017.
+    chosen: {text: Call fraud-svc with a 300 ms timeout and a rules-only fallback, keywords: timeout fallback async}
+    rejected:
+      - {text: Keep the unbounded synchronous call, keywords: synchronous unbounded, reason: one slow dependency took checkout down}
+    doc_body: >
+      Supersedes ADR-017. payments-api calls fraud-svc with a 300 ms timeout. On timeout it falls back
+      to a rules-only verdict and queues the payment for asynchronous re-scoring.
+
+# Other documents (runbooks, postmortem, a decoy).
+docs:
+  - id: DOC-PM-007
+    title: "Postmortem: INC-007 duplicate payouts"
+    kind: postmortem
+    updated_at: 2025-12-02
+    body: >
+      On 2025-11-28 a change removed the dedupe check on the payout batch path to cut write latency.
+      312 merchants were paid twice. Dana Okafor led the response. Follow-up: ADR-009.
+  - id: DOC-RB-PAY
+    title: "Runbook: payments-api"
+    kind: runbook
+    updated_at: 2026-03-02
+    body: >
+      Owner: Priya Raman (payments). Escalation: payments on-call. payments-api calls fraud-svc and
+      ledger synchronously; if fraud-svc is slow, payments-api latency rises with it.
+  - id: DOC-RB-LEDGER
+    title: "Runbook: ledger"
+    kind: runbook
+    updated_at: 2025-09-15
+    body: Owner Omar Haddad. Never bypass idempotency keys. Reconciliation job runs hourly.
+  - id: DOC-RB-CHECKOUT
+    title: "Runbook: checkout-api"
+    kind: runbook
+    updated_at: 2026-07-20
+    body: Owner Aisha Bello. checkout-api depends on payments-api, cart and auth-svc.
+  - id: DOC-DECOY-PAY
+    title: "payments-api error code conventions"
+    kind: RFC
+    updated_at: 2026-05-12
+    body: >
+      payments-api returns errors as PAY-xxxx codes with a retryable flag. Clients should map
+      PAY-1001 to "card declined". This RFC is about error formats only.

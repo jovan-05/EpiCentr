@@ -1,0 +1,205 @@
+[
+ {
+  "id": "DOC-ADR-003",
+  "title": "ADR-003: Terminate TLS at the gateway",
+  "kind": "ADR",
+  "updated_at": 1710252000000,
+  "body": "Every public request terminates TLS at the gateway. Service-to-service calls use mTLS certificates issued by the platform team."
+ },
+ {
+  "id": "DOC-ADR-004",
+  "title": "ADR-004: Short-lived access tokens",
+  "kind": "ADR",
+  "updated_at": 1712066400000,
+  "body": "Access tokens expire after 15 minutes. Clients refresh with a 30-day refresh token bound to the device."
+ },
+ {
+  "id": "DOC-ADR-005",
+  "title": "ADR-005: Feature flags in config-svc",
+  "kind": "ADR",
+  "updated_at": 1716300000000,
+  "body": "Feature flags live in config-svc. Every service caches flags locally for 30 seconds, so config-svc is on the startup path of almost every service."
+ },
+ {
+  "id": "DOC-ADR-006",
+  "title": "ADR-006: Nightly warehouse batch",
+  "kind": "ADR",
+  "updated_at": 1718719200000,
+  "body": "Events are exported to the warehouse once a night. Reports are a day stale."
+ },
+ {
+  "id": "DOC-ADR-008",
+  "title": "ADR-008: Cart state in redis",
+  "kind": "ADR",
+  "updated_at": 1725976800000,
+  "body": "Carts live in redis-cache and expire after 7 days of inactivity."
+ },
+ {
+  "id": "DOC-ADR-009",
+  "title": "ADR-009: Idempotency keys on every payout write",
+  "kind": "ADR",
+  "updated_at": 1764511200000,
+  "body": "Context: on Black Friday 2025 (INC-007) a change that skipped the dedupe check on the payout batch path produced 312 duplicate payouts. Decision: every write to the ledger payout table carries an idempotency key per payout request, enforced in the ledger, not the caller. Rejected: removing the dedupe check to cut write latency; deduping only in the client, because retries from mobile bypass it. Owners: Dana Okafor, Omar Haddad."
+ },
+ {
+  "id": "DOC-ADR-010",
+  "title": "ADR-010: Rules engine owns hand-written rules",
+  "kind": "ADR",
+  "updated_at": 1733234400000,
+  "body": "Risk analysts edit rules in rules-engine. fraud-svc combines the rule verdict with the model score."
+ },
+ {
+  "id": "DOC-ADR-011",
+  "title": "ADR-011: KYC documents in object storage",
+  "kind": "ADR",
+  "updated_at": 1736863200000,
+  "body": "Identity documents are written to s3-docs with per-customer keys. Access is logged."
+ },
+ {
+  "id": "DOC-ADR-012",
+  "title": "ADR-012: Mobile backend-for-frontend",
+  "kind": "ADR",
+  "updated_at": 1739282400000,
+  "body": "The apps call mobile-bff, which aggregates checkout-api and auth-svc responses into screen-sized payloads."
+ },
+ {
+  "id": "DOC-ADR-013",
+  "title": "ADR-013: Email through a single sender",
+  "kind": "ADR",
+  "updated_at": 1741096800000,
+  "body": "email-svc is the only sender. Notifications hands it templated jobs over the event bus."
+ },
+ {
+  "id": "DOC-ADR-014",
+  "title": "ADR-014: Event bus on kafka",
+  "kind": "ADR",
+  "updated_at": 1744120800000,
+  "body": "Producers publish to event-bus topics. Consumers can replay up to 7 days."
+ },
+ {
+  "id": "DOC-ADR-015",
+  "title": "ADR-015: Support refunds go through support-api",
+  "kind": "ADR",
+  "updated_at": 1747749600000,
+  "body": "admin-console calls support-api, which calls payments-api and ledger. Every refund is audited."
+ },
+ {
+  "id": "DOC-ADR-016",
+  "title": "ADR-016: Referral rewards capped per user",
+  "kind": "ADR",
+  "updated_at": 1750773600000,
+  "body": "Each user can earn at most 10 referral rewards a month."
+ },
+ {
+  "id": "DOC-ADR-017",
+  "title": "ADR-017: Synchronous payment chain with inline risk check",
+  "kind": "ADR",
+  "updated_at": 1770213600000,
+  "body": "Context: chargebacks rose 40% in Q4 2025. Decision: checkout-api calls payments-api synchronously, and payments-api calls fraud-svc inline before capture, so fraudulent payments are blocked before money moves. Consequence: payments-api latency now includes fraud-svc latency; checkout availability depends on fraud-svc. Proposed by Priya Raman in #payments-arch on 2026-01-22. Deciders: Priya Raman, Dana Okafor."
+ },
+ {
+  "id": "DOC-ADR-018",
+  "title": "ADR-018: Gateway rate limits per merchant",
+  "kind": "ADR",
+  "updated_at": 1771336800000,
+  "body": "The gateway enforces request budgets per merchant API key."
+ },
+ {
+  "id": "DOC-ADR-019",
+  "title": "ADR-019: Feature store snapshots for training",
+  "kind": "ADR",
+  "updated_at": 1772546400000,
+  "body": "Daily snapshots of ml-features are kept for 18 months for training and audits."
+ },
+ {
+  "id": "DOC-ADR-020",
+  "title": "ADR-020: Payout batches every 15 minutes",
+  "kind": "ADR",
+  "updated_at": 1774360800000,
+  "body": "Payouts are batched every 15 minutes. Each batch writes to the ledger with idempotency keys (see ADR-009)."
+ },
+ {
+  "id": "DOC-ADR-021",
+  "title": "ADR-021: Session storage in redis",
+  "kind": "ADR",
+  "updated_at": 1776175200000,
+  "body": "Sessions are stored in redis-cache so they can be revoked instantly."
+ },
+ {
+  "id": "DOC-ADR-022",
+  "title": "ADR-022: Streaming warehouse ingestion",
+  "kind": "ADR",
+  "updated_at": 1777989600000,
+  "body": "Supersedes ADR-006. warehouse-sync consumes event-bus and lands events within 5 minutes."
+ },
+ {
+  "id": "DOC-ADR-023",
+  "title": "ADR-023: Push notification quiet hours",
+  "kind": "ADR",
+  "updated_at": 1779804000000,
+  "body": "Transactional pushes are always sent; marketing pushes respect quiet hours."
+ },
+ {
+  "id": "DOC-ADR-024",
+  "title": "ADR-024: Checkout web server-side rendering",
+  "kind": "ADR",
+  "updated_at": 1781013600000,
+  "body": "Checkout pages are server-rendered; the payment form hydrates on the client."
+ },
+ {
+  "id": "DOC-ADR-025",
+  "title": "ADR-025: Admin console single sign-on",
+  "kind": "ADR",
+  "updated_at": 1783432800000,
+  "body": "Support agents sign in with SSO and a hardware key."
+ },
+ {
+  "id": "DOC-ADR-026",
+  "title": "ADR-026: Reporting API read replica",
+  "kind": "ADR",
+  "updated_at": 1787061600000,
+  "body": "Reports query a pg-main read replica, because heavy reports once slowed writes on the shared primary."
+ },
+ {
+  "id": "DOC-ADR-027",
+  "title": "ADR-027: Cart merges on login",
+  "kind": "ADR",
+  "updated_at": 1789480800000,
+  "body": "When a guest logs in, their guest cart is merged into their saved cart."
+ },
+ {
+  "id": "DOC-DECOY-PAY",
+  "title": "payments-api error code conventions",
+  "kind": "RFC",
+  "updated_at": 1778544000000,
+  "body": "payments-api returns errors as PAY-xxxx codes with a retryable flag. Clients should map PAY-1001 to \"card declined\". This RFC is about error formats only."
+ },
+ {
+  "id": "DOC-PM-007",
+  "title": "Postmortem: INC-007 duplicate payouts",
+  "kind": "postmortem",
+  "updated_at": 1764633600000,
+  "body": "On 2025-11-28 a change removed the dedupe check on the payout batch path to cut write latency. 312 merchants were paid twice. Dana Okafor led the response. Follow-up: ADR-009."
+ },
+ {
+  "id": "DOC-RB-CHECKOUT",
+  "title": "Runbook: checkout-api",
+  "kind": "runbook",
+  "updated_at": 1784505600000,
+  "body": "Owner Aisha Bello. checkout-api depends on payments-api, cart and auth-svc."
+ },
+ {
+  "id": "DOC-RB-LEDGER",
+  "title": "Runbook: ledger",
+  "kind": "runbook",
+  "updated_at": 1757894400000,
+  "body": "Owner Omar Haddad. Never bypass idempotency keys. Reconciliation job runs hourly."
+ },
+ {
+  "id": "DOC-RB-PAY",
+  "title": "Runbook: payments-api",
+  "kind": "runbook",
+  "updated_at": 1772409600000,
+  "body": "Owner: Priya Raman (payments). Escalation: payments on-call. payments-api calls fraud-svc and ledger synchronously; if fraud-svc is slow, payments-api latency rises with it."
+ }
+]

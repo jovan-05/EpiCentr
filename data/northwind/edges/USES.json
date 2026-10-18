@@ -1,0 +1,62 @@
+[
+ {
+  "src_label": "Service",
+  "src": "payments-api",
+  "dst_label": "Datastore",
+  "dst": "pg-main"
+ },
+ {
+  "src_label": "Service",
+  "src": "ledger",
+  "dst_label": "Datastore",
+  "dst": "pg-main"
+ },
+ {
+  "src_label": "Service",
+  "src": "checkout-api",
+  "dst_label": "Datastore",
+  "dst": "redis-cache"
+ },
+ {
+  "src_label": "Service",
+  "src": "cart",
+  "dst_label": "Datastore",
+  "dst": "redis-cache"
+ },
+ {
+  "src_label": "Service",
+  "src": "fraud-svc",
+  "dst_label": "Datastore",
+  "dst": "pg-risk"
+ },
+ {
+  "src_label": "Service",
+  "src": "rules-engine",
+  "dst_label": "Datastore",
+  "dst": "pg-risk"
+ },
+ {
+  "src_label": "Service",
+  "src": "kyc-svc",
+  "dst_label": "Datastore",
+  "dst": "s3-docs"
+ },
+ {
+  "src_label": "Service",
+  "src": "auth-svc",
+  "dst_label": "Datastore",
+  "dst": "redis-cache"
+ },
+ {
+  "src_label": "Service",
+  "src": "event-bus",
+  "dst_label": "Datastore",
+  "dst": "kafka"
+ },
+ {
+  "src_label": "Service",
+  "src": "reporting-api",
+  "dst_label": "Datastore",
+  "dst": "pg-main"
+ }
+]

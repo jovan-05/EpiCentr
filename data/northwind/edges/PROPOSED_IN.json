@@ -1,0 +1,8 @@
+[
+ {
+  "src_label": "Decision",
+  "src": "ADR-017",
+  "dst_label": "Message",
+  "dst": "MSG-PA-001"
+ }
+]
