@@ -1,0 +1,13 @@
+.env
+.venv
+.git
+.pytest_cache
+**/__pycache__
+web
+demo-repo
+docs
+tests
+scripts
+mcp_server
+eval
+*.md

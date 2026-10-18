@@ -28,7 +28,9 @@ CLOCK = "MATCH (d:Dataset) RETURN d.as_of AS now, d.week AS week"
 
 @lru_cache(maxsize=1)
 def _client():
-    return FalkorDB(host=os.getenv("FALKORDB_HOST", "localhost"), port=int(os.getenv("FALKORDB_PORT", "6379")))
+    # Username/password are optional: unset locally and on a private network, set for e.g. FalkorDB Cloud.
+    return FalkorDB(host=os.getenv("FALKORDB_HOST", "localhost"), port=int(os.getenv("FALKORDB_PORT", "6379")),
+                    username=os.getenv("FALKORDB_USERNAME") or None, password=os.getenv("FALKORDB_PASSWORD") or None)
 
 
 def graph(name=None):
