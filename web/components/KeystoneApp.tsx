@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { getMap, postJSON } from "@/lib/api";
 import { buildDisplay, fmtClock, mergeDisplay, upstream, withEvidence, withEvidenceLinks, type EdgeRow, type Layer } from "@/lib/graph";
-import type { CypherEntry, GraphData, GNode, ToolResult, Visual } from "@/lib/types";
+import type { CypherEntry, GraphData, GNode, MapData, ToolResult, Visual } from "@/lib/types";
 import CypherDrawer from "./CypherDrawer";
 import type { GraphHandle } from "./Graph3D";
 import IncidentPanel from "./IncidentPanel";
@@ -63,6 +63,10 @@ export default function KeystoneApp() {
     setCypher((c) => [{ title, ms: res.ms, cypher: res.cypher, at: Date.now() }, ...c].slice(0, 60));
   }, []);
 
+  // No backend reachable (e.g. the public site while the API is down): show a bundled snapshot of the starting graph
+  // (what GET /map returns after Reset demo) so visitors still see the map; switch to live data when the API answers.
+  const [offline, setOffline] = useState(false);
+  const offlineRef = useRef(false);
   const refreshMap = useCallback(async (full = false) => {
     try {
       const m = await getMap();
@@ -70,7 +74,20 @@ export default function KeystoneApp() {
       setGraph((cur) => (!cur || full ? buildDisplay(m) : mergeDisplay(cur, m).graph));
       log("GET /map (services, people, agents, decisions, guard checks)", m);
       setError(null);
+      offlineRef.current = false; setOffline(false);
     } catch (e) {
+      if (!graphRef.current) {
+        try {
+          const r = await fetch("/map-snapshot.json");
+          if (!r.ok) throw new Error(String(r.status));
+          const snap = (await r.json()) as MapData;
+          setClock(snap.clock);
+          setGraph(buildDisplay(snap));
+          offlineRef.current = true; setOffline(true); setError(null);
+          return;
+        } catch { /* no snapshot either: show the error below */ }
+      }
+      if (offlineRef.current) return;   // the offline note is already up; keep retrying quietly
       setError(`Can't reach the Keystone API: ${(e as Error).message}. Start it with: .venv\\Scripts\\uvicorn.exe api.main:app --port 8000`);
     }
   }, [log]);
@@ -117,7 +134,10 @@ export default function KeystoneApp() {
     log,
     select: setSelected,
     setAutoRotate: rotate,
-    setError,
+    // While only the snapshot is showing, any API call fails: say why instead of "Failed to fetch".
+    setError: (msg) => setError(msg && offlineRef.current
+      ? "This needs the live Keystone backend, which is offline right now. The map above is a snapshot; run Keystone locally (see the README) for incidents, what-if and the guard."
+      : msg),
   }), [graph, refreshMap, log, rotate]);
 
   // The incident panel pauses polling while a run streams, so map merges don't interrupt the camera flight.
@@ -191,7 +211,7 @@ export default function KeystoneApp() {
       await refreshMap(true);
       setCaption(`Demo graph rebuilt from data/northwind (${r.nodes} nodes)`);
     } catch (e) {
-      setError((e as Error).message);
+      setError(offlineRef.current ? "Reset needs the live Keystone backend, which is offline right now." : (e as Error).message);
     } finally {
       setBusyReset(false);
     }
@@ -264,6 +284,11 @@ export default function KeystoneApp() {
 
       <CypherDrawer entries={cypher} />
 
+      {offline && !error && (
+        <div className="pointer-events-none absolute left-1/2 top-[84px] -translate-x-[calc(50%+215px)] rounded-full border border-sky-300/30 bg-[#021449]/85 px-4 py-1.5 text-[12px] text-sky-100 backdrop-blur">
+          Live backend offline: showing a snapshot of the starting graph. Run it locally for incidents and what-if (see README).
+        </div>
+      )}
       {error && (
         <div className="absolute left-1/2 top-24 w-[640px] -translate-x-1/2 rounded-xl border border-rose-400/40 bg-rose-950/80 px-4 py-3 text-sm text-rose-100 backdrop-blur">
           {error}
